@@ -1,14 +1,15 @@
 # flutter_vector_icons
 
-A new Flutter package project.
+[![pub](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dartlang.org/packages/flutter_vector_icons)
 
-## Getting Started
+Flutter version of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
-This project is a starting point for a Dart
-[package](https://flutter.io/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+[Browse all bundled icon sets](https://oblador.github.io/react-native-vector-icons/)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+Add `flutter_vector_icons` as a dependency in your pubspec.yaml file.
+
+## License
+
+MIT
