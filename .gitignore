@@ -11,3 +11,5 @@ ios/Runner/GeneratedPluginRegistrant.*
 
 pubspec.lock
 glyphmaps
+ios
+android
