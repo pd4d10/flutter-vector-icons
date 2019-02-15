@@ -69,14 +69,14 @@ void main() {
     var result = convert(name, input);
     var fileName = toSnakeCase(name);
 
-    File('./lib/$fileName.dart').writeAsStringSync(result);
+    File('./lib/src/$fileName.dart').writeAsStringSync(result);
     print('$fileName done');
   });
 
   // entry
   var exports = names.map((name) {
     var fileName = toSnakeCase(name);
-    return "export '$fileName.dart';";
+    return "export 'src/$fileName.dart';";
   }).join('\n');
   var result = '''library flutter_vector_icons;
 $exports
