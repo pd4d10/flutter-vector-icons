@@ -53,13 +53,17 @@ void main() {
     'Foundation',
     'Ionicons',
     'MaterialCommunityIcons',
-    'MaterialIcons',
+    // 'MaterialIcons',
     'Octicons',
     'SimpleLineIcons',
     'Zocial'
   ];
 
   names.forEach((name) {
+    // glyphmaps are taken from:
+    // https://github.com/oblador/react-native-vector-icons/tree/master/glyphmaps
+    // need to manually copy these json files to ./glyphmaps dir
+    // or change path below
     var content = File('./glyphmaps/$name.json').readAsStringSync();
     var input = json.decode(content);
     var result = convert(name, input);
