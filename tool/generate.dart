@@ -16,7 +16,7 @@ String convert(String name, Map input) {
     }
 
     var value = entry.value;
-    return 'static const IconData $key = IconData($value, fontFamily: "$name");';
+    return 'static const IconData $key = IconData($value, fontFamily: "$name", fontPackage: "flutter_vector_icons");';
   }).join('\n');
 
   var code = '''import 'package:flutter/widgets.dart';
