@@ -252,7 +252,7 @@ class AntDesign {
   static const IconData sound = IconData(59113, fontFamily: "AntDesign");
   static const IconData earth = IconData(59121, fontFamily: "AntDesign");
   static const IconData wifi = IconData(59094, fontFamily: "AntDesign");
-  static const IconData syncIcon = IconData(59098, fontFamily: "AntDesign");
+  static const IconData sync_icon = IconData(59098, fontFamily: "AntDesign");
   static const IconData login = IconData(58967, fontFamily: "AntDesign");
   static const IconData logout = IconData(58970, fontFamily: "AntDesign");
   static const IconData reload1 = IconData(58902, fontFamily: "AntDesign");

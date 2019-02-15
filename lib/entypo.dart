@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
 
 class Entypo {
-  static const IconData icon500px = IconData(61696, fontFamily: "Entypo");
-  static const IconData icon500px_with_circle =
+  static const IconData icon_500px = IconData(61696, fontFamily: "Entypo");
+  static const IconData icon_500px_with_circle =
       IconData(61697, fontFamily: "Entypo");
   static const IconData add_to_list = IconData(61698, fontFamily: "Entypo");
   static const IconData add_user = IconData(61699, fontFamily: "Entypo");
@@ -321,7 +321,7 @@ class Entypo {
   static const IconData mouse_pointer = IconData(61954, fontFamily: "Entypo");
   static const IconData music = IconData(61955, fontFamily: "Entypo");
   static const IconData network = IconData(61956, fontFamily: "Entypo");
-  static const IconData newIcon = IconData(61957, fontFamily: "Entypo");
+  static const IconData new_icon = IconData(61957, fontFamily: "Entypo");
   static const IconData new_message = IconData(61958, fontFamily: "Entypo");
   static const IconData news = IconData(61959, fontFamily: "Entypo");
   static const IconData newsletter = IconData(61960, fontFamily: "Entypo");
@@ -421,7 +421,7 @@ class Entypo {
   static const IconData swap = IconData(62045, fontFamily: "Entypo");
   static const IconData swarm = IconData(62046, fontFamily: "Entypo");
   static const IconData sweden = IconData(62047, fontFamily: "Entypo");
-  static const IconData switchIcon = IconData(62048, fontFamily: "Entypo");
+  static const IconData switch_icon = IconData(62048, fontFamily: "Entypo");
   static const IconData tablet = IconData(62049, fontFamily: "Entypo");
   static const IconData tablet_mobile_combo =
       IconData(62050, fontFamily: "Entypo");

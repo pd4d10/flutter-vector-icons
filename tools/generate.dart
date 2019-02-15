@@ -8,11 +8,11 @@ String convert(String name, Map input) {
   var properties = input.entries.map((entry) {
     String key = entry.key.replaceAll('-', '_');
     if (specialChars.contains(key)) {
-      key = key + 'Icon';
+      key = key + '_icon';
     }
 
     if (key.startsWith(RegExp(r'\d'))) {
-      key = 'icon' + key;
+      key = 'icon_' + key;
     }
 
     var value = entry.value;

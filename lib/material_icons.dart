@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 class MaterialIcons {
-  static const IconData icon3d_rotation =
+  static const IconData icon_3d_rotation =
       IconData(59469, fontFamily: "MaterialIcons");
   static const IconData ac_unit = IconData(60219, fontFamily: "MaterialIcons");
   static const IconData access_alarm =
@@ -295,7 +295,7 @@ class MaterialIcons {
       IconData(60226, fontFamily: "MaterialIcons");
   static const IconData chrome_reader_mode =
       IconData(59501, fontFamily: "MaterialIcons");
-  static const IconData classIcon =
+  static const IconData class_icon =
       IconData(59502, fontFamily: "MaterialIcons");
   static const IconData clear = IconData(57676, fontFamily: "MaterialIcons");
   static const IconData clear_all =
@@ -1405,7 +1405,8 @@ class MaterialIcons {
       IconData(58398, fontFamily: "MaterialIcons");
   static const IconData switch_video =
       IconData(58399, fontFamily: "MaterialIcons");
-  static const IconData syncIcon = IconData(58919, fontFamily: "MaterialIcons");
+  static const IconData sync_icon =
+      IconData(58919, fontFamily: "MaterialIcons");
   static const IconData sync_disabled =
       IconData(58920, fontFamily: "MaterialIcons");
   static const IconData sync_problem =

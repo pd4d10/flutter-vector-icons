@@ -4605,7 +4605,7 @@ class MaterialCommunityIcons {
       IconData(63887, fontFamily: "MaterialCommunityIcons");
   static const IconData nuke =
       IconData(63139, fontFamily: "MaterialCommunityIcons");
-  static const IconData nullIcon =
+  static const IconData null_icon =
       IconData(63457, fontFamily: "MaterialCommunityIcons");
   static const IconData numeric =
       IconData(62368, fontFamily: "MaterialCommunityIcons");
@@ -6051,7 +6051,7 @@ class MaterialCommunityIcons {
       IconData(63681, fontFamily: "MaterialCommunityIcons");
   static const IconData swim =
       IconData(62691, fontFamily: "MaterialCommunityIcons");
-  static const IconData switchIcon =
+  static const IconData switch_icon =
       IconData(62692, fontFamily: "MaterialCommunityIcons");
   static const IconData sword =
       IconData(62693, fontFamily: "MaterialCommunityIcons");
@@ -6059,7 +6059,7 @@ class MaterialCommunityIcons {
       IconData(63366, fontFamily: "MaterialCommunityIcons");
   static const IconData symfony =
       IconData(64229, fontFamily: "MaterialCommunityIcons");
-  static const IconData syncIcon =
+  static const IconData sync_icon =
       IconData(62694, fontFamily: "MaterialCommunityIcons");
   static const IconData sync_alert =
       IconData(62695, fontFamily: "MaterialCommunityIcons");

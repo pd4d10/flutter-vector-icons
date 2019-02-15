@@ -184,7 +184,7 @@ class Octicons {
   static const IconData squirrel = IconData(61854, fontFamily: "Octicons");
   static const IconData star = IconData(61855, fontFamily: "Octicons");
   static const IconData stop = IconData(61856, fontFamily: "Octicons");
-  static const IconData syncIcon = IconData(61857, fontFamily: "Octicons");
+  static const IconData sync_icon = IconData(61857, fontFamily: "Octicons");
   static const IconData tag = IconData(61858, fontFamily: "Octicons");
   static const IconData tasklist = IconData(61859, fontFamily: "Octicons");
   static const IconData telescope = IconData(61860, fontFamily: "Octicons");

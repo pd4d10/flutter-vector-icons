@@ -547,7 +547,7 @@ class FontAwesome {
       IconData(61844, fontFamily: "FontAwesome");
   static const IconData turkish_lira =
       IconData(61845, fontFamily: "FontAwesome");
-  static const IconData tryIcon = IconData(61845, fontFamily: "FontAwesome");
+  static const IconData try_icon = IconData(61845, fontFamily: "FontAwesome");
   static const IconData plus_square_o =
       IconData(61846, fontFamily: "FontAwesome");
   static const IconData space_shuttle =
@@ -883,7 +883,7 @@ class FontAwesome {
   static const IconData tv = IconData(62060, fontFamily: "FontAwesome");
   static const IconData television = IconData(62060, fontFamily: "FontAwesome");
   static const IconData contao = IconData(62061, fontFamily: "FontAwesome");
-  static const IconData icon500px = IconData(62062, fontFamily: "FontAwesome");
+  static const IconData icon_500px = IconData(62062, fontFamily: "FontAwesome");
   static const IconData amazon = IconData(62064, fontFamily: "FontAwesome");
   static const IconData calendar_plus_o =
       IconData(62065, fontFamily: "FontAwesome");
