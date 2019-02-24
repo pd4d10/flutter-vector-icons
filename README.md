@@ -26,8 +26,6 @@ Add `flutter_vector_icons` as a dependency in your pubspec.yaml file.
 
 ## Usage
 
-There are 
-
 ```dart
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
