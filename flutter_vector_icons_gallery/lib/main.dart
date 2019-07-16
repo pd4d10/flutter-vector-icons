@@ -8,11 +8,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Vector Icons Gallery',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Flutter Vector Icons Gallery'),
     );
   }
 }
@@ -31,38 +31,37 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-            // Column is also layout widget. It takes a list of children and
-            // arranges them vertically. By default, it sizes itself to fit its
-            // children horizontally, and tries to be as tall as its parent.
-            //
-            // Invoke "debug painting" (choose the "Toggle Debug Paint" action
-            // from the Flutter Inspector in Android Studio, or the "Toggle Debug
-            // Paint" command in Visual Studio Code) to see the wireframe for each
-            // widget.
-            //
-            // Column has various properties to control how it sizes itself and
-            // how it positions its children. Here we use mainAxisAlignment to
-            // center the children vertically; the main axis here is the vertical
-            // axis because Columns are vertical (the cross axis would be
-            // horizontal).
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: data.entries.map((e0) {
-              return Column(
-                children: <Widget>[
-                  Text(e0.key),
-                  Row(
-                    children: e0.value.entries.map((e1) {
-                      return Icon(IconData(e1.value, fontFamily: e0.key));
-                    }).toList(),
-                  )
-                ],
-              );
-            }).toList()),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      body: ListView(
+        children: data.entries.map((e0) {
+          return Column(
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(10),
+                child: Text(e0.key,
+                    style:
+                        TextStyle(fontSize: 20, fontWeight: FontWeight.w500)),
+              ),
+              Wrap(
+                children: e0.value.entries.map((e1) {
+                  return Container(
+                    width: 160,
+                    padding: EdgeInsets.all(20),
+                    child: Column(
+                      children: <Widget>[
+                        Icon(IconData(e1.value, fontFamily: e0.key), size: 32),
+                        Container(
+                          padding: EdgeInsets.only(top: 10),
+                          child: Text(e1.key),
+                        )
+                      ],
+                    ),
+                  );
+                }).toList(),
+              )
+            ],
+          );
+        }).toList(),
+      ),
     );
   }
 }
