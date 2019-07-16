@@ -1,7 +1,7 @@
 language: dart
 
 script:
-  - exit 0
+  - echo 0
 
 before_deploy:
   - cd flutter_vector_icons_gallery
