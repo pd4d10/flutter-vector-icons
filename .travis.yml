@@ -1,0 +1,16 @@
+language: dart
+
+before_deploy:
+  - cd flutter_vector_icons_gallery
+  - pub global activate webdev
+  - webdev build
+
+deploy:
+  local-dir: flutter_vector_icons_gallery/build
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  committer-from-gh: true
+  on:
+    branch: master
