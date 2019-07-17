@@ -7,12 +7,8 @@ var reservedWords = ['new', 'sync', 'switch', 'try', 'null', 'class'];
 
 var root = path.join(path.dirname(Platform.script.path), '../..');
 
-String readFileSync(String filePath) {
-  return File(path.normalize(path.join(root, filePath))).readAsStringSync();
-}
-
-writeFileSync(String filePath, String contents) {
-  File(path.normalize(path.join(root, filePath))).writeAsStringSync(contents);
+String getAbsolutePath(String filePath) {
+  return path.normalize(path.join(root, filePath));
 }
 
 // * Replace - with _
@@ -27,23 +23,6 @@ String getKey(String key) {
     key = 'icon_' + key;
   }
   return key;
-}
-
-String convert(String name, Map input) {
-  var properties = input.entries.map((entry) {
-    var key = getKey(entry.key);
-    var value = entry.value;
-    return 'static const IconData $key = IconData($value, fontFamily: "$name", fontPackage: "flutter_vector_icons");';
-  }).join('\n');
-
-  var code = '''import 'package:flutter/widgets.dart';
-
-class $name {
-  $properties
-}
-''';
-
-  return DartFormatter().format(code);
 }
 
 // AntDesign -> ant_design
@@ -64,21 +43,8 @@ runCommand(String command, {String workingDirectory}) {
   print(res.stderr);
 }
 
-void main() {
-  // Clone repo
-  var tmpDir = '/tmp';
-
-  runCommand(
-      'git clone https://github.com/oblador/react-native-vector-icons.git',
-      workingDirectory: tmpDir);
-  runCommand('git pull origin master',
-      workingDirectory: path.join(tmpDir, 'react-native-vector-icons'));
-  runCommand(
-      'cp ${path.join(tmpDir, 'react-native-vector-icons/Fonts/*')} ${path.join(root, 'flutter_vector_icons/fonts')}');
-  runCommand(
-      'cp -r ${path.join(tmpDir, 'react-native-vector-icons/glyphmaps')} ${path.join(root, 'tools')}');
-
-  var names = [
+generateFonts() {
+  var fontNames = [
     'AntDesign',
     'Entypo',
     'EvilIcons',
@@ -97,32 +63,42 @@ void main() {
     'Zocial'
   ];
 
-  names.forEach((name) {
-    var content = readFileSync('tools/glyphmaps/$name.json');
-    var input = json.decode(content);
-    var result = convert(name, input);
+  // lib/flutter_vector_icons.dart
+  var entryCode = 'library flutter_vector_icons;';
+  for (var name in fontNames) {
     var fileName = toSnakeCase(name);
+    entryCode += "export 'src/$fileName.dart';";
+  }
+  File(getAbsolutePath('flutter_vector_icons/lib/flutter_vector_icons.dart'))
+      .writeAsStringSync(DartFormatter().format(entryCode));
 
-    writeFileSync('flutter_vector_icons/lib/src/$fileName.dart', result);
-    print('$fileName done');
-  });
-
-  // entry
-  var exports = names.map((name) {
+  // lib/src/*.dart
+  for (var name in fontNames) {
     var fileName = toSnakeCase(name);
-    return "export 'src/$fileName.dart';";
-  }).join('\n');
-  var result = '''library flutter_vector_icons;
-$exports
-''';
-  writeFileSync('flutter_vector_icons/lib/flutter_vector_icons.dart',
-      DartFormatter().format(result));
+    var iconMap = json.decode(
+        File(getAbsolutePath('tools/glyphmaps/$name.json'))
+            .readAsStringSync()) as Map;
+
+    var code = '''import 'package:flutter/widgets.dart'; class $name {''';
+    for (var e in iconMap.entries) {
+      var key = getKey(e.key);
+      var value = e.value;
+      code +=
+          'static const IconData $key = IconData($value, fontFamily: "$name", fontPackage: "flutter_vector_icons");';
+    }
+    code += '}';
+
+    File(getAbsolutePath('flutter_vector_icons/lib/src/$fileName.dart'))
+        .writeAsStringSync(DartFormatter().format(code));
+    print('$name done');
+  }
 
   // web project
   Map webData = {};
   List fontManifest = [];
-  names.forEach((name) {
-    var content = readFileSync('tools/glyphmaps/$name.json');
+  for (var name in fontNames) {
+    var content =
+        File(getAbsolutePath('tools/glyphmaps/$name.json')).readAsStringSync();
 
     Map input = json.decode(content);
     webData[name] = Map.fromEntries(
@@ -133,12 +109,31 @@ $exports
         {"asset": "fonts/$name.ttf"}
       ]
     });
-  });
+  }
 
-  var content = 'var data =' + json.encode(webData) + ';';
-  writeFileSync('flutter_vector_icons_gallery/lib/data.dart',
-      DartFormatter().format(content));
+  File(getAbsolutePath('flutter_vector_icons_gallery/lib/data.dart'))
+      .writeAsStringSync(
+          DartFormatter().format('var data =' + json.encode(webData) + ';'));
+  File(getAbsolutePath(
+          'flutter_vector_icons_gallery/web/assets/FontManifest.json'))
+      .writeAsStringSync(json.encode(fontManifest));
+}
 
-  writeFileSync('flutter_vector_icons_gallery/web/assets/FontManifest.json',
-      json.encode(fontManifest));
+void main() {
+  // Clone repo
+  var tmpDir = '/tmp';
+
+  runCommand(
+      'git clone https://github.com/oblador/react-native-vector-icons.git',
+      workingDirectory: tmpDir);
+  runCommand('git pull origin master',
+      workingDirectory: path.join(tmpDir, 'react-native-vector-icons'));
+  // Copy fonts
+  runCommand(
+      'cp ${path.join(tmpDir, 'react-native-vector-icons/Fonts/*')} ${path.join(root, 'flutter_vector_icons/fonts')}');
+  // Copy glyphmaps
+  runCommand(
+      'cp -r ${path.join(tmpDir, 'react-native-vector-icons/glyphmaps')} ${path.join(root, 'tools')}');
+
+  generateFonts();
 }
