@@ -1,15 +1,26 @@
 import 'dart:io';
 import 'dart:convert';
+import 'package:path/path.dart' as path;
 import 'package:dart_style/dart_style.dart';
 
-var specialChars = ['new', 'sync', 'switch', 'try', 'null', 'class'];
+var reservedWords = ['new', 'sync', 'switch', 'try', 'null', 'class'];
+
+var root = path.join(path.dirname(Platform.script.path), '../..');
+
+String readFileSync(String filePath) {
+  return File(path.normalize(path.join(root, filePath))).readAsStringSync();
+}
+
+writeFileSync(String filePath, String contents) {
+  File(path.normalize(path.join(root, filePath))).writeAsStringSync(contents);
+}
 
 // * Replace - with _
 // * Language reserved words: new -> new_icon
 // * Key starts with number: 500px -> icon_500px
 String getKey(String key) {
   key = key.replaceAll('-', '_');
-  if (specialChars.contains(key)) {
+  if (reservedWords.contains(key)) {
     key = key + '_icon';
   }
   if (key.startsWith(RegExp(r'\d'))) {
@@ -70,12 +81,12 @@ void main() {
     // https://github.com/oblador/react-native-vector-icons/tree/master/glyphmaps
     // need to manually copy these json files to ./glyphmaps dir
     // or change path below
-    var content = File('./glyphmaps/$name.json').readAsStringSync();
+    var content = readFileSync('flutter_vector_icons/glyphmaps/$name.json');
     var input = json.decode(content);
     var result = convert(name, input);
     var fileName = toSnakeCase(name);
 
-    File('./lib/src/$fileName.dart').writeAsStringSync(result);
+    writeFileSync('flutter_vector_icons/lib/src/$fileName.dart', result);
     print('$fileName done');
   });
 
@@ -87,14 +98,15 @@ void main() {
   var result = '''library flutter_vector_icons;
 $exports
 ''';
-  File('./lib/flutter_vector_icons.dart')
-      .writeAsStringSync(DartFormatter().format(result));
+  writeFileSync('flutter_vector_icons/lib/flutter_vector_icons.dart',
+      DartFormatter().format(result));
 
   // web project
   Map webData = {};
   List fontManifest = [];
   names.forEach((name) {
-    var content = File('./glyphmaps/$name.json').readAsStringSync();
+    var content = readFileSync('flutter_vector_icons/glyphmaps/$name.json');
+
     Map input = json.decode(content);
     webData[name] = Map.fromEntries(
         input.entries.map((entry) => MapEntry(getKey(entry.key), entry.value)));
@@ -107,9 +119,9 @@ $exports
   });
 
   var content = 'var data =' + json.encode(webData) + ';';
-  File('../flutter_vector_icons_gallery/lib/data.dart')
-      .writeAsStringSync(DartFormatter().format(content));
+  writeFileSync('flutter_vector_icons_gallery/lib/data.dart',
+      DartFormatter().format(content));
 
-  File('../flutter_vector_icons_gallery/web/assets/FontManifest.json')
-      .writeAsStringSync(json.encode(fontManifest));
+  writeFileSync('flutter_vector_icons_gallery/web/assets/FontManifest.json',
+      json.encode(fontManifest));
 }
