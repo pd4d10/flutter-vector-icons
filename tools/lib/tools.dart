@@ -87,10 +87,11 @@ void main() {
     // 'FontAwesome5_Brands',
     // 'FontAwesome5_Regular',
     // 'FontAwesome5_Solid',
+    'Fontisto',
     'Foundation',
     'Ionicons',
     'MaterialCommunityIcons',
-    // 'MaterialIcons',
+    'MaterialIcons',
     'Octicons',
     'SimpleLineIcons',
     'Zocial'
