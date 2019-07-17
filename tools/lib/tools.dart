@@ -7,6 +7,22 @@ var reservedWords = ['new', 'sync', 'switch', 'try', 'null', 'class'];
 
 var root = path.join(path.dirname(Platform.script.path), '../..');
 
+var fontNames = [
+  'AntDesign',
+  'Entypo',
+  'EvilIcons',
+  'Feather',
+  'FontAwesome',
+  'Fontisto',
+  'Foundation',
+  'Ionicons',
+  'MaterialCommunityIcons',
+  'MaterialIcons',
+  'Octicons',
+  'SimpleLineIcons',
+  'Zocial'
+];
+
 String getAbsolutePath(String filePath) {
   return path.normalize(path.join(root, filePath));
 }
@@ -44,25 +60,6 @@ runCommand(String command, {String workingDirectory}) {
 }
 
 generateFonts() {
-  var fontNames = [
-    'AntDesign',
-    'Entypo',
-    'EvilIcons',
-    'Feather',
-    'FontAwesome',
-    // 'FontAwesome5_Brands',
-    // 'FontAwesome5_Regular',
-    // 'FontAwesome5_Solid',
-    'Fontisto',
-    'Foundation',
-    'Ionicons',
-    'MaterialCommunityIcons',
-    'MaterialIcons',
-    'Octicons',
-    'SimpleLineIcons',
-    'Zocial'
-  ];
-
   // lib/flutter_vector_icons.dart
   var entryCode = 'library flutter_vector_icons;';
   for (var name in fontNames) {
@@ -92,8 +89,31 @@ generateFonts() {
         .writeAsStringSync(DartFormatter().format(code));
     print('$name done');
   }
+}
 
-  // web project
+generateFontAwesome5() {
+  var meta = json.decode(
+      File(getAbsolutePath('tools/glyphmaps/FontAwesome5Free_meta.json'))
+          .readAsStringSync());
+  var iconMap = json.decode(
+      File(getAbsolutePath('tools/glyphmaps/FontAwesome5Free.json'))
+          .readAsStringSync());
+
+  var code = '''import 'package:flutter/widgets.dart'; class FontAwesome5 {''';
+
+  for (var name in meta['brands']) {
+    var key = getKey(name);
+    var codePoint = iconMap[name];
+    code +=
+        'static const IconData $key = IconData($codePoint, fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");';
+  }
+  code += '}';
+  File(getAbsolutePath(
+          'flutter_vector_icons/lib/src/font_awesome_5_brands.dart'))
+      .writeAsStringSync(DartFormatter().format(code));
+}
+
+generateWebData() {
   Map webData = {};
   List fontManifest = [];
   for (var name in fontNames) {
@@ -101,6 +121,34 @@ generateFonts() {
         File(getAbsolutePath('tools/glyphmaps/$name.json')).readAsStringSync();
 
     Map input = json.decode(content);
+    webData[name] = Map.fromEntries(
+        input.entries.map((entry) => MapEntry(getKey(entry.key), entry.value)));
+    fontManifest.add({
+      "family": name,
+      "fonts": [
+        {"asset": "fonts/$name.ttf"}
+      ]
+    });
+  }
+
+  var fa5Meta = json.decode(
+      File(getAbsolutePath('tools/glyphmaps/FontAwesome5Free_meta.json'))
+          .readAsStringSync());
+  var fa5Map = json.decode(
+      File(getAbsolutePath('tools/glyphmaps/FontAwesome5Free.json'))
+          .readAsStringSync());
+  for (var name in [
+    'FontAwesome5_Brands',
+    'FontAwesome5_Regular',
+    'FontAwesome5_Solid'
+  ]) {
+    Map input = {};
+    for (var name in fa5Meta[name.split('_')[1].toLowerCase()]) {
+      var key = getKey(name);
+      var codePoint = fa5Map[name];
+      input[key] = codePoint;
+    }
+
     webData[name] = Map.fromEntries(
         input.entries.map((entry) => MapEntry(getKey(entry.key), entry.value)));
     fontManifest.add({
@@ -136,4 +184,6 @@ void main() {
       'cp -r ${path.join(tmpDir, 'react-native-vector-icons/glyphmaps')} ${path.join(root, 'tools')}');
 
   generateFonts();
+  generateFontAwesome5();
+  generateWebData();
 }
