@@ -57,7 +57,27 @@ String toSnakeCase(String input) {
       .toLowerCase();
 }
 
+runCommand(String command, {String workingDirectory}) {
+  var res = Process.runSync('/bin/bash', ['-c', command],
+      workingDirectory: workingDirectory);
+  print(res.stdout);
+  print(res.stderr);
+}
+
 void main() {
+  // Clone repo
+  var tmpDir = '/tmp';
+
+  runCommand(
+      'git clone https://github.com/oblador/react-native-vector-icons.git',
+      workingDirectory: tmpDir);
+  runCommand('git pull origin master',
+      workingDirectory: path.join(tmpDir, 'react-native-vector-icons'));
+  runCommand(
+      'cp ${path.join(tmpDir, 'react-native-vector-icons/Fonts/*')} ${path.join(root, 'flutter_vector_icons/fonts')}');
+  runCommand(
+      'cp -r ${path.join(tmpDir, 'react-native-vector-icons/glyphmaps')} ${path.join(root, 'tools')}');
+
   var names = [
     'AntDesign',
     'Entypo',
@@ -77,11 +97,7 @@ void main() {
   ];
 
   names.forEach((name) {
-    // glyphmaps are taken from:
-    // https://github.com/oblador/react-native-vector-icons/tree/master/glyphmaps
-    // need to manually copy these json files to ./glyphmaps dir
-    // or change path below
-    var content = readFileSync('flutter_vector_icons/glyphmaps/$name.json');
+    var content = readFileSync('tools/glyphmaps/$name.json');
     var input = json.decode(content);
     var result = convert(name, input);
     var fileName = toSnakeCase(name);
@@ -105,7 +121,7 @@ $exports
   Map webData = {};
   List fontManifest = [];
   names.forEach((name) {
-    var content = readFileSync('flutter_vector_icons/glyphmaps/$name.json');
+    var content = readFileSync('tools/glyphmaps/$name.json');
 
     Map input = json.decode(content);
     webData[name] = Map.fromEntries(
