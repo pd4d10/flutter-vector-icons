@@ -1,11 +1,15 @@
-## 0.0.1
+## 0.2.0
 
-- Initial version
+- Add Font Awesome 5
+
+## 0.1.0
+
+- Add examples and Changelog following maintenance issues and suggestions
 
 ## 0.0.2
 
 - Add missing fontPackage option
 
-## 0.1.0
+## 0.0.1
 
-- Add examples and Changelog following maintenance issues and suggestions
+- Initial version
