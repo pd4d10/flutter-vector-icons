@@ -14,9 +14,13 @@ class MyWidget extends StatelessWidget {
       // Foundation
       // Ionicons
       // MaterialCommunityIcons
+      // MaterialIcons
       // Octicons
       // SimpleLineIcons
       // Zocial
+      // FontAwesome5Brands
+      // FontAwesome5Regular
+      // FontAwesome5Solid
 
       icon: Icon(MaterialCommunityIcons.star),
       onPressed: () {

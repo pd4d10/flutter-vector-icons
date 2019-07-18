@@ -1,26 +1,10 @@
 # flutter_vector_icons
 
-[![pub](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dartlang.org/packages/flutter_vector_icons)
+[![pub](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dev/packages/flutter_vector_icons)
 
-Flutter version of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+Port of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) for Flutter developers.
 
-## Bundled Icon Sets
-
-[Browse all](https://oblador.github.io/react-native-vector-icons/).
-
-- [`AntDesign`](https://ant.design/) by AntFinance (**297** icons)
-- [`Entypo`](http://entypo.com) by Daniel Bruce (**411** icons)
-- [`EvilIcons`](http://evil-icons.io) by Alexander Madyankin & Roman Shamin (v1.10.1, **70** icons)
-- [`Feather`](http://feathericons.com) by Cole Bemis & Contributors (v4.7.0, **266** icons)
-- [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons/) by Dave Gandy (v4.7.0, **675** icons)
-- [`Foundation`](http://zurb.com/playground/foundation-icon-fonts-3) by ZURB, Inc. (v3.0, **283** icons)
-- [`Ionicons`](https://ionicons.com/) by Ben Sperry (v4.2.4, **696** icons)
-
-* [`MaterialCommunityIcons`](https://materialdesignicons.com/) by MaterialDesignIcons.com (v3.4.93, **3494** icons)
-* [`Octicons`](http://octicons.github.com) by Github, Inc. (v8.4.1, **184** icons)
-
-- [`Zocial`](http://zocial.smcllns.com/) by Sam Collins (v1.0, **100** icons)
-- [`SimpleLineIcons`](https://simplelineicons.github.io/) by Sabbir & Contributors (v2.4.1, **189** icons)
+View gallery built with Flutter Web: https://pd4d10.github.io/flutter-vector-icons/
 
 ## Installation
 
@@ -45,26 +29,28 @@ class MyWidget extends StatelessWidget {
       // Foundation
       // Ionicons
       // MaterialCommunityIcons
+      // MaterialIcons
       // Octicons
       // SimpleLineIcons
       // Zocial
+      // FontAwesome5Brands
+      // FontAwesome5Regular
+      // FontAwesome5Solid
 
       icon: Icon(MaterialCommunityIcons.star),
-
       onPressed: () {
         print('Star it');
       },
     );
   }
 }
-
 ```
 
 ## Development
 
-1. Copy [font files](https://github.com/oblador/react-native-vector-icons/tree/master/Fonts) to `fonts` directory
-2. Copy [glyphmaps json files](https://github.com/oblador/react-native-vector-icons/tree/master/glyphmaps) to `glyphmaps` directory
-3. run `dart tool/generate.dart`
+```sh
+dart tools/lib/tools.dart
+```
 
 ## Credits
 
