@@ -1,13 +1,13 @@
 import 'package:flutter/widgets.dart';
 
 class FontAwesome5Brands {
-  static const IconData icon_500px = IconData(null,
+  static const IconData icon_500px = IconData(62062,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData accessible_icon = IconData(null,
+  static const IconData accessible_icon = IconData(62312,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData accusoft = IconData(62313,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData acquisitions_incorporated = IconData(null,
+  static const IconData acquisitions_incorporated = IconData(63151,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData adn = IconData(61808,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -21,7 +21,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData alipay = IconData(63042,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData amazon_pay = IconData(null,
+  static const IconData amazon_pay = IconData(62508,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData amazon = IconData(62064,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -35,13 +35,13 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData angular = IconData(62496,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData app_store_ios = IconData(null,
+  static const IconData app_store_ios = IconData(62320,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData app_store = IconData(null,
+  static const IconData app_store = IconData(62319,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData apper = IconData(62321,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData apple_pay = IconData(null,
+  static const IconData apple_pay = IconData(62485,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData apple = IconData(61817,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -63,7 +63,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData bandcamp = IconData(62165,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData behance_square = IconData(null,
+  static const IconData behance_square = IconData(61877,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData behance = IconData(61876,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -75,15 +75,15 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData bity = IconData(62330,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData black_tie = IconData(null,
+  static const IconData black_tie = IconData(62078,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData blackberry = IconData(62331,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData blogger_b = IconData(null,
+  static const IconData blogger_b = IconData(62333,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData blogger = IconData(62332,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData bluetooth_b = IconData(null,
+  static const IconData bluetooth_b = IconData(62100,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData bluetooth = IconData(62099,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -93,27 +93,27 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData buysellads = IconData(61965,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData canadian_maple_leaf = IconData(null,
+  static const IconData canadian_maple_leaf = IconData(63365,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData cc_amazon_pay = IconData(null,
+  static const IconData cc_amazon_pay = IconData(62509,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData cc_amex = IconData(null,
+  static const IconData cc_amex = IconData(61939,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData cc_apple_pay = IconData(null,
+  static const IconData cc_apple_pay = IconData(62486,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData cc_diners_club = IconData(null,
+  static const IconData cc_diners_club = IconData(62028,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData cc_discover = IconData(null,
+  static const IconData cc_discover = IconData(61938,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData cc_jcb = IconData(null,
+  static const IconData cc_jcb = IconData(62027,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData cc_mastercard = IconData(null,
+  static const IconData cc_mastercard = IconData(61937,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData cc_paypal = IconData(null,
+  static const IconData cc_paypal = IconData(61940,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData cc_stripe = IconData(null,
+  static const IconData cc_stripe = IconData(61941,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData cc_visa = IconData(null,
+  static const IconData cc_visa = IconData(61936,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData centercode = IconData(62336,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -139,45 +139,45 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData cpanel = IconData(62344,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_by = IconData(null,
+  static const IconData creative_commons_by = IconData(62695,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_nc_eu = IconData(null,
+  static const IconData creative_commons_nc_eu = IconData(62697,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_nc_jp = IconData(null,
+  static const IconData creative_commons_nc_jp = IconData(62698,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_nc = IconData(null,
+  static const IconData creative_commons_nc = IconData(62696,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_nd = IconData(null,
+  static const IconData creative_commons_nd = IconData(62699,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_pd_alt = IconData(null,
+  static const IconData creative_commons_pd_alt = IconData(62701,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_pd = IconData(null,
+  static const IconData creative_commons_pd = IconData(62700,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_remix = IconData(null,
+  static const IconData creative_commons_remix = IconData(62702,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_sa = IconData(null,
+  static const IconData creative_commons_sa = IconData(62703,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_sampling_plus = IconData(null,
+  static const IconData creative_commons_sampling_plus = IconData(62705,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_sampling = IconData(null,
+  static const IconData creative_commons_sampling = IconData(62704,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_share = IconData(null,
+  static const IconData creative_commons_share = IconData(62706,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons_zero = IconData(null,
+  static const IconData creative_commons_zero = IconData(62707,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData creative_commons = IconData(null,
+  static const IconData creative_commons = IconData(62046,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData critical_role = IconData(null,
+  static const IconData critical_role = IconData(63177,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData css3_alt = IconData(null,
+  static const IconData css3_alt = IconData(62347,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData css3 = IconData(61756,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData cuttlefish = IconData(62348,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData d_and_d_beyond = IconData(null,
+  static const IconData d_and_d_beyond = IconData(63178,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData d_and_d = IconData(null,
+  static const IconData d_and_d = IconData(62349,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData dashcube = IconData(61968,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -197,7 +197,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData digg = IconData(61862,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData digital_ocean = IconData(null,
+  static const IconData digital_ocean = IconData(62353,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData discord = IconData(62354,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -209,7 +209,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData draft2digital = IconData(62358,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData dribbble_square = IconData(null,
+  static const IconData dribbble_square = IconData(62359,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData dribbble = IconData(61821,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -243,15 +243,15 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData expeditedssl = IconData(62014,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData facebook_f = IconData(null,
+  static const IconData facebook_f = IconData(62366,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData facebook_messenger = IconData(null,
+  static const IconData facebook_messenger = IconData(62367,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData facebook_square = IconData(null,
+  static const IconData facebook_square = IconData(61570,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData facebook = IconData(61594,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData fantasy_flight_games = IconData(null,
+  static const IconData fantasy_flight_games = IconData(63196,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData fedex = IconData(63383,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -261,9 +261,9 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData firefox = IconData(62057,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData first_order_alt = IconData(null,
+  static const IconData first_order_alt = IconData(62730,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData first_order = IconData(null,
+  static const IconData first_order = IconData(62128,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData firstdraft = IconData(62369,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -273,49 +273,49 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData fly = IconData(62487,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData font_awesome_alt = IconData(null,
+  static const IconData font_awesome_alt = IconData(62300,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData font_awesome_flag = IconData(null,
+  static const IconData font_awesome_flag = IconData(62501,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData font_awesome_logo_full = IconData(null,
+  static const IconData font_awesome_logo_full = IconData(62694,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData font_awesome = IconData(null,
+  static const IconData font_awesome = IconData(62132,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData fonticons_fi = IconData(null,
+  static const IconData fonticons_fi = IconData(62370,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData fonticons = IconData(62080,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData fort_awesome_alt = IconData(null,
+  static const IconData fort_awesome_alt = IconData(62371,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData fort_awesome = IconData(null,
+  static const IconData fort_awesome = IconData(62086,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData forumbee = IconData(61969,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData foursquare = IconData(61824,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData free_code_camp = IconData(null,
+  static const IconData free_code_camp = IconData(62149,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData freebsd = IconData(62372,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData fulcrum = IconData(62731,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData galactic_republic = IconData(null,
+  static const IconData galactic_republic = IconData(62732,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData galactic_senate = IconData(null,
+  static const IconData galactic_senate = IconData(62733,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData get_pocket = IconData(null,
+  static const IconData get_pocket = IconData(62053,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData gg_circle = IconData(null,
+  static const IconData gg_circle = IconData(62049,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData gg = IconData(62048,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData git_square = IconData(null,
+  static const IconData git_square = IconData(61906,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData git = IconData(61907,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData github_alt = IconData(null,
+  static const IconData github_alt = IconData(61715,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData github_square = IconData(null,
+  static const IconData github_square = IconData(61586,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData github = IconData(61595,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -325,27 +325,27 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData gitter = IconData(62502,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData glide_g = IconData(null,
+  static const IconData glide_g = IconData(62118,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData glide = IconData(62117,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData gofore = IconData(62375,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData goodreads_g = IconData(null,
+  static const IconData goodreads_g = IconData(62377,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData goodreads = IconData(62376,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData google_drive = IconData(null,
+  static const IconData google_drive = IconData(62378,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData google_play = IconData(null,
+  static const IconData google_play = IconData(62379,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData google_plus_g = IconData(null,
+  static const IconData google_plus_g = IconData(61653,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData google_plus_square = IconData(null,
+  static const IconData google_plus_square = IconData(61652,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData google_plus = IconData(null,
+  static const IconData google_plus = IconData(62131,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData google_wallet = IconData(null,
+  static const IconData google_wallet = IconData(61934,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData google = IconData(61856,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -359,15 +359,15 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData gulp = IconData(62382,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData hacker_news_square = IconData(null,
+  static const IconData hacker_news_square = IconData(62383,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData hacker_news = IconData(null,
+  static const IconData hacker_news = IconData(61908,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData hackerrank = IconData(62967,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData hips = IconData(62546,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData hire_a_helper = IconData(null,
+  static const IconData hire_a_helper = IconData(62384,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData hooli = IconData(62503,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -387,19 +387,19 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData intercom = IconData(63407,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData internet_explorer = IconData(null,
+  static const IconData internet_explorer = IconData(62059,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData invision = IconData(63408,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData ioxhost = IconData(61960,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData itunes_note = IconData(null,
+  static const IconData itunes_note = IconData(62389,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData itunes = IconData(62388,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData java = IconData(62692,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData jedi_order = IconData(null,
+  static const IconData jedi_order = IconData(62734,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData jenkins = IconData(62390,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -409,7 +409,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData joomla = IconData(61866,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData js_square = IconData(null,
+  static const IconData js_square = IconData(62393,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData js = IconData(62392,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -421,7 +421,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData keycdn = IconData(62394,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData kickstarter_k = IconData(null,
+  static const IconData kickstarter_k = IconData(62396,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData kickstarter = IconData(62395,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -429,7 +429,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData laravel = IconData(62397,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData lastfm_square = IconData(null,
+  static const IconData lastfm_square = IconData(61955,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData lastfm = IconData(61954,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -439,7 +439,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData line = IconData(62400,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData linkedin_in = IconData(null,
+  static const IconData linkedin_in = IconData(61665,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData linkedin = IconData(61580,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -463,7 +463,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData medapps = IconData(62406,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData medium_m = IconData(null,
+  static const IconData medium_m = IconData(62407,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData medium = IconData(62010,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -493,9 +493,9 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData nimblr = IconData(62888,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData nintendo_switch = IconData(null,
+  static const IconData nintendo_switch = IconData(62488,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData node_js = IconData(null,
+  static const IconData node_js = IconData(62419,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData node = IconData(62489,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -505,11 +505,11 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData nutritionix = IconData(62422,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData odnoklassniki_square = IconData(null,
+  static const IconData odnoklassniki_square = IconData(62052,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData odnoklassniki = IconData(62051,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData old_republic = IconData(null,
+  static const IconData old_republic = IconData(62736,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData opencart = IconData(62013,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -517,7 +517,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData opera = IconData(62058,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData optin_monster = IconData(null,
+  static const IconData optin_monster = IconData(62012,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData osi = IconData(62490,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -531,35 +531,35 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData paypal = IconData(61933,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData penny_arcade = IconData(null,
+  static const IconData penny_arcade = IconData(63236,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData periscope = IconData(62426,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData phabricator = IconData(62427,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData phoenix_framework = IconData(null,
+  static const IconData phoenix_framework = IconData(62428,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData phoenix_squadron = IconData(null,
+  static const IconData phoenix_squadron = IconData(62737,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData php = IconData(62551,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData pied_piper_alt = IconData(null,
+  static const IconData pied_piper_alt = IconData(61864,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData pied_piper_hat = IconData(null,
+  static const IconData pied_piper_hat = IconData(62693,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData pied_piper_pp = IconData(null,
+  static const IconData pied_piper_pp = IconData(61863,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData pied_piper = IconData(null,
+  static const IconData pied_piper = IconData(62126,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData pinterest_p = IconData(null,
+  static const IconData pinterest_p = IconData(62001,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData pinterest_square = IconData(null,
+  static const IconData pinterest_square = IconData(61651,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData pinterest = IconData(61650,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData playstation = IconData(62431,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData product_hunt = IconData(null,
+  static const IconData product_hunt = IconData(62088,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData pushed = IconData(62433,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -571,9 +571,9 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData quora = IconData(62148,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData r_project = IconData(null,
+  static const IconData r_project = IconData(62711,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData raspberry_pi = IconData(null,
+  static const IconData raspberry_pi = IconData(63419,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData ravelry = IconData(62169,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -585,11 +585,11 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData rebel = IconData(61904,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData red_river = IconData(null,
+  static const IconData red_river = IconData(62435,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData reddit_alien = IconData(null,
+  static const IconData reddit_alien = IconData(62081,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData reddit_square = IconData(null,
+  static const IconData reddit_square = IconData(61858,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData reddit = IconData(61857,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -641,15 +641,15 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData skype = IconData(61822,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData slack_hash = IconData(null,
+  static const IconData slack_hash = IconData(62447,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData slack = IconData(61848,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData slideshare = IconData(61927,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData snapchat_ghost = IconData(null,
+  static const IconData snapchat_ghost = IconData(62124,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData snapchat_square = IconData(null,
+  static const IconData snapchat_square = IconData(62125,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData snapchat = IconData(62123,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -663,29 +663,29 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData squarespace = IconData(62910,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData stack_exchange = IconData(null,
+  static const IconData stack_exchange = IconData(61837,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData stack_overflow = IconData(null,
+  static const IconData stack_overflow = IconData(61804,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData staylinked = IconData(62453,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData steam_square = IconData(null,
+  static const IconData steam_square = IconData(61879,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData steam_symbol = IconData(null,
+  static const IconData steam_symbol = IconData(62454,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData steam = IconData(61878,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData sticker_mule = IconData(null,
+  static const IconData sticker_mule = IconData(62455,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData strava = IconData(62504,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData stripe_s = IconData(null,
+  static const IconData stripe_s = IconData(62506,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData stripe = IconData(62505,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData studiovinari = IconData(62456,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData stumbleupon_circle = IconData(null,
+  static const IconData stumbleupon_circle = IconData(61859,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData stumbleupon = IconData(61860,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -697,33 +697,33 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData teamspeak = IconData(62713,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData telegram_plane = IconData(null,
+  static const IconData telegram_plane = IconData(62462,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData telegram = IconData(62150,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData tencent_weibo = IconData(null,
+  static const IconData tencent_weibo = IconData(61909,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData the_red_yeti = IconData(null,
+  static const IconData the_red_yeti = IconData(63133,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData themeco = IconData(62918,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData themeisle = IconData(62130,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData think_peaks = IconData(null,
+  static const IconData think_peaks = IconData(63281,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData trade_federation = IconData(null,
+  static const IconData trade_federation = IconData(62739,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData trello = IconData(61825,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData tripadvisor = IconData(62050,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData tumblr_square = IconData(null,
+  static const IconData tumblr_square = IconData(61812,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData tumblr = IconData(61811,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData twitch = IconData(61928,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData twitter_square = IconData(null,
+  static const IconData twitter_square = IconData(61569,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData twitter = IconData(61593,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -751,15 +751,15 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData viacoin = IconData(62007,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData viadeo_square = IconData(null,
+  static const IconData viadeo_square = IconData(62122,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData viadeo = IconData(62121,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData viber = IconData(62473,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData vimeo_square = IconData(null,
+  static const IconData vimeo_square = IconData(61844,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData vimeo_v = IconData(null,
+  static const IconData vimeo_v = IconData(62077,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData vimeo = IconData(62474,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -777,23 +777,23 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData weixin = IconData(61911,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData whatsapp_square = IconData(null,
+  static const IconData whatsapp_square = IconData(62476,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData whatsapp = IconData(62002,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData whmcs = IconData(62477,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData wikipedia_w = IconData(null,
+  static const IconData wikipedia_w = IconData(62054,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData windows = IconData(61818,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData wix = IconData(62927,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData wizards_of_the_coast = IconData(null,
+  static const IconData wizards_of_the_coast = IconData(63280,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData wolf_pack_battalion = IconData(null,
+  static const IconData wolf_pack_battalion = IconData(62740,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData wordpress_simple = IconData(null,
+  static const IconData wordpress_simple = IconData(62481,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData wordpress = IconData(61850,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -807,15 +807,15 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData xbox = IconData(62482,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData xing_square = IconData(null,
+  static const IconData xing_square = IconData(61801,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData xing = IconData(61800,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData y_combinator = IconData(null,
+  static const IconData y_combinator = IconData(62011,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData yahoo = IconData(61854,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData yandex_international = IconData(null,
+  static const IconData yandex_international = IconData(62484,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData yandex = IconData(62483,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
@@ -825,7 +825,7 @@ class FontAwesome5Brands {
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData yoast = IconData(62129,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
-  static const IconData youtube_square = IconData(null,
+  static const IconData youtube_square = IconData(62513,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");
   static const IconData youtube = IconData(61799,
       fontFamily: "FontAwesome5_Brands", fontPackage: "flutter_vector_icons");

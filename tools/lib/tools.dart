@@ -122,10 +122,13 @@ generateFonts() {
     var code = '''import 'package:flutter/widgets.dart'; class $className {''';
 
     for (var key in fa5Meta[getFa5FontMapKey(name)]) {
-      key = normalizeKey(key);
+      var nKey = normalizeKey(key);
       var codePoint = fa5GlyphMap[key];
+      if (codePoint == null) {
+        throw 'codePoint null: $name, $key';
+      }
       code +=
-          'static const IconData $key = IconData($codePoint, fontFamily: "$name", fontPackage: "flutter_vector_icons");';
+          'static const IconData $nKey = IconData($codePoint, fontFamily: "$name", fontPackage: "flutter_vector_icons");';
     }
     code += '}';
 
