@@ -13,3 +13,6 @@ export 'src/material_icons.dart';
 export 'src/octicons.dart';
 export 'src/simple_line_icons.dart';
 export 'src/zocial.dart';
+export 'src/font_awesome_5_brands.dart';
+export 'src/font_awesome_5_regular.dart';
+export 'src/font_awesome_5_solid.dart';
