@@ -1,3 +1,4 @@
+import 'dart:html' as html;
 import 'package:flutter_web/material.dart';
 import 'data.dart';
 
@@ -30,6 +31,16 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.code),
+            tooltip: 'Source Code',
+            onPressed: () {
+              html.window
+                  .open('https://github.com/pd4d10/flutter-vector-icons', '');
+            },
+          )
+        ],
       ),
       body: ListView(
         children: data.entries.map((e0) {
