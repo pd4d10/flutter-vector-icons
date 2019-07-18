@@ -180,6 +180,27 @@ generateWebData() {
   File(getAbsolutePath(
           'flutter_vector_icons_gallery/web/assets/FontManifest.json'))
       .writeAsStringSync(json.encode(fontManifest));
+
+  // pubspec.yaml
+  var pubspecString = File(getAbsolutePath('flutter_vector_icons/pubspec.yaml'))
+      .readAsStringSync();
+  var l = pubspecString.split('''flutter:
+  fonts:
+''');
+  l[1] = '';
+  for (var item in fontManifest) {
+    var family = item['family'];
+    var asset = (item['fonts'] as List)[0]['asset'];
+    l[1] += '    - family: $family\n';
+    l[1] += '''      fonts:
+        - asset: $asset
+''';
+  }
+
+  File(getAbsolutePath('flutter_vector_icons/pubspec.yaml'))
+      .writeAsStringSync(l.join('''flutter:
+  fonts:
+'''));
 }
 
 void main() {
