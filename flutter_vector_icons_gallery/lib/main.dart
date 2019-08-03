@@ -4,16 +4,18 @@ import 'data.dart';
 
 void main() => runApp(MyApp());
 
+final title = 'Flutter Vector Icons Gallery';
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Vector Icons Gallery',
+      title: title,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Vector Icons Gallery'),
+      home: MyHomePage(title: title),
     );
   }
 }
