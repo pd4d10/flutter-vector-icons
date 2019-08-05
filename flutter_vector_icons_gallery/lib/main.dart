@@ -1,4 +1,5 @@
 import 'dart:html' as html;
+import 'package:flutter_vector_icons_gallery/icons.dart';
 import 'package:flutter_web/material.dart';
 import 'data.dart';
 
@@ -20,20 +21,68 @@ class MyApp extends StatelessWidget {
   }
 }
 
+class _MySearchDelegate extends SearchDelegate<String> {
+  @override
+  Widget buildLeading(BuildContext context) {
+    return IconButton(
+      tooltip: 'Back',
+      icon: AnimatedIcon(
+        icon: AnimatedIcons.menu_arrow,
+        progress: transitionAnimation,
+      ),
+      onPressed: () {
+        close(context, null);
+      },
+    );
+  }
+
+  @override
+  Widget buildSuggestions(BuildContext context) {
+    return MyIcons(query);
+  }
+
+  @override
+  Widget buildResults(BuildContext context) {
+    return null;
+  }
+
+  @override
+  List<Widget> buildActions(BuildContext context) {
+    return <Widget>[
+      IconButton(
+        tooltip: 'Clear',
+        icon: const Icon(Icons.clear),
+        onPressed: () {
+          query = '';
+          showSuggestions(context);
+        },
+      )
+    ];
+  }
+}
+
 class MyHomePage extends StatelessWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
   final String title;
+  final _delegate = _MySearchDelegate();
 
   @override
   Widget build(BuildContext context) {
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
         actions: <Widget>[
+          IconButton(
+            tooltip: 'Search',
+            icon: const Icon(Icons.search),
+            onPressed: () async {
+              await showSearch<String>(
+                context: context,
+                delegate: _delegate,
+              );
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.code),
             tooltip: 'Source Code',
@@ -44,37 +93,7 @@ class MyHomePage extends StatelessWidget {
           )
         ],
       ),
-      body: ListView(
-        children: data.entries.map((e0) {
-          return Column(
-            children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(10),
-                child: Text(e0.key,
-                    style:
-                        TextStyle(fontSize: 20, fontWeight: FontWeight.w500)),
-              ),
-              Wrap(
-                children: e0.value.entries.map((e1) {
-                  return Container(
-                    width: 160,
-                    padding: EdgeInsets.all(20),
-                    child: Column(
-                      children: <Widget>[
-                        Icon(IconData(e1.value, fontFamily: e0.key), size: 32),
-                        Container(
-                          padding: EdgeInsets.only(top: 10),
-                          child: Text(e1.key),
-                        )
-                      ],
-                    ),
-                  );
-                }).toList(),
-              )
-            ],
-          );
-        }).toList(),
-      ),
+      body: MyIcons(null),
     );
   }
 }
