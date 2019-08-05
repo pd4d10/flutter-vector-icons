@@ -8,19 +8,23 @@ class MyIcons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: data.entries.map((e0) {
+    return ListView.builder(
+      itemCount: data.entries.length,
+      itemBuilder: (context, index) {
+        var e0 = data.entries.toList()[index];
+        var items = e0.value.entries
+            .where((e1) => query == null || e1.key.contains(query))
+            .toList();
+
         return Column(
-          children: <Widget>[
+          children: [
             Container(
-              padding: EdgeInsets.all(10),
+              padding: EdgeInsets.symmetric(vertical: 20),
               child: Text(e0.key,
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500)),
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500)),
             ),
             Wrap(
-              children: e0.value.entries
-                  .where((e1) => query == null || e1.key.contains(query))
-                  .map((e1) {
+              children: items.map((e1) {
                 return Container(
                   width: 160,
                   padding: EdgeInsets.all(20),
@@ -38,7 +42,7 @@ class MyIcons extends StatelessWidget {
             )
           ],
         );
-      }).toList(),
+      },
     );
   }
 }

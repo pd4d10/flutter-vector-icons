@@ -1,7 +1,6 @@
 import 'dart:html' as html;
 import 'package:flutter_vector_icons_gallery/icons.dart';
 import 'package:flutter_web/material.dart';
-import 'data.dart';
 
 void main() => runApp(MyApp());
 
