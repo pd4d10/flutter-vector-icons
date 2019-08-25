@@ -5,7 +5,7 @@ import 'package:dart_style/dart_style.dart';
 
 var reservedWords = ['new', 'sync', 'switch', 'try', 'null', 'class'];
 
-var root = path.join(path.dirname(Platform.script.path), '../..');
+var root = path.join(path.dirname(Platform.script.path), '..');
 
 var fontNames = [
   'AntDesign',
@@ -94,9 +94,8 @@ generateFonts() {
   // lib/src/*.dart
   // fonts
   for (var name in fontNames) {
-    var iconMap = json.decode(
-        File(getAbsolutePath('tools/glyphmaps/$name.json'))
-            .readAsStringSync()) as Map;
+    var iconMap = json.decode(File(getAbsolutePath('tool/glyphmaps/$name.json'))
+        .readAsStringSync()) as Map;
 
     var code = '''import 'package:flutter/widgets.dart'; class $name {''';
     for (var e in iconMap.entries) {
@@ -115,10 +114,10 @@ generateFonts() {
 
   // font awesome 5
   var fa5Meta = json.decode(
-      File(getAbsolutePath('tools/glyphmaps/FontAwesome5Free_meta.json'))
+      File(getAbsolutePath('tool/glyphmaps/FontAwesome5Free_meta.json'))
           .readAsStringSync());
   var fa5GlyphMap = json.decode(
-      File(getAbsolutePath('tools/glyphmaps/FontAwesome5Free.json'))
+      File(getAbsolutePath('tool/glyphmaps/FontAwesome5Free.json'))
           .readAsStringSync());
 
   for (var name in fa5FontNames) {
@@ -148,7 +147,7 @@ generateWebData() {
   Map webData = {};
   for (var name in fontNames) {
     var glyphMap = json.decode(
-        File(getAbsolutePath('tools/glyphmaps/$name.json'))
+        File(getAbsolutePath('tool/glyphmaps/$name.json'))
             .readAsStringSync()) as Map;
     var result = {};
     for (var e in glyphMap.entries) {
@@ -158,10 +157,10 @@ generateWebData() {
   }
 
   var fa5Meta = json.decode(
-      File(getAbsolutePath('tools/glyphmaps/FontAwesome5Free_meta.json'))
+      File(getAbsolutePath('tool/glyphmaps/FontAwesome5Free_meta.json'))
           .readAsStringSync()) as Map;
   var fa5GlyphMap = json.decode(
-      File(getAbsolutePath('tools/glyphmaps/FontAwesome5Free.json'))
+      File(getAbsolutePath('tool/glyphmaps/FontAwesome5Free.json'))
           .readAsStringSync()) as Map;
   for (var name in fa5FontNames) {
     var result = {};
@@ -218,7 +217,7 @@ void main() {
       'cp ${path.join(vendorDir, 'react-native-vector-icons/Fonts/*')} ${path.join(root, 'flutter_vector_icons/fonts')}');
   // Copy glyphmaps
   runCommand(
-      'cp -r ${path.join(vendorDir, 'react-native-vector-icons/glyphmaps')} ${path.join(root, 'tools')}');
+      'cp -r ${path.join(vendorDir, 'react-native-vector-icons/glyphmaps')} ${path.join(root, 'tool')}');
 
   generateFonts();
   generateWebData();
