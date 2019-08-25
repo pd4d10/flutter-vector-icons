@@ -207,20 +207,14 @@ generateWebData() {
 }
 
 void main() {
-  // Clone repo
-  var tmpDir = '/tmp';
+  var vendorDir = './vendor';
 
-  runCommand(
-      'git clone https://github.com/oblador/react-native-vector-icons.git',
-      workingDirectory: tmpDir);
-  runCommand('git pull origin master',
-      workingDirectory: path.join(tmpDir, 'react-native-vector-icons'));
   // Copy fonts
   runCommand(
-      'cp ${path.join(tmpDir, 'react-native-vector-icons/Fonts/*')} ${path.join(root, 'flutter_vector_icons/fonts')}');
+      'cp ${path.join(vendorDir, 'react-native-vector-icons/Fonts/*')} ${path.join(root, 'flutter_vector_icons/fonts')}');
   // Copy glyphmaps
   runCommand(
-      'cp -r ${path.join(tmpDir, 'react-native-vector-icons/glyphmaps')} ${path.join(root, 'tools')}');
+      'cp -r ${path.join(vendorDir, 'react-native-vector-icons/glyphmaps')} ${path.join(root, 'tools')}');
 
   generateFonts();
   generateWebData();

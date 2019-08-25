@@ -1,0 +1,3 @@
+[submodule "vendor/react-native-vector-icons"]
+	path = vendor/react-native-vector-icons
+	url = https://github.com/oblador/react-native-vector-icons.git
