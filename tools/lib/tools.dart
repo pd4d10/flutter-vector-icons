@@ -38,11 +38,15 @@ String getAbsolutePath(String filePath) {
 // * Key starts with number: 500px -> icon_500px
 String normalizeKey(String key) {
   key = key.replaceAll('-', '_');
+  var _key = key;
   if (reservedWords.contains(key)) {
     key = key + '_icon';
   }
   if (key.startsWith(RegExp(r'\d'))) {
     key = 'icon_' + key;
+  }
+  if (key != _key) {
+    print('[name conversion]: $_key -> $key');
   }
   return key;
 }
