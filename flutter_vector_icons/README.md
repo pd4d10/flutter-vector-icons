@@ -2,7 +2,7 @@
 
 [![pub](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dev/packages/flutter_vector_icons)
 
-Port of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) for Flutter developers.
+Customizable Icons for Flutter developers. Port of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons).
 
 View gallery built with Flutter Web: https://pd4d10.github.io/flutter-vector-icons/
 
@@ -49,7 +49,7 @@ class MyWidget extends StatelessWidget {
 ## Development
 
 ```sh
-dart tools/lib/tools.dart
+dart tool/generate.dart
 ```
 
 ## Credits
