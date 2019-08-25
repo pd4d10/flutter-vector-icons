@@ -1,3 +1,7 @@
+## 0.2.1
+
+- Update fonts from upstream
+
 ## 0.2.0
 
 - Add Font Awesome 5
