@@ -9,6 +9,7 @@ addons:
 before_script:
   - git clone https://github.com/flutter/flutter.git -b dev
   - ./flutter/bin/flutter doctor
+  - ./flutter/bin/flutter config --enable-web
 before_deploy:
   - cd flutter_vector_icons_gallery
   - ../flutter/bin/flutter pub get
