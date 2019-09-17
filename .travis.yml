@@ -5,14 +5,13 @@ addons:
       - ubuntu-toolchain-r-test # if we don't specify this, the libstdc++6 we get is the wrong version
     packages:
       - libstdc++6
-      - fonts-droid
 before_script:
   - git clone https://github.com/flutter/flutter.git -b dev
   - ./flutter/bin/flutter doctor
 before_deploy:
   - cd flutter_vector_icons_gallery
-  - ./flutter/bin/flutter pub get
-  - ./flutter/bin/flutter build web
+  - ../flutter/bin/flutter pub get
+  - ../flutter/bin/flutter build web
 deploy:
   local-dir: flutter_vector_icons_gallery/build/web
   provider: pages
