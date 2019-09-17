@@ -184,9 +184,6 @@ generateWebData() {
       ]
     };
   }).toList();
-  File(getAbsolutePath(
-          'flutter_vector_icons_gallery/web/assets/FontManifest.json'))
-      .writeAsStringSync(json.encode(fontManifest));
 
   // pubspec.yaml
   var pubspecString = File(getAbsolutePath('flutter_vector_icons/pubspec.yaml'))
