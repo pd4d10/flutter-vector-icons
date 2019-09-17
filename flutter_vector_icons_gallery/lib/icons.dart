@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 import 'data.dart';
 
 class MyIcons extends StatelessWidget {
@@ -30,7 +30,14 @@ class MyIcons extends StatelessWidget {
                   padding: EdgeInsets.all(20),
                   child: Column(
                     children: <Widget>[
-                      Icon(IconData(e1.value, fontFamily: e0.key), size: 32),
+                      Icon(
+                        IconData(
+                          e1.value,
+                          fontFamily: e0.key,
+                          fontPackage: 'flutter_vector_icons',
+                        ),
+                        size: 32,
+                      ),
                       Container(
                         padding: EdgeInsets.only(top: 10),
                         child: Text(e1.key),
