@@ -1,3 +1,4 @@
+import 'dart:html' as html; // FIXME:
 import 'package:flutter/material.dart';
 import 'data.dart';
 
@@ -25,24 +26,32 @@ class MyIcons extends StatelessWidget {
             ),
             Wrap(
               children: items.map((e1) {
-                return Container(
-                  width: 160,
-                  padding: EdgeInsets.all(20),
-                  child: Column(
-                    children: <Widget>[
-                      Icon(
-                        IconData(
-                          e1.value,
-                          fontFamily: e0.key,
-                          fontPackage: 'flutter_vector_icons',
+                return InkWell(
+                  onTap: () async {
+                    final text = e0.key + '.' + e1.key;
+                    await html.window.navigator.clipboard.writeText(text);
+                    Scaffold.of(context).showSnackBar(
+                        SnackBar(content: Text('Copied to Clipboard')));
+                  },
+                  child: Container(
+                    width: 160,
+                    padding: EdgeInsets.all(20),
+                    child: Column(
+                      children: <Widget>[
+                        Icon(
+                          IconData(
+                            e1.value,
+                            fontFamily: e0.key,
+                            fontPackage: 'flutter_vector_icons',
+                          ),
+                          size: 32,
                         ),
-                        size: 32,
-                      ),
-                      Container(
-                        padding: EdgeInsets.only(top: 10),
-                        child: Text(e1.key),
-                      )
-                    ],
+                        Container(
+                          padding: EdgeInsets.only(top: 10),
+                          child: Text(e1.key),
+                        )
+                      ],
+                    ),
                   ),
                 );
               }).toList(),
