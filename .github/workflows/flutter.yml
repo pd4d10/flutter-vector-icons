@@ -10,3 +10,8 @@ jobs:
       - run: flutter config --enable-web
       - run: flutter pub get
       - run: cd example && flutter build web
+      - uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./example/build/web
