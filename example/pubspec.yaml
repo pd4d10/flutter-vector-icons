@@ -20,7 +20,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_vector_icons:
-    path: ../flutter_vector_icons
+    path: ../
 
 dev_dependencies:
   flutter_test:
