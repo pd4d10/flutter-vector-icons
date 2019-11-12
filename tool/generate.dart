@@ -88,7 +88,7 @@ generateFonts() {
     var fileName = toFileName(name);
     entryCode += "export 'src/$fileName.dart';";
   }
-  File(getAbsolutePath('flutter_vector_icons/lib/flutter_vector_icons.dart'))
+  File(getAbsolutePath('lib/flutter_vector_icons.dart'))
       .writeAsStringSync(DartFormatter().format(entryCode));
 
   // lib/src/*.dart
@@ -108,7 +108,7 @@ generateFonts() {
     code += '}';
 
     var fileName = toFileName(name);
-    File(getAbsolutePath('flutter_vector_icons/lib/src/$fileName.dart'))
+    File(getAbsolutePath('lib/src/$fileName.dart'))
         .writeAsStringSync(DartFormatter().format(code));
     print('$name done');
   }
@@ -137,7 +137,7 @@ generateFonts() {
     code += '}';
 
     var fileName = toFileName(name);
-    File(getAbsolutePath('flutter_vector_icons/lib/src/$fileName.dart'))
+    File(getAbsolutePath('lib/src/$fileName.dart'))
         .writeAsStringSync(DartFormatter().format(code));
     print('$name done');
   }
@@ -171,9 +171,8 @@ generateWebData() {
     webData[name] = result;
   }
 
-  File(getAbsolutePath('flutter_vector_icons_gallery/lib/data.dart'))
-      .writeAsStringSync(
-          DartFormatter().format('var data =' + json.encode(webData) + ';'));
+  File(getAbsolutePath('example/lib/data.dart')).writeAsStringSync(
+      DartFormatter().format('var data =' + json.encode(webData) + ';'));
 
   // FontManifest.json
   var fontManifest = [...fontNames, ...fa5FontNames].map((name) {
@@ -186,8 +185,7 @@ generateWebData() {
   }).toList();
 
   // pubspec.yaml
-  var pubspecString = File(getAbsolutePath('flutter_vector_icons/pubspec.yaml'))
-      .readAsStringSync();
+  var pubspecString = File(getAbsolutePath('pubspec.yaml')).readAsStringSync();
   var l = pubspecString.split('''flutter:
   fonts:
 ''');
@@ -201,8 +199,7 @@ generateWebData() {
 ''';
   }
 
-  File(getAbsolutePath('flutter_vector_icons/pubspec.yaml'))
-      .writeAsStringSync(l.join('''flutter:
+  File(getAbsolutePath('pubspec.yaml')).writeAsStringSync(l.join('''flutter:
   fonts:
 '''));
 }
@@ -212,7 +209,7 @@ void main() {
 
   // Copy fonts
   runCommand(
-      'cp ${path.join(vendorDir, 'react-native-vector-icons/Fonts/*')} ${path.join(root, 'flutter_vector_icons/fonts')}');
+      'cp ${path.join(vendorDir, 'react-native-vector-icons/Fonts/*')} ${path.join(root, 'fonts')}');
 
   generateFonts();
   generateWebData();
