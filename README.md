@@ -1,6 +1,7 @@
 # flutter_vector_icons
 
 [![pub](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dev/packages/flutter_vector_icons)
+[![deploy](https://github.com/pd4d10/flutter-vector-icons/workflows/deploy/badge.svg)](https://pd4d10.github.io/flutter-vector-icons/)
 
 Customizable Icons for Flutter developers. Port of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons).
 
