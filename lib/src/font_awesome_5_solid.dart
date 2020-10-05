@@ -107,6 +107,12 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData bacon = IconData(63461,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData bahai = IconData(63078,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData balance_scale_left = IconData(62741,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData balance_scale_right = IconData(62742,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData balance_scale = IconData(62030,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData ban = IconData(61534,
@@ -147,6 +153,8 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData bicycle = IconData(61958,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData biking = IconData(63562,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData binoculars = IconData(61925,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData biohazard = IconData(63360,
@@ -183,9 +191,17 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData bookmark = IconData(61486,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData border_all = IconData(63564,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData border_none = IconData(63568,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData border_style = IconData(63571,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData bowling_ball = IconData(62518,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData box_open = IconData(62622,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData box_tissue = IconData(63835,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData box = IconData(62566,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -262,6 +278,8 @@ class FontAwesome5Solid {
   static const IconData car_side = IconData(62948,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData car = IconData(61881,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData caravan = IconData(63743,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData caret_down = IconData(61655,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -429,6 +447,8 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData compass = IconData(61774,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData compress_alt = IconData(62498,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData compress_arrows_alt = IconData(63372,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData compress = IconData(61542,
@@ -500,6 +520,8 @@ class FontAwesome5Solid {
   static const IconData digital_tachograph = IconData(62822,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData directions = IconData(62955,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData disease = IconData(63482,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData divide = IconData(62761,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -581,6 +603,8 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData exclamation = IconData(61738,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData expand_alt = IconData(62500,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData expand_arrows_alt = IconData(62238,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData expand = IconData(61541,
@@ -595,9 +619,13 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData eye = IconData(61550,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData fan = IconData(63587,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData fast_backward = IconData(61513,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData fast_forward = IconData(61520,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData faucet = IconData(63749,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData fax = IconData(61868,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -807,7 +835,11 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hand_holding_heart = IconData(62654,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData hand_holding_medical = IconData(63836,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hand_holding_usd = IconData(62656,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData hand_holding_water = IconData(62657,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hand_holding = IconData(62653,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -833,11 +865,19 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hand_scissors = IconData(62039,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData hand_sparkles = IconData(63837,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hand_spock = IconData(62041,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hands_helping = IconData(62660,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData hands_wash = IconData(63838,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hands = IconData(62658,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData handshake_alt_slash = IconData(63839,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData handshake_slash = IconData(63840,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData handshake = IconData(62133,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -847,11 +887,21 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hashtag = IconData(62098,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData hat_cowboy_side = IconData(63681,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData hat_cowboy = IconData(63680,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hat_wizard = IconData(63208,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
-  static const IconData haykal = IconData(63078,
-      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hdd = IconData(61600,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData head_side_cough_slash = IconData(63842,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData head_side_cough = IconData(63841,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData head_side_mask = IconData(63843,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData head_side_virus = IconData(63844,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData heading = IconData(61916,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -891,6 +941,8 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hospital_symbol = IconData(62590,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData hospital_user = IconData(63501,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hospital = IconData(61688,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hot_tub = IconData(62867,
@@ -909,6 +961,8 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData house_damage = IconData(63217,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData house_user = IconData(63845,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData hryvnia = IconData(63218,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData i_cursor = IconData(62022,
@@ -916,6 +970,8 @@ class FontAwesome5Solid {
   static const IconData ice_cream = IconData(63504,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData icicles = IconData(63405,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData icons = IconData(63597,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData id_badge = IconData(62145,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -970,6 +1026,8 @@ class FontAwesome5Solid {
   static const IconData language = IconData(61867,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData laptop_code = IconData(62972,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData laptop_house = IconData(63846,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData laptop_medical = IconData(63506,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -1030,6 +1088,10 @@ class FontAwesome5Solid {
   static const IconData low_vision = IconData(62120,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData luggage_cart = IconData(62877,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData lungs_virus = IconData(63847,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData lungs = IconData(62980,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData magic = IconData(61648,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -1135,6 +1197,8 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData mouse_pointer = IconData(62021,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData mouse = IconData(63692,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData mug_hot = IconData(63414,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData music = IconData(61441,
@@ -1209,6 +1273,8 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData pencil_ruler = IconData(62894,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData people_arrows = IconData(63848,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData people_carry = IconData(62670,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData pepper_hot = IconData(63510,
@@ -1219,13 +1285,19 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData person_booth = IconData(63318,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData phone_alt = IconData(63609,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData phone_slash = IconData(62429,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData phone_square_alt = IconData(63611,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData phone_square = IconData(61592,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData phone_volume = IconData(62112,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData phone = IconData(61589,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData photo_video = IconData(63612,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData piggy_bank = IconData(62675,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -1238,6 +1310,8 @@ class FontAwesome5Solid {
   static const IconData plane_arrival = IconData(62895,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData plane_departure = IconData(62896,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData plane_slash = IconData(63849,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData plane = IconData(61554,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -1287,6 +1361,10 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData project_diagram = IconData(62786,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData pump_medical = IconData(63850,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData pump_soap = IconData(63851,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData puzzle_piece = IconData(61742,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData qrcode = IconData(61481,
@@ -1313,6 +1391,8 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData receipt = IconData(62787,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData record_vinyl = IconData(63705,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData recycle = IconData(61880,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData redo_alt = IconData(62201,
@@ -1320,6 +1400,8 @@ class FontAwesome5Solid {
   static const IconData redo = IconData(61470,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData registered = IconData(62045,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData remove_format = IconData(63613,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData reply_all = IconData(61730,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -1407,6 +1489,8 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData shield_alt = IconData(62445,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData shield_virus = IconData(63852,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData ship = IconData(61978,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData shipping_fast = IconData(62603,
@@ -1477,21 +1561,35 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData snowplow = IconData(63442,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData soap = IconData(63854,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData socks = IconData(63126,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData solar_panel = IconData(62906,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData sort_alpha_down_alt = IconData(63617,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData sort_alpha_down = IconData(61789,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData sort_alpha_up_alt = IconData(63618,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData sort_alpha_up = IconData(61790,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData sort_amount_down_alt = IconData(63620,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData sort_amount_down = IconData(61792,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData sort_amount_up_alt = IconData(63621,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData sort_amount_up = IconData(61793,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData sort_down = IconData(61661,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData sort_numeric_down_alt = IconData(63622,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData sort_numeric_down = IconData(61794,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData sort_numeric_up_alt = IconData(63623,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData sort_numeric_up = IconData(61795,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -1502,6 +1600,8 @@ class FontAwesome5Solid {
   static const IconData spa = IconData(62907,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData space_shuttle = IconData(61847,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData spell_check = IconData(63633,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData spider = IconData(63255,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -1543,9 +1643,15 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData stop = IconData(61517,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData stopwatch_20 = IconData(63855,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData stopwatch = IconData(62194,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData store_alt_slash = IconData(63856,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData store_alt = IconData(62799,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData store_slash = IconData(63857,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData store = IconData(62798,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -1665,6 +1771,8 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData toggle_on = IconData(61957,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData toilet_paper_slash = IconData(63858,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData toilet_paper = IconData(63262,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData toilet = IconData(63448,
@@ -1684,6 +1792,8 @@ class FontAwesome5Solid {
   static const IconData trademark = IconData(62044,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData traffic_light = IconData(63031,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData trailer = IconData(63809,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData train = IconData(62008,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
@@ -1817,6 +1927,14 @@ class FontAwesome5Solid {
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData vihara = IconData(63143,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData virus_slash = IconData(63861,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData virus = IconData(63860,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData viruses = IconData(63862,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData voicemail = IconData(63639,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData volleyball_ball = IconData(62559,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData volume_down = IconData(61479,
@@ -1838,6 +1956,8 @@ class FontAwesome5Solid {
   static const IconData warehouse = IconData(62612,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData water = IconData(63347,
+      fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
+  static const IconData wave_square = IconData(63550,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
   static const IconData weight_hanging = IconData(62925,
       fontFamily: "FontAwesome5_Solid", fontPackage: "flutter_vector_icons");
