@@ -1,5 +1,5 @@
-import 'dart:html' as html; // FIXME:
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'data.dart';
 
 class MyIcons extends StatelessWidget {
@@ -29,7 +29,7 @@ class MyIcons extends StatelessWidget {
                 return InkWell(
                   onTap: () async {
                     final text = e0.key + '.' + e1.key;
-                    await html.window.navigator.clipboard.writeText(text);
+                    await Clipboard.setData(ClipboardData(text: text));
                     Scaffold.of(context).showSnackBar(
                         SnackBar(content: Text('Copied to Clipboard')));
                   },

@@ -22,6 +22,7 @@ dependencies:
     sdk: flutter
   flutter_vector_icons:
     path: ../
+  url_launcher: ^5.7.2
 
 dev_dependencies:
   flutter_test:

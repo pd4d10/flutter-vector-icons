@@ -1,6 +1,6 @@
-import 'dart:html' as html; // FIXME:
 import 'package:flutter_vector_icons_gallery/icons.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(MyApp());
 
@@ -86,8 +86,7 @@ class MyHomePage extends StatelessWidget {
             icon: const Icon(Icons.code),
             tooltip: 'Source Code',
             onPressed: () {
-              html.window
-                  .open('https://github.com/pd4d10/flutter-vector-icons', '');
+              launch('https://github.com/pd4d10/flutter-vector-icons');
             },
           )
         ],
