@@ -3,7 +3,7 @@ description: >-
   Customizable Icons for Flutter, including AntDesign, Entypo, EvilIcons,
   Feather, FontAwesome, Foundation, Ionicons, MaterialCommunityIcons,
   MaterialIcons, Octicons, SimpleLineIcons and Zocial
-version: 0.2.1
+version: 0.3.0
 homepage: https://github.com/git-touch/flutter-vector-icons
 environment:
   sdk: ">=2.3.0 <3.0.0"
