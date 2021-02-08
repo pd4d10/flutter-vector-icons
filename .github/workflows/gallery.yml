@@ -15,6 +15,6 @@ jobs:
       - run: flutter pub get
       - run: cd example && flutter build web
       - uses: peaceiris/actions-gh-pages@v3
-        env:
+        with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./example/build/web
