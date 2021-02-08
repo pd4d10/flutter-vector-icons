@@ -1,11 +1,11 @@
 # flutter_vector_icons
 
 [![pub](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dev/packages/flutter_vector_icons)
-[![deploy](https://github.com/pd4d10/flutter-vector-icons/workflows/deploy/badge.svg)](https://pd4d10.github.io/flutter-vector-icons/)
+[![gallery](https://github.com/git-touch/flutter-vector-icons/workflows/gallery/badge.svg)](https://git-touch.github.io/flutter-vector-icons/)
 
-Customizable Icons for Flutter developers. Port of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons).
+Customizable Icons for Flutter. Port of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons).
 
-View gallery built with Flutter Web: https://pd4d10.github.io/flutter-vector-icons/
+View [the gallery built with Flutter Web](https://git-touch.github.io/flutter-vector-icons/)
 
 ## Installation
 
@@ -50,7 +50,9 @@ class MyWidget extends StatelessWidget {
 ## Development
 
 ```sh
-dart tool/generate.dart
+cd tool
+npm install
+node index.js
 ```
 
 ## Credits

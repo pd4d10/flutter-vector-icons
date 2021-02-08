@@ -1,22 +1,18 @@
 name: flutter_vector_icons
-description: Customizable icons including AntDesign, Entypo, EvilIcons, Feather, FontAwesome, Foundation, Ionicons, MaterialCommunityIcons, MaterialIcons, Octicons, SimpleLineIcons and Zocial
+description: >-
+  Customizable Icons for Flutter, including AntDesign, Entypo, EvilIcons,
+  Feather, FontAwesome, Foundation, Ionicons, MaterialCommunityIcons,
+  MaterialIcons, Octicons, SimpleLineIcons and Zocial
 version: 0.2.1
-author: Rongjian Zhang <pd4d10@gmail.com>
-homepage: https://github.com/pd4d10/flutter-vector-icons
-
+homepage: https://github.com/git-touch/flutter-vector-icons
 environment:
   sdk: ">=2.3.0 <3.0.0"
-
 dependencies:
   flutter:
     sdk: flutter
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  path: ^1.6.0
-  dart_style: ^1.2.3
-
 flutter:
   fonts:
     - family: AntDesign
@@ -34,6 +30,15 @@ flutter:
     - family: FontAwesome
       fonts:
         - asset: fonts/FontAwesome.ttf
+    - family: FontAwesome5_Brands
+      fonts:
+        - asset: fonts/FontAwesome5_Brands.ttf
+    - family: FontAwesome5_Regular
+      fonts:
+        - asset: fonts/FontAwesome5_Regular.ttf
+    - family: FontAwesome5_Solid
+      fonts:
+        - asset: fonts/FontAwesome5_Solid.ttf
     - family: Fontisto
       fonts:
         - asset: fonts/Fontisto.ttf
@@ -58,12 +63,3 @@ flutter:
     - family: Zocial
       fonts:
         - asset: fonts/Zocial.ttf
-    - family: FontAwesome5_Brands
-      fonts:
-        - asset: fonts/FontAwesome5_Brands.ttf
-    - family: FontAwesome5_Regular
-      fonts:
-        - asset: fonts/FontAwesome5_Regular.ttf
-    - family: FontAwesome5_Solid
-      fonts:
-        - asset: fonts/FontAwesome5_Solid.ttf

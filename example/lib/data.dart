@@ -1,4 +1,4 @@
-var data = {
+const data = {
   "AntDesign": {
     "stepforward": 58880,
     "stepbackward": 58881,
