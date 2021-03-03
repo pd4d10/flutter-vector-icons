@@ -1,3 +1,9 @@
+# [1.0.0](https://github.com/pd4d10/flutter-vector-icons/compare/v0.3.0...v1.0.0) (2021-03-04)
+
+### Features
+
+- migrates to dart null-safety
+
 # [0.3.0](https://github.com/pd4d10/flutter-vector-icons/compare/v0.2.1...v0.3.0) (2021-02-08)
 
 ### Bug Fixes
