@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class _MySearchDelegate extends SearchDelegate<String> {
+class _MySearchDelegate extends SearchDelegate<String?> {
   @override
   Widget buildLeading(BuildContext context) {
     return IconButton(
@@ -42,7 +42,7 @@ class _MySearchDelegate extends SearchDelegate<String> {
 
   @override
   Widget buildResults(BuildContext context) {
-    return null;
+    return MyIcons(query);
   }
 
   @override
@@ -61,22 +61,22 @@ class _MySearchDelegate extends SearchDelegate<String> {
 }
 
 class MyHomePage extends StatelessWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, this.title}) : super(key: key);
 
-  final String title;
+  final String? title;
   final _delegate = _MySearchDelegate();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(title),
+        title: Text(title!),
         actions: <Widget>[
           IconButton(
             tooltip: 'Search',
             icon: const Icon(Icons.search),
             onPressed: () async {
-              await showSearch<String>(
+              await showSearch<String?>(
                 context: context,
                 delegate: _delegate,
               );

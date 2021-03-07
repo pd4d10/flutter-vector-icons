@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'data.dart';
 
 class MyIcons extends StatelessWidget {
-  final String query;
+  final String? query;
 
   MyIcons(this.query);
 
@@ -14,7 +14,7 @@ class MyIcons extends StatelessWidget {
       itemBuilder: (context, index) {
         var e0 = data.entries.toList()[index];
         var items = e0.value.entries
-            .where((e1) => query == null || e1.key.contains(query))
+            .where((e1) => query == null || e1.key.contains(query!))
             .toList();
 
         return Column(
@@ -30,7 +30,7 @@ class MyIcons extends StatelessWidget {
                   onTap: () async {
                     final text = e0.key + '.' + e1.key;
                     await Clipboard.setData(ClipboardData(text: text));
-                    Scaffold.of(context).showSnackBar(
+                    ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(content: Text('Copied to Clipboard')));
                   },
                   child: Container(
