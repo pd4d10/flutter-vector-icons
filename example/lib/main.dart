@@ -2,11 +2,13 @@ import 'package:flutter_vector_icons_gallery/icons.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 const title = 'Flutter Vector Icons Gallery';
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -86,7 +88,8 @@ class MyHomePage extends StatelessWidget {
             icon: const Icon(Icons.code),
             tooltip: 'Source Code',
             onPressed: () {
-              launch('https://github.com/pd4d10/flutter-vector-icons');
+              launchUrl(
+                  Uri.parse('https://github.com/pd4d10/flutter-vector-icons'));
             },
           )
         ],

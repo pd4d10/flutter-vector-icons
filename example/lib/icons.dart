@@ -5,7 +5,7 @@ import 'data.dart';
 class MyIcons extends StatelessWidget {
   final String? query;
 
-  const MyIcons(this.query);
+  const MyIcons(this.query, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,8 @@ class MyIcons extends StatelessWidget {
             Container(
               padding: const EdgeInsets.symmetric(vertical: 20),
               child: Text(e0.key,
-                  style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w500)),
+                  style: const TextStyle(
+                      fontSize: 24, fontWeight: FontWeight.w500)),
             ),
             Wrap(
               children: items.map((e1) {
