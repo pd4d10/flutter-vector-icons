@@ -613,7 +613,7 @@ class Entypo {
       fontFamily: "Entypo", fontPackage: "flutter_vector_icons");
   static const IconData reply_all = IconData(62001,
       fontFamily: "Entypo", fontPackage: "flutter_vector_icons");
-  static const IconData resize_100_ = IconData(62002,
+  static const IconData resize_100 = IconData(62002,
       fontFamily: "Entypo", fontPackage: "flutter_vector_icons");
   static const IconData resize_full_screen = IconData(62003,
       fontFamily: "Entypo", fontPackage: "flutter_vector_icons");
