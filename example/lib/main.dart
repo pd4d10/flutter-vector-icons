@@ -4,7 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(MyApp());
 
-final title = 'Flutter Vector Icons Gallery';
+const title = 'Flutter Vector Icons Gallery';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -91,7 +91,7 @@ class MyHomePage extends StatelessWidget {
           )
         ],
       ),
-      body: MyIcons(null),
+      body: const MyIcons(null),
     );
   }
 }

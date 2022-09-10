@@ -5,7 +5,7 @@ import 'data.dart';
 class MyIcons extends StatelessWidget {
   final String? query;
 
-  MyIcons(this.query);
+  const MyIcons(this.query);
 
   @override
   Widget build(BuildContext context) {
@@ -20,22 +20,22 @@ class MyIcons extends StatelessWidget {
         return Column(
           children: [
             Container(
-              padding: EdgeInsets.symmetric(vertical: 20),
+              padding: const EdgeInsets.symmetric(vertical: 20),
               child: Text(e0.key,
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500)),
+                  style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w500)),
             ),
             Wrap(
               children: items.map((e1) {
                 return InkWell(
                   onTap: () async {
-                    final text = e0.key + '.' + e1.key;
+                    final text = '${e0.key}.${e1.key}';
                     await Clipboard.setData(ClipboardData(text: text));
                     ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(content: Text('Copied to Clipboard')));
+                        const SnackBar(content: Text('Copied to Clipboard')));
                   },
                   child: Container(
                     width: 160,
-                    padding: EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20),
                     child: Column(
                       children: <Widget>[
                         Icon(
@@ -47,7 +47,7 @@ class MyIcons extends StatelessWidget {
                           size: 32,
                         ),
                         Container(
-                          padding: EdgeInsets.only(top: 10),
+                          padding: const EdgeInsets.only(top: 10),
                           child: Text(e1.key),
                         )
                       ],
