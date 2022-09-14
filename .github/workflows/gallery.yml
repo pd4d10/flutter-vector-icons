@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: subosito/flutter-action@v2
       - run: flutter pub get
-      - run: cd example && flutter build web
+      - run: cd example && flutter build web --base-href=/flutter-vector-icons/
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
