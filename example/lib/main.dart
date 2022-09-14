@@ -1,5 +1,5 @@
-import 'package:flutter_vector_icons_gallery/icons.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_vector_icons_gallery/icons.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(const MyApp());
