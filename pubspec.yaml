@@ -1,8 +1,6 @@
 name: flutter_vector_icons
 description: >-
-  Customizable Icons for Flutter, including AntDesign, Entypo, EvilIcons,
-  Feather, FontAwesome, Foundation, Ionicons, MaterialCommunityIcons,
-  MaterialIcons, Octicons, SimpleLineIcons and Zocial
+  Customizable Icons for Flutter. Port of react-native-vector-icons
 version: 1.0.0
 homepage: https://github.com/git-touch/flutter-vector-icons
 environment:
