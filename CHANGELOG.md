@@ -1,3 +1,9 @@
+# [2.0.0](https://github.com/git-touch/flutter-vector-icons/compare/v1.0.0...v2.0.0) (2022-09-17)
+
+### Features
+
+- update from upstream ([494f430](https://github.com/git-touch/flutter-vector-icons/commit/494f430ec4c3dfc6c808f4c5f8f0c750b3f20b57))
+
 # [1.0.0](https://github.com/git-touch/flutter-vector-icons/compare/v0.3.0...v1.0.0) (2021-03-07)
 
 ### Features
