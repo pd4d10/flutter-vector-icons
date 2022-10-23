@@ -1,5 +1,5 @@
 {
-  "buildCommand": "flutter/bin/flutter build web --base-href=/flutter-vector-icons/",
+  "buildCommand": "cd example && flutter/bin/flutter build web --base-href=/flutter-vector-icons/",
   "outputDirectory": "example/build/web",
   "installCommand": "git clone https://github.com/flutter/flutter.git --branch stable && flutter/bin/flutter pub get"
 }
