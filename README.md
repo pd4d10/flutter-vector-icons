@@ -5,7 +5,7 @@
 
 Customizable Icons for Flutter. Port of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons).
 
-Preview icons with the gallery: https://pd4d10.github.io/flutter-vector-icons/
+Preview icons with the gallery: https://flutter-vector-icons.vercel.app
 
 ## Installation
 
