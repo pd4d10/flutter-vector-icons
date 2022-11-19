@@ -1,7 +1,6 @@
 # flutter_vector_icons
 
-[![pub](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dev/packages/flutter_vector_icons)
-[![gallery](https://github.com/pd4d10/flutter-vector-icons/workflows/gallery/badge.svg)](https://pd4d10.github.io/flutter-vector-icons/)
+[![pub](https://img.shields.io/pub/v/flutter_vector_icons.svg)](https://pub.dev/packagegsts/flutter_vector_icons)
 
 Customizable Icons for Flutter. Port of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons).
 
@@ -9,7 +8,9 @@ Preview icons with the gallery: https://flutter-vector-icons.vercel.app
 
 ## Installation
 
-Add `flutter_vector_icons` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages)
+```sh
+flutter pub add flutter_vector_icons
+```
 
 ## Usage
 
