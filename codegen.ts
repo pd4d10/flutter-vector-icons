@@ -104,13 +104,16 @@ for (const { name, glyphmapsUrl } of fontsNoFa5) {
   );
   webData[name] = {};
 
-  let code = `import 'package:flutter/widgets.dart'; class ${name} {`;
+  let code = `import 'package:flutter/widgets.dart'; class ${name} {
+static const _family = '${name}';
+static const _package = 'flutter_vector_icons';`;
+
   for (const [key, value] of Object.entries(iconMap)) {
     webData[name][normalizeKey(key)] = value;
 
-    code += `static const IconData ${normalizeKey(
+    code += `static const ${normalizeKey(
       key
-    )} = IconData(${value}, fontFamily: "${name}", fontPackage: "flutter_vector_icons");`;
+    )} = IconData(${value}, fontFamily: _family, fontPackage: _package);`;
   }
   code += "}";
 
@@ -132,7 +135,9 @@ fontsFa5.forEach(({ name }) => {
 
   let code = `import 'package:flutter/widgets.dart'; class ${upperFirstCase(
     camelCase(name)
-  )} {`;
+  )} {
+static const _family = '${name}';
+static const _package = 'flutter_vector_icons';`;
 
   // FontAwesome5_Brands -> brands
   const groupKey = name.split("_")[1].toLowerCase();
@@ -144,9 +149,9 @@ fontsFa5.forEach(({ name }) => {
     if (codePoint == null) {
       throw new Error(`codePoint null: ${name}, ${key}`);
     }
-    code += `static const IconData ${normalizeKey(
+    code += `static const ${normalizeKey(
       key
-    )} = IconData(${codePoint}, fontFamily: "${name}", fontPackage: "flutter_vector_icons");`;
+    )} = IconData(${codePoint}, fontFamily: _family, fontPackage: _package);`;
   }
   code += "}";
 
