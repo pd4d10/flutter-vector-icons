@@ -1,9 +1,9 @@
 name: flutter_vector_icons
 description: Customizable Icons for Flutter. Port of react-native-vector-icons
-version: 2.0.0
-homepage: "https://github.com/pd4d10/flutter-vector-icons"
+version: 3.0.0
+homepage: 'https://github.com/pd4d10/flutter-vector-icons'
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 dependencies:
   flutter:
     sdk: flutter
@@ -36,6 +36,15 @@ flutter:
     - family: FontAwesome5_Solid
       fonts:
         - asset: fonts/FontAwesome5_Solid.ttf
+    - family: FontAwesome6_Brands
+      fonts:
+        - asset: fonts/FontAwesome6_Brands.ttf
+    - family: FontAwesome6_Regular
+      fonts:
+        - asset: fonts/FontAwesome6_Regular.ttf
+    - family: FontAwesome6_Solid
+      fonts:
+        - asset: fonts/FontAwesome6_Solid.ttf
     - family: Fontisto
       fonts:
         - asset: fonts/Fontisto.ttf

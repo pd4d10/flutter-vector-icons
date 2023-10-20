@@ -1,16 +1,16 @@
 import 'package:flutter/widgets.dart';
 
-class FontAwesome5Brands {
-  static const _family = 'FontAwesome5_Brands';
+class FontAwesome6Brands {
+  static const _family = 'FontAwesome6_Brands';
   static const _package = 'flutter_vector_icons';
+  static const icon_42_group =
+      IconData(57472, fontFamily: _family, fontPackage: _package);
   static const icon_500px =
       IconData(62062, fontFamily: _family, fontPackage: _package);
   static const accessible_icon =
       IconData(62312, fontFamily: _family, fontPackage: _package);
   static const accusoft =
       IconData(62313, fontFamily: _family, fontPackage: _package);
-  static const acquisitions_incorporated =
-      IconData(63151, fontFamily: _family, fontPackage: _package);
   static const adn =
       IconData(61808, fontFamily: _family, fontPackage: _package);
   static const adversal =
@@ -67,10 +67,10 @@ class FontAwesome5Brands {
       IconData(62165, fontFamily: _family, fontPackage: _package);
   static const battle_net =
       IconData(63541, fontFamily: _family, fontPackage: _package);
-  static const behance_square =
-      IconData(61877, fontFamily: _family, fontPackage: _package);
   static const behance =
       IconData(61876, fontFamily: _family, fontPackage: _package);
+  static const bilibili =
+      IconData(58329, fontFamily: _family, fontPackage: _package);
   static const bimobject =
       IconData(62328, fontFamily: _family, fontPackage: _package);
   static const bitbucket =
@@ -93,6 +93,8 @@ class FontAwesome5Brands {
       IconData(62099, fontFamily: _family, fontPackage: _package);
   static const bootstrap =
       IconData(63542, fontFamily: _family, fontPackage: _package);
+  static const bots =
+      IconData(58176, fontFamily: _family, fontPackage: _package);
   static const btc =
       IconData(61786, fontFamily: _family, fontPackage: _package);
   static const buffer =
@@ -141,6 +143,8 @@ class FontAwesome5Brands {
       IconData(62340, fontFamily: _family, fontPackage: _package);
   static const cloudversify =
       IconData(62341, fontFamily: _family, fontPackage: _package);
+  static const cmplid =
+      IconData(58208, fontFamily: _family, fontPackage: _package);
   static const codepen =
       IconData(61899, fontFamily: _family, fontPackage: _package);
   static const codiepie =
@@ -229,8 +233,6 @@ class FontAwesome5Brands {
       IconData(62357, fontFamily: _family, fontPackage: _package);
   static const draft2digital =
       IconData(62358, fontFamily: _family, fontPackage: _package);
-  static const dribbble_square =
-      IconData(62359, fontFamily: _family, fontPackage: _package);
   static const dribbble =
       IconData(61821, fontFamily: _family, fontPackage: _package);
   static const dropbox =
@@ -271,8 +273,6 @@ class FontAwesome5Brands {
       IconData(62366, fontFamily: _family, fontPackage: _package);
   static const facebook_messenger =
       IconData(62367, fontFamily: _family, fontPackage: _package);
-  static const facebook_square =
-      IconData(61570, fontFamily: _family, fontPackage: _package);
   static const facebook =
       IconData(61594, fontFamily: _family, fontPackage: _package);
   static const fantasy_flight_games =
@@ -299,10 +299,6 @@ class FontAwesome5Brands {
       IconData(62541, fontFamily: _family, fontPackage: _package);
   static const fly =
       IconData(62487, fontFamily: _family, fontPackage: _package);
-  static const font_awesome_alt =
-      IconData(62300, fontFamily: _family, fontPackage: _package);
-  static const font_awesome_flag =
-      IconData(62501, fontFamily: _family, fontPackage: _package);
   static const font_awesome =
       IconData(62132, fontFamily: _family, fontPackage: _package);
   static const fonticons_fi =
@@ -334,14 +330,10 @@ class FontAwesome5Brands {
   static const gg = IconData(62048, fontFamily: _family, fontPackage: _package);
   static const git_alt =
       IconData(63553, fontFamily: _family, fontPackage: _package);
-  static const git_square =
-      IconData(61906, fontFamily: _family, fontPackage: _package);
   static const git =
       IconData(61907, fontFamily: _family, fontPackage: _package);
   static const github_alt =
       IconData(61715, fontFamily: _family, fontPackage: _package);
-  static const github_square =
-      IconData(61586, fontFamily: _family, fontPackage: _package);
   static const github =
       IconData(61595, fontFamily: _family, fontPackage: _package);
   static const gitkraken =
@@ -356,6 +348,8 @@ class FontAwesome5Brands {
       IconData(62117, fontFamily: _family, fontPackage: _package);
   static const gofore =
       IconData(62375, fontFamily: _family, fontPackage: _package);
+  static const golang =
+      IconData(58383, fontFamily: _family, fontPackage: _package);
   static const goodreads_g =
       IconData(62377, fontFamily: _family, fontPackage: _package);
   static const goodreads =
@@ -368,8 +362,6 @@ class FontAwesome5Brands {
       IconData(62379, fontFamily: _family, fontPackage: _package);
   static const google_plus_g =
       IconData(61653, fontFamily: _family, fontPackage: _package);
-  static const google_plus_square =
-      IconData(61652, fontFamily: _family, fontPackage: _package);
   static const google_plus =
       IconData(62131, fontFamily: _family, fontPackage: _package);
   static const google_wallet =
@@ -388,12 +380,12 @@ class FontAwesome5Brands {
       IconData(57470, fontFamily: _family, fontPackage: _package);
   static const gulp =
       IconData(62382, fontFamily: _family, fontPackage: _package);
-  static const hacker_news_square =
-      IconData(62383, fontFamily: _family, fontPackage: _package);
   static const hacker_news =
       IconData(61908, fontFamily: _family, fontPackage: _package);
   static const hackerrank =
       IconData(62967, fontFamily: _family, fontPackage: _package);
+  static const hashnode =
+      IconData(58521, fontFamily: _family, fontPackage: _package);
   static const hips =
       IconData(62546, fontFamily: _family, fontPackage: _package);
   static const hire_a_helper =
@@ -416,10 +408,6 @@ class FontAwesome5Brands {
       IconData(57363, fontFamily: _family, fontPackage: _package);
   static const imdb =
       IconData(62168, fontFamily: _family, fontPackage: _package);
-  static const innosoft =
-      IconData(57472, fontFamily: _family, fontPackage: _package);
-  static const instagram_square =
-      IconData(57429, fontFamily: _family, fontPackage: _package);
   static const instagram =
       IconData(61805, fontFamily: _family, fontPackage: _package);
   static const instalod =
@@ -450,8 +438,6 @@ class FontAwesome5Brands {
       IconData(62391, fontFamily: _family, fontPackage: _package);
   static const joomla =
       IconData(61866, fontFamily: _family, fontPackage: _package);
-  static const js_square =
-      IconData(62393, fontFamily: _family, fontPackage: _package);
   static const js = IconData(62392, fontFamily: _family, fontPackage: _package);
   static const jsfiddle =
       IconData(61900, fontFamily: _family, fontPackage: _package);
@@ -469,8 +455,6 @@ class FontAwesome5Brands {
       IconData(62511, fontFamily: _family, fontPackage: _package);
   static const laravel =
       IconData(62397, fontFamily: _family, fontPackage: _package);
-  static const lastfm_square =
-      IconData(61955, fontFamily: _family, fontPackage: _package);
   static const lastfm =
       IconData(61954, fontFamily: _family, fontPackage: _package);
   static const leanpub =
@@ -505,8 +489,6 @@ class FontAwesome5Brands {
       IconData(63690, fontFamily: _family, fontPackage: _package);
   static const medapps =
       IconData(62406, fontFamily: _family, fontPackage: _package);
-  static const medium_m =
-      IconData(62407, fontFamily: _family, fontPackage: _package);
   static const medium =
       IconData(62010, fontFamily: _family, fontPackage: _package);
   static const medrt =
@@ -517,6 +499,8 @@ class FontAwesome5Brands {
       IconData(62883, fontFamily: _family, fontPackage: _package);
   static const mendeley =
       IconData(63411, fontFamily: _family, fontPackage: _package);
+  static const meta =
+      IconData(58523, fontFamily: _family, fontPackage: _package);
   static const microblog =
       IconData(57370, fontFamily: _family, fontPackage: _package);
   static const microsoft =
@@ -537,6 +521,10 @@ class FontAwesome5Brands {
       IconData(62418, fontFamily: _family, fontPackage: _package);
   static const neos =
       IconData(62994, fontFamily: _family, fontPackage: _package);
+  static const nfc_directional =
+      IconData(58672, fontFamily: _family, fontPackage: _package);
+  static const nfc_symbol =
+      IconData(58673, fontFamily: _family, fontPackage: _package);
   static const nimblr =
       IconData(62888, fontFamily: _family, fontPackage: _package);
   static const node_js =
@@ -551,8 +539,6 @@ class FontAwesome5Brands {
       IconData(62422, fontFamily: _family, fontPackage: _package);
   static const octopus_deploy =
       IconData(57474, fontFamily: _family, fontPackage: _package);
-  static const odnoklassniki_square =
-      IconData(62052, fontFamily: _family, fontPackage: _package);
   static const odnoklassniki =
       IconData(62051, fontFamily: _family, fontPackage: _package);
   static const old_republic =
@@ -569,6 +555,8 @@ class FontAwesome5Brands {
       IconData(63698, fontFamily: _family, fontPackage: _package);
   static const osi =
       IconData(62490, fontFamily: _family, fontPackage: _package);
+  static const padlet =
+      IconData(58528, fontFamily: _family, fontPackage: _package);
   static const page4 =
       IconData(62423, fontFamily: _family, fontPackage: _package);
   static const pagelines =
@@ -579,8 +567,6 @@ class FontAwesome5Brands {
       IconData(62425, fontFamily: _family, fontPackage: _package);
   static const paypal =
       IconData(61933, fontFamily: _family, fontPackage: _package);
-  static const penny_arcade =
-      IconData(63236, fontFamily: _family, fontPackage: _package);
   static const perbyte =
       IconData(57475, fontFamily: _family, fontPackage: _package);
   static const periscope =
@@ -599,16 +585,14 @@ class FontAwesome5Brands {
       IconData(62693, fontFamily: _family, fontPackage: _package);
   static const pied_piper_pp =
       IconData(61863, fontFamily: _family, fontPackage: _package);
-  static const pied_piper_square =
-      IconData(57374, fontFamily: _family, fontPackage: _package);
   static const pied_piper =
       IconData(62126, fontFamily: _family, fontPackage: _package);
   static const pinterest_p =
       IconData(62001, fontFamily: _family, fontPackage: _package);
-  static const pinterest_square =
-      IconData(61651, fontFamily: _family, fontPackage: _package);
   static const pinterest =
       IconData(61650, fontFamily: _family, fontPackage: _package);
+  static const pix =
+      IconData(58426, fontFamily: _family, fontPackage: _package);
   static const playstation =
       IconData(62431, fontFamily: _family, fontPackage: _package);
   static const product_hunt =
@@ -640,8 +624,6 @@ class FontAwesome5Brands {
       IconData(62435, fontFamily: _family, fontPackage: _package);
   static const reddit_alien =
       IconData(62081, fontFamily: _family, fontPackage: _package);
-  static const reddit_square =
-      IconData(61858, fontFamily: _family, fontPackage: _package);
   static const reddit =
       IconData(61857, fontFamily: _family, fontPackage: _package);
   static const redhat =
@@ -670,6 +652,8 @@ class FontAwesome5Brands {
       IconData(62494, fontFamily: _family, fontPackage: _package);
   static const schlix =
       IconData(62442, fontFamily: _family, fontPackage: _package);
+  static const screenpal =
+      IconData(58736, fontFamily: _family, fontPackage: _package);
   static const scribd =
       IconData(62090, fontFamily: _family, fontPackage: _package);
   static const searchengin =
@@ -692,34 +676,84 @@ class FontAwesome5Brands {
       IconData(62446, fontFamily: _family, fontPackage: _package);
   static const sith =
       IconData(62738, fontFamily: _family, fontPackage: _package);
+  static const sitrox =
+      IconData(58442, fontFamily: _family, fontPackage: _package);
   static const sketch =
       IconData(63430, fontFamily: _family, fontPackage: _package);
   static const skyatlas =
       IconData(61974, fontFamily: _family, fontPackage: _package);
   static const skype =
       IconData(61822, fontFamily: _family, fontPackage: _package);
-  static const slack_hash =
-      IconData(62447, fontFamily: _family, fontPackage: _package);
   static const slack =
       IconData(61848, fontFamily: _family, fontPackage: _package);
   static const slideshare =
       IconData(61927, fontFamily: _family, fontPackage: _package);
-  static const snapchat_ghost =
-      IconData(62124, fontFamily: _family, fontPackage: _package);
-  static const snapchat_square =
-      IconData(62125, fontFamily: _family, fontPackage: _package);
   static const snapchat =
       IconData(62123, fontFamily: _family, fontPackage: _package);
   static const soundcloud =
       IconData(61886, fontFamily: _family, fontPackage: _package);
   static const sourcetree =
       IconData(63443, fontFamily: _family, fontPackage: _package);
+  static const space_awesome =
+      IconData(58796, fontFamily: _family, fontPackage: _package);
   static const speakap =
       IconData(62451, fontFamily: _family, fontPackage: _package);
   static const speaker_deck =
       IconData(63548, fontFamily: _family, fontPackage: _package);
   static const spotify =
       IconData(61884, fontFamily: _family, fontPackage: _package);
+  static const square_behance =
+      IconData(61877, fontFamily: _family, fontPackage: _package);
+  static const square_dribbble =
+      IconData(62359, fontFamily: _family, fontPackage: _package);
+  static const square_facebook =
+      IconData(61570, fontFamily: _family, fontPackage: _package);
+  static const square_font_awesome_stroke =
+      IconData(62300, fontFamily: _family, fontPackage: _package);
+  static const square_font_awesome =
+      IconData(58797, fontFamily: _family, fontPackage: _package);
+  static const square_git =
+      IconData(61906, fontFamily: _family, fontPackage: _package);
+  static const square_github =
+      IconData(61586, fontFamily: _family, fontPackage: _package);
+  static const square_gitlab =
+      IconData(58798, fontFamily: _family, fontPackage: _package);
+  static const square_google_plus =
+      IconData(61652, fontFamily: _family, fontPackage: _package);
+  static const square_hacker_news =
+      IconData(62383, fontFamily: _family, fontPackage: _package);
+  static const square_instagram =
+      IconData(57429, fontFamily: _family, fontPackage: _package);
+  static const square_js =
+      IconData(62393, fontFamily: _family, fontPackage: _package);
+  static const square_lastfm =
+      IconData(61955, fontFamily: _family, fontPackage: _package);
+  static const square_odnoklassniki =
+      IconData(62052, fontFamily: _family, fontPackage: _package);
+  static const square_pied_piper =
+      IconData(57374, fontFamily: _family, fontPackage: _package);
+  static const square_pinterest =
+      IconData(61651, fontFamily: _family, fontPackage: _package);
+  static const square_reddit =
+      IconData(61858, fontFamily: _family, fontPackage: _package);
+  static const square_snapchat =
+      IconData(62125, fontFamily: _family, fontPackage: _package);
+  static const square_steam =
+      IconData(61879, fontFamily: _family, fontPackage: _package);
+  static const square_tumblr =
+      IconData(61812, fontFamily: _family, fontPackage: _package);
+  static const square_twitter =
+      IconData(61569, fontFamily: _family, fontPackage: _package);
+  static const square_viadeo =
+      IconData(62122, fontFamily: _family, fontPackage: _package);
+  static const square_vimeo =
+      IconData(61844, fontFamily: _family, fontPackage: _package);
+  static const square_whatsapp =
+      IconData(62476, fontFamily: _family, fontPackage: _package);
+  static const square_xing =
+      IconData(61801, fontFamily: _family, fontPackage: _package);
+  static const square_youtube =
+      IconData(62513, fontFamily: _family, fontPackage: _package);
   static const squarespace =
       IconData(62910, fontFamily: _family, fontPackage: _package);
   static const stack_exchange =
@@ -730,8 +764,6 @@ class FontAwesome5Brands {
       IconData(63554, fontFamily: _family, fontPackage: _package);
   static const staylinked =
       IconData(62453, fontFamily: _family, fontPackage: _package);
-  static const steam_square =
-      IconData(61879, fontFamily: _family, fontPackage: _package);
   static const steam_symbol =
       IconData(62454, fontFamily: _family, fontPackage: _package);
   static const steam =
@@ -762,8 +794,6 @@ class FontAwesome5Brands {
       IconData(63549, fontFamily: _family, fontPackage: _package);
   static const teamspeak =
       IconData(62713, fontFamily: _family, fontPackage: _package);
-  static const telegram_plane =
-      IconData(62462, fontFamily: _family, fontPackage: _package);
   static const telegram =
       IconData(62150, fontFamily: _family, fontPackage: _package);
   static const tencent_weibo =
@@ -782,16 +812,10 @@ class FontAwesome5Brands {
       IconData(62739, fontFamily: _family, fontPackage: _package);
   static const trello =
       IconData(61825, fontFamily: _family, fontPackage: _package);
-  static const tripadvisor =
-      IconData(62050, fontFamily: _family, fontPackage: _package);
-  static const tumblr_square =
-      IconData(61812, fontFamily: _family, fontPackage: _package);
   static const tumblr =
       IconData(61811, fontFamily: _family, fontPackage: _package);
   static const twitch =
       IconData(61928, fontFamily: _family, fontPackage: _package);
-  static const twitter_square =
-      IconData(61569, fontFamily: _family, fontPackage: _package);
   static const twitter =
       IconData(61593, fontFamily: _family, fontPackage: _package);
   static const typo3 =
@@ -826,14 +850,10 @@ class FontAwesome5Brands {
       IconData(62472, fontFamily: _family, fontPackage: _package);
   static const viacoin =
       IconData(62007, fontFamily: _family, fontPackage: _package);
-  static const viadeo_square =
-      IconData(62122, fontFamily: _family, fontPackage: _package);
   static const viadeo =
       IconData(62121, fontFamily: _family, fontPackage: _package);
   static const viber =
       IconData(62473, fontFamily: _family, fontPackage: _package);
-  static const vimeo_square =
-      IconData(61844, fontFamily: _family, fontPackage: _package);
   static const vimeo_v =
       IconData(62077, fontFamily: _family, fontPackage: _package);
   static const vimeo =
@@ -855,8 +875,6 @@ class FontAwesome5Brands {
       IconData(61834, fontFamily: _family, fontPackage: _package);
   static const weixin =
       IconData(61911, fontFamily: _family, fontPackage: _package);
-  static const whatsapp_square =
-      IconData(62476, fontFamily: _family, fontPackage: _package);
   static const whatsapp =
       IconData(62002, fontFamily: _family, fontPackage: _package);
   static const whmcs =
@@ -865,6 +883,8 @@ class FontAwesome5Brands {
       IconData(62054, fontFamily: _family, fontPackage: _package);
   static const windows =
       IconData(61818, fontFamily: _family, fontPackage: _package);
+  static const wirsindhandwerk =
+      IconData(58064, fontFamily: _family, fontPackage: _package);
   static const wix =
       IconData(62927, fontFamily: _family, fontPackage: _package);
   static const wizards_of_the_coast =
@@ -887,8 +907,6 @@ class FontAwesome5Brands {
       IconData(62436, fontFamily: _family, fontPackage: _package);
   static const xbox =
       IconData(62482, fontFamily: _family, fontPackage: _package);
-  static const xing_square =
-      IconData(61801, fontFamily: _family, fontPackage: _package);
   static const xing =
       IconData(61800, fontFamily: _family, fontPackage: _package);
   static const y_combinator =
@@ -907,8 +925,6 @@ class FontAwesome5Brands {
       IconData(61929, fontFamily: _family, fontPackage: _package);
   static const yoast =
       IconData(62129, fontFamily: _family, fontPackage: _package);
-  static const youtube_square =
-      IconData(62513, fontFamily: _family, fontPackage: _package);
   static const youtube =
       IconData(61799, fontFamily: _family, fontPackage: _package);
   static const zhihu =

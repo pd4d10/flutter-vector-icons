@@ -3,6 +3,8 @@ import 'package:flutter/widgets.dart';
 class MaterialIcons {
   static const _family = 'MaterialIcons';
   static const _package = 'flutter_vector_icons';
+  static const icon_123 =
+      IconData(60301, fontFamily: _family, fontPackage: _package);
   static const icon_360 =
       IconData(58743, fontFamily: _family, fontPackage: _package);
   static const icon_10k =
@@ -23,6 +25,8 @@ class MaterialIcons {
       IconData(59736, fontFamily: _family, fontPackage: _package);
   static const icon_17mp =
       IconData(59737, fontFamily: _family, fontPackage: _package);
+  static const icon_18_up_rating =
+      IconData(63741, fontFamily: _family, fontPackage: _package);
   static const icon_18mp =
       IconData(59738, fontFamily: _family, fontPackage: _package);
   static const icon_19mp =
@@ -31,6 +35,8 @@ class MaterialIcons {
       IconData(59740, fontFamily: _family, fontPackage: _package);
   static const icon_1k_plus =
       IconData(59741, fontFamily: _family, fontPackage: _package);
+  static const icon_1x_mobiledata =
+      IconData(61389, fontFamily: _family, fontPackage: _package);
   static const icon_20mp =
       IconData(59742, fontFamily: _family, fontPackage: _package);
   static const icon_21mp =
@@ -47,14 +53,26 @@ class MaterialIcons {
       IconData(59748, fontFamily: _family, fontPackage: _package);
   static const icon_2mp =
       IconData(59749, fontFamily: _family, fontPackage: _package);
+  static const icon_30fps =
+      IconData(61390, fontFamily: _family, fontPackage: _package);
+  static const icon_30fps_select =
+      IconData(61391, fontFamily: _family, fontPackage: _package);
   static const icon_3d_rotation =
       IconData(59469, fontFamily: _family, fontPackage: _package);
+  static const icon_3g_mobiledata =
+      IconData(61392, fontFamily: _family, fontPackage: _package);
   static const icon_3k =
       IconData(59750, fontFamily: _family, fontPackage: _package);
   static const icon_3k_plus =
       IconData(59751, fontFamily: _family, fontPackage: _package);
   static const icon_3mp =
       IconData(59752, fontFamily: _family, fontPackage: _package);
+  static const icon_3p =
+      IconData(61393, fontFamily: _family, fontPackage: _package);
+  static const icon_4g_mobiledata =
+      IconData(61394, fontFamily: _family, fontPackage: _package);
+  static const icon_4g_plus_mobiledata =
+      IconData(61395, fontFamily: _family, fontPackage: _package);
   static const icon_4k =
       IconData(57458, fontFamily: _family, fontPackage: _package);
   static const icon_4k_plus =
@@ -69,6 +87,10 @@ class MaterialIcons {
       IconData(59756, fontFamily: _family, fontPackage: _package);
   static const icon_5mp =
       IconData(59757, fontFamily: _family, fontPackage: _package);
+  static const icon_60fps =
+      IconData(61396, fontFamily: _family, fontPackage: _package);
+  static const icon_60fps_select =
+      IconData(61397, fontFamily: _family, fontPackage: _package);
   static const icon_6_ft_apart =
       IconData(61982, fontFamily: _family, fontPackage: _package);
   static const icon_6k =
@@ -95,6 +117,8 @@ class MaterialIcons {
       IconData(59768, fontFamily: _family, fontPackage: _package);
   static const icon_9mp =
       IconData(59769, fontFamily: _family, fontPackage: _package);
+  static const abc =
+      IconData(60308, fontFamily: _family, fontPackage: _package);
   static const ac_unit =
       IconData(60219, fontFamily: _family, fontPackage: _package);
   static const access_alarm =
@@ -103,6 +127,8 @@ class MaterialIcons {
       IconData(57745, fontFamily: _family, fontPackage: _package);
   static const access_time =
       IconData(57746, fontFamily: _family, fontPackage: _package);
+  static const access_time_filled =
+      IconData(61398, fontFamily: _family, fontPackage: _package);
   static const accessibility =
       IconData(59470, fontFamily: _family, fontPackage: _package);
   static const accessibility_new =
@@ -139,6 +165,8 @@ class MaterialIcons {
       IconData(59177, fontFamily: _family, fontPackage: _package);
   static const add_call =
       IconData(57576, fontFamily: _family, fontPackage: _package);
+  static const add_card =
+      IconData(60294, fontFamily: _family, fontPackage: _package);
   static const add_chart =
       IconData(59771, fontFamily: _family, fontPackage: _package);
   static const add_circle =
@@ -147,6 +175,10 @@ class MaterialIcons {
       IconData(57672, fontFamily: _family, fontPackage: _package);
   static const add_comment =
       IconData(57958, fontFamily: _family, fontPackage: _package);
+  static const add_home =
+      IconData(63723, fontFamily: _family, fontPackage: _package);
+  static const add_home_work =
+      IconData(63725, fontFamily: _family, fontPackage: _package);
   static const add_ic_call =
       IconData(59772, fontFamily: _family, fontPackage: _package);
   static const add_link =
@@ -159,6 +191,8 @@ class MaterialIcons {
       IconData(59773, fontFamily: _family, fontPackage: _package);
   static const add_photo_alternate =
       IconData(58430, fontFamily: _family, fontPackage: _package);
+  static const add_reaction =
+      IconData(57811, fontFamily: _family, fontPackage: _package);
   static const add_road =
       IconData(61243, fontFamily: _family, fontPackage: _package);
   static const add_shopping_cart =
@@ -175,12 +209,20 @@ class MaterialIcons {
       IconData(57436, fontFamily: _family, fontPackage: _package);
   static const addchart =
       IconData(61244, fontFamily: _family, fontPackage: _package);
+  static const adf_scanner =
+      IconData(60122, fontFamily: _family, fontPackage: _package);
   static const adjust =
       IconData(58270, fontFamily: _family, fontPackage: _package);
   static const admin_panel_settings =
       IconData(61245, fontFamily: _family, fontPackage: _package);
+  static const adobe =
+      IconData(60054, fontFamily: _family, fontPackage: _package);
+  static const ads_click =
+      IconData(59234, fontFamily: _family, fontPackage: _package);
   static const agriculture =
       IconData(60025, fontFamily: _family, fontPackage: _package);
+  static const air =
+      IconData(61400, fontFamily: _family, fontPackage: _package);
   static const airline_seat_flat =
       IconData(58928, fontFamily: _family, fontPackage: _package);
   static const airline_seat_flat_angled =
@@ -197,6 +239,12 @@ class MaterialIcons {
       IconData(58934, fontFamily: _family, fontPackage: _package);
   static const airline_seat_recline_normal =
       IconData(58935, fontFamily: _family, fontPackage: _package);
+  static const airline_stops =
+      IconData(59344, fontFamily: _family, fontPackage: _package);
+  static const airlines =
+      IconData(59338, fontFamily: _family, fontPackage: _package);
+  static const airplane_ticket =
+      IconData(61401, fontFamily: _family, fontPackage: _package);
   static const airplanemode_active =
       IconData(57749, fontFamily: _family, fontPackage: _package);
   static const airplanemode_inactive =
@@ -253,6 +301,8 @@ class MaterialIcons {
       IconData(59164, fontFamily: _family, fontPackage: _package);
   static const announcement =
       IconData(59482, fontFamily: _family, fontPackage: _package);
+  static const aod =
+      IconData(61402, fontFamily: _family, fontPackage: _package);
   static const apartment =
       IconData(59968, fontFamily: _family, fontPackage: _package);
   static const api =
@@ -263,20 +313,34 @@ class MaterialIcons {
       IconData(61248, fontFamily: _family, fontPackage: _package);
   static const app_settings_alt =
       IconData(61249, fontFamily: _family, fontPackage: _package);
+  static const app_shortcut =
+      IconData(60132, fontFamily: _family, fontPackage: _package);
+  static const apple =
+      IconData(60032, fontFamily: _family, fontPackage: _package);
   static const approval =
       IconData(59778, fontFamily: _family, fontPackage: _package);
   static const apps =
       IconData(58819, fontFamily: _family, fontPackage: _package);
+  static const apps_outage =
+      IconData(59340, fontFamily: _family, fontPackage: _package);
   static const architecture =
       IconData(59963, fontFamily: _family, fontPackage: _package);
   static const archive =
       IconData(57673, fontFamily: _family, fontPackage: _package);
+  static const area_chart =
+      IconData(59248, fontFamily: _family, fontPackage: _package);
   static const arrow_back =
       IconData(58820, fontFamily: _family, fontPackage: _package);
   static const arrow_back_ios =
       IconData(58848, fontFamily: _family, fontPackage: _package);
+  static const arrow_back_ios_new =
+      IconData(58090, fontFamily: _family, fontPackage: _package);
   static const arrow_circle_down =
       IconData(61825, fontFamily: _family, fontPackage: _package);
+  static const arrow_circle_left =
+      IconData(60071, fontFamily: _family, fontPackage: _package);
+  static const arrow_circle_right =
+      IconData(60074, fontFamily: _family, fontPackage: _package);
   static const arrow_circle_up =
       IconData(61826, fontFamily: _family, fontPackage: _package);
   static const arrow_downward =
@@ -293,6 +357,8 @@ class MaterialIcons {
       IconData(58849, fontFamily: _family, fontPackage: _package);
   static const arrow_left =
       IconData(58846, fontFamily: _family, fontPackage: _package);
+  static const arrow_outward =
+      IconData(63694, fontFamily: _family, fontPackage: _package);
   static const arrow_right =
       IconData(58847, fontFamily: _family, fontPackage: _package);
   static const arrow_right_alt =
@@ -309,6 +375,8 @@ class MaterialIcons {
       IconData(59484, fontFamily: _family, fontPackage: _package);
   static const assignment =
       IconData(59485, fontFamily: _family, fontPackage: _package);
+  static const assignment_add =
+      IconData(63560, fontFamily: _family, fontPackage: _package);
   static const assignment_ind =
       IconData(59486, fontFamily: _family, fontPackage: _package);
   static const assignment_late =
@@ -319,6 +387,8 @@ class MaterialIcons {
       IconData(59489, fontFamily: _family, fontPackage: _package);
   static const assignment_turned_in =
       IconData(59490, fontFamily: _family, fontPackage: _package);
+  static const assist_walker =
+      IconData(63701, fontFamily: _family, fontPackage: _package);
   static const assistant =
       IconData(58271, fontFamily: _family, fontPackage: _package);
   static const assistant_direction =
@@ -327,6 +397,8 @@ class MaterialIcons {
       IconData(59785, fontFamily: _family, fontPackage: _package);
   static const assistant_photo =
       IconData(58272, fontFamily: _family, fontPackage: _package);
+  static const assured_workload =
+      IconData(60271, fontFamily: _family, fontPackage: _package);
   static const atm =
       IconData(58739, fontFamily: _family, fontPackage: _package);
   static const attach_email =
@@ -339,6 +411,10 @@ class MaterialIcons {
       IconData(58044, fontFamily: _family, fontPackage: _package);
   static const attractions =
       IconData(59986, fontFamily: _family, fontPackage: _package);
+  static const attribution =
+      IconData(61403, fontFamily: _family, fontPackage: _package);
+  static const audio_file =
+      IconData(60290, fontFamily: _family, fontPackage: _package);
   static const audiotrack =
       IconData(58273, fontFamily: _family, fontPackage: _package);
   static const auto_awesome =
@@ -355,14 +431,22 @@ class MaterialIcons {
       IconData(58980, fontFamily: _family, fontPackage: _package);
   static const auto_fix_off =
       IconData(58981, fontFamily: _family, fontPackage: _package);
+  static const auto_graph =
+      IconData(58619, fontFamily: _family, fontPackage: _package);
+  static const auto_mode =
+      IconData(60448, fontFamily: _family, fontPackage: _package);
   static const auto_stories =
       IconData(58982, fontFamily: _family, fontPackage: _package);
+  static const autofps_select =
+      IconData(61404, fontFamily: _family, fontPackage: _package);
   static const autorenew =
       IconData(59491, fontFamily: _family, fontPackage: _package);
   static const av_timer =
       IconData(57371, fontFamily: _family, fontPackage: _package);
   static const baby_changing_station =
       IconData(61851, fontFamily: _family, fontPackage: _package);
+  static const back_hand =
+      IconData(59236, fontFamily: _family, fontPackage: _package);
   static const backpack =
       IconData(61852, fontFamily: _family, fontPackage: _package);
   static const backspace =
@@ -375,28 +459,62 @@ class MaterialIcons {
       IconData(60007, fontFamily: _family, fontPackage: _package);
   static const bakery_dining =
       IconData(59987, fontFamily: _family, fontPackage: _package);
+  static const balance =
+      IconData(60150, fontFamily: _family, fontPackage: _package);
+  static const balcony =
+      IconData(58767, fontFamily: _family, fontPackage: _package);
   static const ballot =
       IconData(57714, fontFamily: _family, fontPackage: _package);
   static const bar_chart =
       IconData(57963, fontFamily: _family, fontPackage: _package);
+  static const barcode_reader =
+      IconData(63580, fontFamily: _family, fontPackage: _package);
   static const batch_prediction =
       IconData(61685, fontFamily: _family, fontPackage: _package);
+  static const bathroom =
+      IconData(61405, fontFamily: _family, fontPackage: _package);
   static const bathtub =
       IconData(59969, fontFamily: _family, fontPackage: _package);
+  static const battery_0_bar =
+      IconData(60380, fontFamily: _family, fontPackage: _package);
+  static const battery_1_bar =
+      IconData(60377, fontFamily: _family, fontPackage: _package);
+  static const battery_2_bar =
+      IconData(60384, fontFamily: _family, fontPackage: _package);
+  static const battery_3_bar =
+      IconData(60381, fontFamily: _family, fontPackage: _package);
+  static const battery_4_bar =
+      IconData(60386, fontFamily: _family, fontPackage: _package);
+  static const battery_5_bar =
+      IconData(60372, fontFamily: _family, fontPackage: _package);
+  static const battery_6_bar =
+      IconData(60370, fontFamily: _family, fontPackage: _package);
   static const battery_alert =
       IconData(57756, fontFamily: _family, fontPackage: _package);
   static const battery_charging_full =
       IconData(57763, fontFamily: _family, fontPackage: _package);
   static const battery_full =
       IconData(57764, fontFamily: _family, fontPackage: _package);
+  static const battery_saver =
+      IconData(61406, fontFamily: _family, fontPackage: _package);
   static const battery_std =
       IconData(57765, fontFamily: _family, fontPackage: _package);
   static const battery_unknown =
       IconData(57766, fontFamily: _family, fontPackage: _package);
   static const beach_access =
       IconData(60222, fontFamily: _family, fontPackage: _package);
+  static const bed =
+      IconData(61407, fontFamily: _family, fontPackage: _package);
+  static const bedroom_baby =
+      IconData(61408, fontFamily: _family, fontPackage: _package);
+  static const bedroom_child =
+      IconData(61409, fontFamily: _family, fontPackage: _package);
+  static const bedroom_parent =
+      IconData(61410, fontFamily: _family, fontPackage: _package);
   static const bedtime =
       IconData(61252, fontFamily: _family, fontPackage: _package);
+  static const bedtime_off =
+      IconData(60278, fontFamily: _family, fontPackage: _package);
   static const beenhere =
       IconData(58669, fontFamily: _family, fontPackage: _package);
   static const bento =
@@ -405,10 +523,20 @@ class MaterialIcons {
       IconData(61253, fontFamily: _family, fontPackage: _package);
   static const biotech =
       IconData(59962, fontFamily: _family, fontPackage: _package);
+  static const blender =
+      IconData(61411, fontFamily: _family, fontPackage: _package);
+  static const blind =
+      IconData(63702, fontFamily: _family, fontPackage: _package);
+  static const blinds =
+      IconData(57990, fontFamily: _family, fontPackage: _package);
+  static const blinds_closed =
+      IconData(60447, fontFamily: _family, fontPackage: _package);
   static const block =
       IconData(57675, fontFamily: _family, fontPackage: _package);
   static const block_flipped =
       IconData(61254, fontFamily: _family, fontPackage: _package);
+  static const bloodtype =
+      IconData(61412, fontFamily: _family, fontPackage: _package);
   static const bluetooth =
       IconData(57767, fontFamily: _family, fontPackage: _package);
   static const bluetooth_audio =
@@ -417,6 +545,8 @@ class MaterialIcons {
       IconData(57768, fontFamily: _family, fontPackage: _package);
   static const bluetooth_disabled =
       IconData(57769, fontFamily: _family, fontPackage: _package);
+  static const bluetooth_drive =
+      IconData(61413, fontFamily: _family, fontPackage: _package);
   static const bluetooth_searching =
       IconData(57770, fontFamily: _family, fontPackage: _package);
   static const blur_circular =
@@ -435,10 +565,16 @@ class MaterialIcons {
       IconData(61975, fontFamily: _family, fontPackage: _package);
   static const bookmark =
       IconData(59494, fontFamily: _family, fontPackage: _package);
+  static const bookmark_add =
+      IconData(58776, fontFamily: _family, fontPackage: _package);
+  static const bookmark_added =
+      IconData(58777, fontFamily: _family, fontPackage: _package);
   static const bookmark_border =
       IconData(59495, fontFamily: _family, fontPackage: _package);
   static const bookmark_outline =
       IconData(59495, fontFamily: _family, fontPackage: _package);
+  static const bookmark_remove =
+      IconData(58778, fontFamily: _family, fontPackage: _package);
   static const bookmarks =
       IconData(59787, fontFamily: _family, fontPackage: _package);
   static const border_all =
@@ -465,6 +601,8 @@ class MaterialIcons {
       IconData(57906, fontFamily: _family, fontPackage: _package);
   static const border_vertical =
       IconData(57907, fontFamily: _family, fontPackage: _package);
+  static const boy =
+      IconData(60263, fontFamily: _family, fontPackage: _package);
   static const branding_watermark =
       IconData(57451, fontFamily: _family, fontPackage: _package);
   static const breakfast_dining =
@@ -491,10 +629,18 @@ class MaterialIcons {
       IconData(57773, fontFamily: _family, fontPackage: _package);
   static const brightness_medium =
       IconData(57774, fontFamily: _family, fontPackage: _package);
+  static const broadcast_on_home =
+      IconData(63736, fontFamily: _family, fontPackage: _package);
+  static const broadcast_on_personal =
+      IconData(63737, fontFamily: _family, fontPackage: _package);
   static const broken_image =
       IconData(58285, fontFamily: _family, fontPackage: _package);
+  static const browse_gallery =
+      IconData(60369, fontFamily: _family, fontPackage: _package);
   static const browser_not_supported =
       IconData(61255, fontFamily: _family, fontPackage: _package);
+  static const browser_updated =
+      IconData(59343, fontFamily: _family, fontPackage: _package);
   static const brunch_dining =
       IconData(60019, fontFamily: _family, fontPackage: _package);
   static const brush =
@@ -507,6 +653,8 @@ class MaterialIcons {
       IconData(59497, fontFamily: _family, fontPackage: _package);
   static const build_circle =
       IconData(61256, fontFamily: _family, fontPackage: _package);
+  static const bungalow =
+      IconData(58769, fontFamily: _family, fontPackage: _package);
   static const burst_mode =
       IconData(58428, fontFamily: _family, fontPackage: _package);
   static const bus_alert =
@@ -515,16 +663,26 @@ class MaterialIcons {
       IconData(57519, fontFamily: _family, fontPackage: _package);
   static const business_center =
       IconData(60223, fontFamily: _family, fontPackage: _package);
+  static const cabin =
+      IconData(58761, fontFamily: _family, fontPackage: _package);
+  static const cable =
+      IconData(61414, fontFamily: _family, fontPackage: _package);
   static const cached =
       IconData(59498, fontFamily: _family, fontPackage: _package);
   static const cake =
       IconData(59369, fontFamily: _family, fontPackage: _package);
   static const calculate =
       IconData(59999, fontFamily: _family, fontPackage: _package);
+  static const calendar_month =
+      IconData(60364, fontFamily: _family, fontPackage: _package);
   static const calendar_today =
       IconData(59701, fontFamily: _family, fontPackage: _package);
   static const calendar_view_day =
       IconData(59702, fontFamily: _family, fontPackage: _package);
+  static const calendar_view_month =
+      IconData(61415, fontFamily: _family, fontPackage: _package);
+  static const calendar_view_week =
+      IconData(61416, fontFamily: _family, fontPackage: _package);
   static const call =
       IconData(57520, fontFamily: _family, fontPackage: _package);
   static const call_end =
@@ -551,10 +709,16 @@ class MaterialIcons {
       IconData(59644, fontFamily: _family, fontPackage: _package);
   static const camera_front =
       IconData(58289, fontFamily: _family, fontPackage: _package);
+  static const camera_indoor =
+      IconData(61417, fontFamily: _family, fontPackage: _package);
+  static const camera_outdoor =
+      IconData(61418, fontFamily: _family, fontPackage: _package);
   static const camera_rear =
       IconData(58290, fontFamily: _family, fontPackage: _package);
   static const camera_roll =
       IconData(58291, fontFamily: _family, fontPackage: _package);
+  static const cameraswitch =
+      IconData(61419, fontFamily: _family, fontPackage: _package);
   static const campaign =
       IconData(61257, fontFamily: _family, fontPackage: _package);
   static const cancel =
@@ -563,6 +727,10 @@ class MaterialIcons {
       IconData(57577, fontFamily: _family, fontPackage: _package);
   static const cancel_schedule_send =
       IconData(59961, fontFamily: _family, fontPackage: _package);
+  static const candlestick_chart =
+      IconData(60116, fontFamily: _family, fontPackage: _package);
+  static const car_crash =
+      IconData(60402, fontFamily: _family, fontPackage: _package);
   static const car_rental =
       IconData(59989, fontFamily: _family, fontPackage: _package);
   static const car_repair =
@@ -585,16 +753,30 @@ class MaterialIcons {
       IconData(58120, fontFamily: _family, fontPackage: _package);
   static const cast_for_education =
       IconData(61420, fontFamily: _family, fontPackage: _package);
+  static const castle =
+      IconData(60081, fontFamily: _family, fontPackage: _package);
+  static const catching_pokemon =
+      IconData(58632, fontFamily: _family, fontPackage: _package);
   static const category =
       IconData(58740, fontFamily: _family, fontPackage: _package);
   static const celebration =
       IconData(60005, fontFamily: _family, fontPackage: _package);
+  static const cell_tower =
+      IconData(60346, fontFamily: _family, fontPackage: _package);
   static const cell_wifi =
       IconData(57580, fontFamily: _family, fontPackage: _package);
   static const center_focus_strong =
       IconData(58292, fontFamily: _family, fontPackage: _package);
   static const center_focus_weak =
       IconData(58293, fontFamily: _family, fontPackage: _package);
+  static const chair =
+      IconData(61421, fontFamily: _family, fontPackage: _package);
+  static const chair_alt =
+      IconData(61422, fontFamily: _family, fontPackage: _package);
+  static const chalet =
+      IconData(58757, fontFamily: _family, fontPackage: _package);
+  static const change_circle =
+      IconData(58087, fontFamily: _family, fontPackage: _package);
   static const change_history =
       IconData(59499, fontFamily: _family, fontPackage: _package);
   static const charging_station =
@@ -615,6 +797,10 @@ class MaterialIcons {
       IconData(59500, fontFamily: _family, fontPackage: _package);
   static const check_circle_outline =
       IconData(59693, fontFamily: _family, fontPackage: _package);
+  static const checklist =
+      IconData(59057, fontFamily: _family, fontPackage: _package);
+  static const checklist_rtl =
+      IconData(59059, fontFamily: _family, fontPackage: _package);
   static const checkroom =
       IconData(61854, fontFamily: _family, fontPackage: _package);
   static const chevron_left =
@@ -627,6 +813,8 @@ class MaterialIcons {
       IconData(60226, fontFamily: _family, fontPackage: _package);
   static const chrome_reader_mode =
       IconData(59501, fontFamily: _family, fontPackage: _package);
+  static const church =
+      IconData(60078, fontFamily: _family, fontPackage: _package);
   static const circle =
       IconData(61258, fontFamily: _family, fontPackage: _package);
   static const circle_notifications =
@@ -663,10 +851,24 @@ class MaterialIcons {
       IconData(58049, fontFamily: _family, fontPackage: _package);
   static const cloud_queue =
       IconData(58050, fontFamily: _family, fontPackage: _package);
+  static const cloud_sync =
+      IconData(60250, fontFamily: _family, fontPackage: _package);
   static const cloud_upload =
       IconData(58051, fontFamily: _family, fontPackage: _package);
+  static const cloudy_snowing =
+      IconData(59408, fontFamily: _family, fontPackage: _package);
+  static const co2 =
+      IconData(59312, fontFamily: _family, fontPackage: _package);
+  static const co_present =
+      IconData(60144, fontFamily: _family, fontPackage: _package);
   static const code =
       IconData(59503, fontFamily: _family, fontPackage: _package);
+  static const code_off =
+      IconData(58611, fontFamily: _family, fontPackage: _package);
+  static const coffee =
+      IconData(61423, fontFamily: _family, fontPackage: _package);
+  static const coffee_maker =
+      IconData(61424, fontFamily: _family, fontPackage: _package);
   static const collections =
       IconData(58294, fontFamily: _family, fontPackage: _package);
   static const collections_bookmark =
@@ -679,6 +881,10 @@ class MaterialIcons {
       IconData(57529, fontFamily: _family, fontPackage: _package);
   static const comment_bank =
       IconData(59982, fontFamily: _family, fontPackage: _package);
+  static const comments_disabled =
+      IconData(59298, fontFamily: _family, fontPackage: _package);
+  static const commit =
+      IconData(60149, fontFamily: _family, fontPackage: _package);
   static const commute =
       IconData(59712, fontFamily: _family, fontPackage: _package);
   static const compare =
@@ -687,6 +893,8 @@ class MaterialIcons {
       IconData(59669, fontFamily: _family, fontPackage: _package);
   static const compass_calibration =
       IconData(58748, fontFamily: _family, fontPackage: _package);
+  static const compost =
+      IconData(59233, fontFamily: _family, fontPackage: _package);
   static const compress =
       IconData(59725, fontFamily: _family, fontPackage: _package);
   static const computer =
@@ -699,8 +907,12 @@ class MaterialIcons {
       IconData(61987, fontFamily: _family, fontPackage: _package);
   static const connected_tv =
       IconData(59800, fontFamily: _family, fontPackage: _package);
+  static const connecting_airports =
+      IconData(59337, fontFamily: _family, fontPackage: _package);
   static const construction =
       IconData(59964, fontFamily: _family, fontPackage: _package);
+  static const contact_emergency =
+      IconData(63697, fontFamily: _family, fontPackage: _package);
   static const contact_mail =
       IconData(57552, fontFamily: _family, fontPackage: _package);
   static const contact_page =
@@ -719,18 +931,34 @@ class MaterialIcons {
       IconData(57678, fontFamily: _family, fontPackage: _package);
   static const content_paste =
       IconData(57679, fontFamily: _family, fontPackage: _package);
+  static const content_paste_go =
+      IconData(60046, fontFamily: _family, fontPackage: _package);
+  static const content_paste_off =
+      IconData(58616, fontFamily: _family, fontPackage: _package);
+  static const content_paste_search =
+      IconData(60059, fontFamily: _family, fontPackage: _package);
+  static const contrast =
+      IconData(60215, fontFamily: _family, fontPackage: _package);
   static const control_camera =
       IconData(57460, fontFamily: _family, fontPackage: _package);
   static const control_point =
       IconData(58298, fontFamily: _family, fontPackage: _package);
   static const control_point_duplicate =
       IconData(58299, fontFamily: _family, fontPackage: _package);
+  static const conveyor_belt =
+      IconData(63591, fontFamily: _family, fontPackage: _package);
+  static const cookie =
+      IconData(60076, fontFamily: _family, fontPackage: _package);
+  static const copy_all =
+      IconData(58092, fontFamily: _family, fontPackage: _package);
   static const copyright =
       IconData(59660, fontFamily: _family, fontPackage: _package);
   static const coronavirus =
       IconData(61985, fontFamily: _family, fontPackage: _package);
   static const corporate_fare =
       IconData(61904, fontFamily: _family, fontPackage: _package);
+  static const cottage =
+      IconData(58759, fontFamily: _family, fontPackage: _package);
   static const countertops =
       IconData(61943, fontFamily: _family, fontPackage: _package);
   static const create =
@@ -739,6 +967,14 @@ class MaterialIcons {
       IconData(58060, fontFamily: _family, fontPackage: _package);
   static const credit_card =
       IconData(59504, fontFamily: _family, fontPackage: _package);
+  static const credit_card_off =
+      IconData(58612, fontFamily: _family, fontPackage: _package);
+  static const credit_score =
+      IconData(61425, fontFamily: _family, fontPackage: _package);
+  static const crib =
+      IconData(58760, fontFamily: _family, fontPackage: _package);
+  static const crisis_alert =
+      IconData(60393, fontFamily: _family, fontPackage: _package);
   static const crop =
       IconData(58302, fontFamily: _family, fontPackage: _package);
   static const crop_16_9 =
@@ -763,16 +999,64 @@ class MaterialIcons {
       IconData(58423, fontFamily: _family, fontPackage: _package);
   static const crop_square =
       IconData(58310, fontFamily: _family, fontPackage: _package);
+  static const cruelty_free =
+      IconData(59289, fontFamily: _family, fontPackage: _package);
+  static const css =
+      IconData(60307, fontFamily: _family, fontPackage: _package);
+  static const currency_bitcoin =
+      IconData(60357, fontFamily: _family, fontPackage: _package);
+  static const currency_exchange =
+      IconData(60272, fontFamily: _family, fontPackage: _package);
+  static const currency_franc =
+      IconData(60154, fontFamily: _family, fontPackage: _package);
+  static const currency_lira =
+      IconData(60143, fontFamily: _family, fontPackage: _package);
+  static const currency_pound =
+      IconData(60145, fontFamily: _family, fontPackage: _package);
+  static const currency_ruble =
+      IconData(60140, fontFamily: _family, fontPackage: _package);
+  static const currency_rupee =
+      IconData(60151, fontFamily: _family, fontPackage: _package);
+  static const currency_yen =
+      IconData(60155, fontFamily: _family, fontPackage: _package);
+  static const currency_yuan =
+      IconData(60153, fontFamily: _family, fontPackage: _package);
+  static const curtains =
+      IconData(60446, fontFamily: _family, fontPackage: _package);
+  static const curtains_closed =
+      IconData(60445, fontFamily: _family, fontPackage: _package);
+  static const cyclone =
+      IconData(60373, fontFamily: _family, fontPackage: _package);
   static const dangerous =
       IconData(59802, fontFamily: _family, fontPackage: _package);
+  static const dark_mode =
+      IconData(58652, fontFamily: _family, fontPackage: _package);
   static const dashboard =
       IconData(59505, fontFamily: _family, fontPackage: _package);
   static const dashboard_customize =
       IconData(59803, fontFamily: _family, fontPackage: _package);
+  static const data_array =
+      IconData(60113, fontFamily: _family, fontPackage: _package);
+  static const data_exploration =
+      IconData(59247, fontFamily: _family, fontPackage: _package);
+  static const data_object =
+      IconData(60115, fontFamily: _family, fontPackage: _package);
+  static const data_saver_off =
+      IconData(61426, fontFamily: _family, fontPackage: _package);
+  static const data_saver_on =
+      IconData(61427, fontFamily: _family, fontPackage: _package);
+  static const data_thresholding =
+      IconData(60319, fontFamily: _family, fontPackage: _package);
   static const data_usage =
       IconData(57775, fontFamily: _family, fontPackage: _package);
+  static const dataset =
+      IconData(63726, fontFamily: _family, fontPackage: _package);
+  static const dataset_linked =
+      IconData(63727, fontFamily: _family, fontPackage: _package);
   static const date_range =
       IconData(59670, fontFamily: _family, fontPackage: _package);
+  static const deblur =
+      IconData(60279, fontFamily: _family, fontPackage: _package);
   static const deck =
       IconData(59970, fontFamily: _family, fontPackage: _package);
   static const dehaze =
@@ -787,12 +1071,22 @@ class MaterialIcons {
       IconData(57708, fontFamily: _family, fontPackage: _package);
   static const delivery_dining =
       IconData(60018, fontFamily: _family, fontPackage: _package);
+  static const density_large =
+      IconData(60329, fontFamily: _family, fontPackage: _package);
+  static const density_medium =
+      IconData(60318, fontFamily: _family, fontPackage: _package);
+  static const density_small =
+      IconData(60328, fontFamily: _family, fontPackage: _package);
   static const departure_board =
       IconData(58742, fontFamily: _family, fontPackage: _package);
   static const description =
       IconData(59507, fontFamily: _family, fontPackage: _package);
+  static const deselect =
+      IconData(60342, fontFamily: _family, fontPackage: _package);
   static const design_services =
       IconData(61706, fontFamily: _family, fontPackage: _package);
+  static const desk =
+      IconData(63732, fontFamily: _family, fontPackage: _package);
   static const desktop_access_disabled =
       IconData(59805, fontFamily: _family, fontPackage: _package);
   static const desktop_mac =
@@ -803,6 +1097,8 @@ class MaterialIcons {
       IconData(58312, fontFamily: _family, fontPackage: _package);
   static const developer_board =
       IconData(58125, fontFamily: _family, fontPackage: _package);
+  static const developer_board_off =
+      IconData(58623, fontFamily: _family, fontPackage: _package);
   static const developer_mode =
       IconData(57776, fontFamily: _family, fontPackage: _package);
   static const device_hub =
@@ -813,12 +1109,22 @@ class MaterialIcons {
       IconData(58169, fontFamily: _family, fontPackage: _package);
   static const devices =
       IconData(57777, fontFamily: _family, fontPackage: _package);
+  static const devices_fold =
+      IconData(60382, fontFamily: _family, fontPackage: _package);
   static const devices_other =
       IconData(58167, fontFamily: _family, fontPackage: _package);
+  static const dew_point =
+      IconData(63609, fontFamily: _family, fontPackage: _package);
   static const dialer_sip =
       IconData(57531, fontFamily: _family, fontPackage: _package);
   static const dialpad =
       IconData(57532, fontFamily: _family, fontPackage: _package);
+  static const diamond =
+      IconData(60117, fontFamily: _family, fontPackage: _package);
+  static const difference =
+      IconData(60285, fontFamily: _family, fontPackage: _package);
+  static const dining =
+      IconData(61428, fontFamily: _family, fontPackage: _package);
   static const dinner_dining =
       IconData(59991, fontFamily: _family, fontPackage: _package);
   static const directions =
@@ -827,36 +1133,70 @@ class MaterialIcons {
       IconData(58671, fontFamily: _family, fontPackage: _package);
   static const directions_boat =
       IconData(58674, fontFamily: _family, fontPackage: _package);
+  static const directions_boat_filled =
+      IconData(61429, fontFamily: _family, fontPackage: _package);
   static const directions_bus =
       IconData(58672, fontFamily: _family, fontPackage: _package);
+  static const directions_bus_filled =
+      IconData(61430, fontFamily: _family, fontPackage: _package);
   static const directions_car =
       IconData(58673, fontFamily: _family, fontPackage: _package);
+  static const directions_car_filled =
+      IconData(61431, fontFamily: _family, fontPackage: _package);
   static const directions_ferry =
       IconData(58674, fontFamily: _family, fontPackage: _package);
   static const directions_off =
       IconData(61711, fontFamily: _family, fontPackage: _package);
   static const directions_railway =
       IconData(58676, fontFamily: _family, fontPackage: _package);
+  static const directions_railway_filled =
+      IconData(61432, fontFamily: _family, fontPackage: _package);
   static const directions_run =
       IconData(58726, fontFamily: _family, fontPackage: _package);
   static const directions_subway =
       IconData(58675, fontFamily: _family, fontPackage: _package);
+  static const directions_subway_filled =
+      IconData(61433, fontFamily: _family, fontPackage: _package);
   static const directions_train =
       IconData(58676, fontFamily: _family, fontPackage: _package);
   static const directions_transit =
       IconData(58677, fontFamily: _family, fontPackage: _package);
+  static const directions_transit_filled =
+      IconData(61434, fontFamily: _family, fontPackage: _package);
   static const directions_walk =
       IconData(58678, fontFamily: _family, fontPackage: _package);
   static const dirty_lens =
       IconData(61259, fontFamily: _family, fontPackage: _package);
   static const disabled_by_default =
       IconData(62000, fontFamily: _family, fontPackage: _package);
+  static const disabled_visible =
+      IconData(59246, fontFamily: _family, fontPackage: _package);
   static const disc_full =
       IconData(58896, fontFamily: _family, fontPackage: _package);
+  static const discord =
+      IconData(60012, fontFamily: _family, fontPackage: _package);
+  static const discount =
+      IconData(60361, fontFamily: _family, fontPackage: _package);
+  static const display_settings =
+      IconData(60311, fontFamily: _family, fontPackage: _package);
+  static const diversity_1 =
+      IconData(63703, fontFamily: _family, fontPackage: _package);
+  static const diversity_2 =
+      IconData(63704, fontFamily: _family, fontPackage: _package);
+  static const diversity_3 =
+      IconData(63705, fontFamily: _family, fontPackage: _package);
   static const dnd_forwardslash =
       IconData(58897, fontFamily: _family, fontPackage: _package);
   static const dns =
       IconData(59509, fontFamily: _family, fontPackage: _package);
+  static const do_disturb =
+      IconData(61580, fontFamily: _family, fontPackage: _package);
+  static const do_disturb_alt =
+      IconData(61581, fontFamily: _family, fontPackage: _package);
+  static const do_disturb_off =
+      IconData(61582, fontFamily: _family, fontPackage: _package);
+  static const do_disturb_on =
+      IconData(61583, fontFamily: _family, fontPackage: _package);
   static const do_not_disturb =
       IconData(58898, fontFamily: _family, fontPackage: _package);
   static const do_not_disturb_alt =
@@ -865,14 +1205,20 @@ class MaterialIcons {
       IconData(58947, fontFamily: _family, fontPackage: _package);
   static const do_not_disturb_on =
       IconData(58948, fontFamily: _family, fontPackage: _package);
+  static const do_not_disturb_on_total_silence =
+      IconData(61435, fontFamily: _family, fontPackage: _package);
   static const do_not_step =
       IconData(61855, fontFamily: _family, fontPackage: _package);
   static const do_not_touch =
       IconData(61872, fontFamily: _family, fontPackage: _package);
   static const dock =
       IconData(58126, fontFamily: _family, fontPackage: _package);
+  static const document_scanner =
+      IconData(58874, fontFamily: _family, fontPackage: _package);
   static const domain =
       IconData(59374, fontFamily: _family, fontPackage: _package);
+  static const domain_add =
+      IconData(60258, fontFamily: _family, fontPackage: _package);
   static const domain_disabled =
       IconData(57583, fontFamily: _family, fontPackage: _package);
   static const domain_verification =
@@ -887,20 +1233,42 @@ class MaterialIcons {
       IconData(59671, fontFamily: _family, fontPackage: _package);
   static const donut_small =
       IconData(59672, fontFamily: _family, fontPackage: _package);
+  static const door_back =
+      IconData(61436, fontFamily: _family, fontPackage: _package);
+  static const door_front =
+      IconData(61437, fontFamily: _family, fontPackage: _package);
+  static const door_sliding =
+      IconData(61438, fontFamily: _family, fontPackage: _package);
+  static const doorbell =
+      IconData(61439, fontFamily: _family, fontPackage: _package);
   static const double_arrow =
       IconData(59984, fontFamily: _family, fontPackage: _package);
+  static const downhill_skiing =
+      IconData(58633, fontFamily: _family, fontPackage: _package);
+  static const download =
+      IconData(61584, fontFamily: _family, fontPackage: _package);
+  static const download_done =
+      IconData(61585, fontFamily: _family, fontPackage: _package);
+  static const download_for_offline =
+      IconData(61440, fontFamily: _family, fontPackage: _package);
+  static const downloading =
+      IconData(61441, fontFamily: _family, fontPackage: _package);
   static const drafts =
       IconData(57681, fontFamily: _family, fontPackage: _package);
   static const drag_handle =
       IconData(57949, fontFamily: _family, fontPackage: _package);
   static const drag_indicator =
       IconData(59717, fontFamily: _family, fontPackage: _package);
+  static const draw =
+      IconData(59206, fontFamily: _family, fontPackage: _package);
   static const drive_eta =
       IconData(58899, fontFamily: _family, fontPackage: _package);
   static const drive_file_move =
       IconData(58997, fontFamily: _family, fontPackage: _package);
   static const drive_file_move_outline =
       IconData(59809, fontFamily: _family, fontPackage: _package);
+  static const drive_file_move_rtl =
+      IconData(59245, fontFamily: _family, fontPackage: _package);
   static const drive_file_rename_outline =
       IconData(59810, fontFamily: _family, fontPackage: _package);
   static const drive_folder_upload =
@@ -917,28 +1285,60 @@ class MaterialIcons {
       IconData(59924, fontFamily: _family, fontPackage: _package);
   static const dynamic_form =
       IconData(61887, fontFamily: _family, fontPackage: _package);
+  static const e_mobiledata =
+      IconData(61442, fontFamily: _family, fontPackage: _package);
+  static const earbuds =
+      IconData(61443, fontFamily: _family, fontPackage: _package);
+  static const earbuds_battery =
+      IconData(61444, fontFamily: _family, fontPackage: _package);
   static const east =
       IconData(61919, fontFamily: _family, fontPackage: _package);
   static const eco =
       IconData(59957, fontFamily: _family, fontPackage: _package);
+  static const edgesensor_high =
+      IconData(61445, fontFamily: _family, fontPackage: _package);
+  static const edgesensor_low =
+      IconData(61446, fontFamily: _family, fontPackage: _package);
   static const edit =
       IconData(58313, fontFamily: _family, fontPackage: _package);
   static const edit_attributes =
       IconData(58744, fontFamily: _family, fontPackage: _package);
+  static const edit_calendar =
+      IconData(59202, fontFamily: _family, fontPackage: _package);
+  static const edit_document =
+      IconData(63628, fontFamily: _family, fontPackage: _package);
   static const edit_location =
       IconData(58728, fontFamily: _family, fontPackage: _package);
+  static const edit_location_alt =
+      IconData(57797, fontFamily: _family, fontPackage: _package);
+  static const edit_note =
+      IconData(59205, fontFamily: _family, fontPackage: _package);
+  static const edit_notifications =
+      IconData(58661, fontFamily: _family, fontPackage: _package);
   static const edit_off =
       IconData(59728, fontFamily: _family, fontPackage: _package);
   static const edit_road =
       IconData(61261, fontFamily: _family, fontPackage: _package);
+  static const edit_square =
+      IconData(63629, fontFamily: _family, fontPackage: _package);
+  static const egg =
+      IconData(60108, fontFamily: _family, fontPackage: _package);
+  static const egg_alt =
+      IconData(60104, fontFamily: _family, fontPackage: _package);
   static const eject =
       IconData(59643, fontFamily: _family, fontPackage: _package);
   static const elderly =
       IconData(61978, fontFamily: _family, fontPackage: _package);
+  static const elderly_woman =
+      IconData(60265, fontFamily: _family, fontPackage: _package);
   static const electric_bike =
       IconData(60187, fontFamily: _family, fontPackage: _package);
+  static const electric_bolt =
+      IconData(60444, fontFamily: _family, fontPackage: _package);
   static const electric_car =
       IconData(60188, fontFamily: _family, fontPackage: _package);
+  static const electric_meter =
+      IconData(60443, fontFamily: _family, fontPackage: _package);
   static const electric_moped =
       IconData(60189, fontFamily: _family, fontPackage: _package);
   static const electric_rickshaw =
@@ -951,6 +1351,12 @@ class MaterialIcons {
       IconData(61856, fontFamily: _family, fontPackage: _package);
   static const email =
       IconData(57534, fontFamily: _family, fontPackage: _package);
+  static const emergency =
+      IconData(57835, fontFamily: _family, fontPackage: _package);
+  static const emergency_recording =
+      IconData(60404, fontFamily: _family, fontPackage: _package);
+  static const emergency_share =
+      IconData(60406, fontFamily: _family, fontPackage: _package);
   static const emoji_emotions =
       IconData(59938, fontFamily: _family, fontPackage: _package);
   static const emoji_events =
@@ -969,6 +1375,8 @@ class MaterialIcons {
       IconData(59934, fontFamily: _family, fontPackage: _package);
   static const emoji_transportation =
       IconData(59935, fontFamily: _family, fontPackage: _package);
+  static const energy_savings_leaf =
+      IconData(60442, fontFamily: _family, fontPackage: _package);
   static const engineering =
       IconData(59965, fontFamily: _family, fontPackage: _package);
   static const enhance_photo_translate =
@@ -999,12 +1407,16 @@ class MaterialIcons {
       IconData(58901, fontFamily: _family, fontPackage: _package);
   static const event_note =
       IconData(58902, fontFamily: _family, fontPackage: _package);
+  static const event_repeat =
+      IconData(60283, fontFamily: _family, fontPackage: _package);
   static const event_seat =
       IconData(59651, fontFamily: _family, fontPackage: _package);
   static const exit_to_app =
       IconData(59513, fontFamily: _family, fontPackage: _package);
   static const expand =
       IconData(59727, fontFamily: _family, fontPackage: _package);
+  static const expand_circle_down =
+      IconData(59341, fontFamily: _family, fontPackage: _package);
   static const expand_less =
       IconData(58830, fontFamily: _family, fontPackage: _package);
   static const expand_more =
@@ -1033,14 +1445,30 @@ class MaterialIcons {
       IconData(58319, fontFamily: _family, fontPackage: _package);
   static const extension =
       IconData(59515, fontFamily: _family, fontPackage: _package);
+  static const extension_off =
+      IconData(58613, fontFamily: _family, fontPackage: _package);
   static const face =
       IconData(59516, fontFamily: _family, fontPackage: _package);
+  static const face_2 =
+      IconData(63706, fontFamily: _family, fontPackage: _package);
+  static const face_3 =
+      IconData(63707, fontFamily: _family, fontPackage: _package);
+  static const face_4 =
+      IconData(63708, fontFamily: _family, fontPackage: _package);
+  static const face_5 =
+      IconData(63709, fontFamily: _family, fontPackage: _package);
+  static const face_6 =
+      IconData(63710, fontFamily: _family, fontPackage: _package);
   static const face_retouching_natural =
       IconData(61262, fontFamily: _family, fontPackage: _package);
+  static const face_retouching_off =
+      IconData(61447, fontFamily: _family, fontPackage: _package);
   static const facebook =
       IconData(62004, fontFamily: _family, fontPackage: _package);
   static const fact_check =
       IconData(61637, fontFamily: _family, fontPackage: _package);
+  static const factory =
+      IconData(60348, fontFamily: _family, fontPackage: _package);
   static const family_restroom =
       IconData(61858, fontFamily: _family, fontPackage: _package);
   static const fast_forward =
@@ -1055,12 +1483,18 @@ class MaterialIcons {
       IconData(59518, fontFamily: _family, fontPackage: _package);
   static const favorite_outline =
       IconData(59518, fontFamily: _family, fontPackage: _package);
+  static const fax =
+      IconData(60120, fontFamily: _family, fontPackage: _package);
   static const featured_play_list =
       IconData(57453, fontFamily: _family, fontPackage: _package);
   static const featured_video =
       IconData(57454, fontFamily: _family, fontPackage: _package);
+  static const feed =
+      IconData(61449, fontFamily: _family, fontPackage: _package);
   static const feedback =
       IconData(59519, fontFamily: _family, fontPackage: _package);
+  static const female =
+      IconData(58768, fontFamily: _family, fontPackage: _package);
   static const fence =
       IconData(61942, fontFamily: _family, fontPackage: _package);
   static const festival =
@@ -1081,10 +1515,16 @@ class MaterialIcons {
       IconData(58052, fontFamily: _family, fontPackage: _package);
   static const file_download_done =
       IconData(59818, fontFamily: _family, fontPackage: _package);
+  static const file_download_off =
+      IconData(58622, fontFamily: _family, fontPackage: _package);
+  static const file_open =
+      IconData(60147, fontFamily: _family, fontPackage: _package);
   static const file_present =
       IconData(59918, fontFamily: _family, fontPackage: _package);
   static const file_upload =
       IconData(58054, fontFamily: _family, fontPackage: _package);
+  static const file_upload_off =
+      IconData(63622, fontFamily: _family, fontPackage: _package);
   static const filter =
       IconData(58323, fontFamily: _family, fontPackage: _package);
   static const filter_1 =
@@ -1109,6 +1549,8 @@ class MaterialIcons {
       IconData(58330, fontFamily: _family, fontPackage: _package);
   static const filter_alt =
       IconData(61263, fontFamily: _family, fontPackage: _package);
+  static const filter_alt_off =
+      IconData(60210, fontFamily: _family, fontPackage: _package);
   static const filter_b_and_w =
       IconData(58331, fontFamily: _family, fontPackage: _package);
   static const filter_center_focus =
@@ -1123,6 +1565,8 @@ class MaterialIcons {
       IconData(57682, fontFamily: _family, fontPackage: _package);
   static const filter_list_alt =
       IconData(59726, fontFamily: _family, fontPackage: _package);
+  static const filter_list_off =
+      IconData(60247, fontFamily: _family, fontPackage: _package);
   static const filter_none =
       IconData(58336, fontFamily: _family, fontPackage: _package);
   static const filter_tilt_shift =
@@ -1139,16 +1583,24 @@ class MaterialIcons {
       IconData(61912, fontFamily: _family, fontPackage: _package);
   static const fire_hydrant =
       IconData(61859, fontFamily: _family, fontPackage: _package);
+  static const fire_hydrant_alt =
+      IconData(63729, fontFamily: _family, fontPackage: _package);
+  static const fire_truck =
+      IconData(63730, fontFamily: _family, fontPackage: _package);
   static const fireplace =
       IconData(59971, fontFamily: _family, fontPackage: _package);
   static const first_page =
       IconData(58844, fontFamily: _family, fontPackage: _package);
   static const fit_screen =
       IconData(59920, fontFamily: _family, fontPackage: _package);
+  static const fitbit =
+      IconData(59435, fontFamily: _family, fontPackage: _package);
   static const fitness_center =
       IconData(60227, fontFamily: _family, fontPackage: _package);
   static const flag =
       IconData(57683, fontFamily: _family, fontPackage: _package);
+  static const flag_circle =
+      IconData(60152, fontFamily: _family, fontPackage: _package);
   static const flaky =
       IconData(61264, fontFamily: _family, fontPackage: _package);
   static const flare =
@@ -1159,8 +1611,16 @@ class MaterialIcons {
       IconData(58342, fontFamily: _family, fontPackage: _package);
   static const flash_on =
       IconData(58343, fontFamily: _family, fontPackage: _package);
+  static const flashlight_off =
+      IconData(61450, fontFamily: _family, fontPackage: _package);
+  static const flashlight_on =
+      IconData(61451, fontFamily: _family, fontPackage: _package);
+  static const flatware =
+      IconData(61452, fontFamily: _family, fontPackage: _package);
   static const flight =
       IconData(58681, fontFamily: _family, fontPackage: _package);
+  static const flight_class =
+      IconData(59339, fontFamily: _family, fontPackage: _package);
   static const flight_land =
       IconData(59652, fontFamily: _family, fontPackage: _package);
   static const flight_takeoff =
@@ -1175,20 +1635,52 @@ class MaterialIcons {
       IconData(59522, fontFamily: _family, fontPackage: _package);
   static const flip_to_front =
       IconData(59523, fontFamily: _family, fontPackage: _package);
+  static const flood =
+      IconData(60390, fontFamily: _family, fontPackage: _package);
+  static const flourescent =
+      IconData(61453, fontFamily: _family, fontPackage: _package);
+  static const fluorescent =
+      IconData(60465, fontFamily: _family, fontPackage: _package);
+  static const flutter_dash =
+      IconData(57355, fontFamily: _family, fontPackage: _package);
+  static const fmd_bad =
+      IconData(61454, fontFamily: _family, fontPackage: _package);
+  static const fmd_good =
+      IconData(61455, fontFamily: _family, fontPackage: _package);
+  static const foggy =
+      IconData(59416, fontFamily: _family, fontPackage: _package);
   static const folder =
       IconData(58055, fontFamily: _family, fontPackage: _package);
+  static const folder_copy =
+      IconData(60349, fontFamily: _family, fontPackage: _package);
+  static const folder_delete =
+      IconData(60212, fontFamily: _family, fontPackage: _package);
+  static const folder_off =
+      IconData(60291, fontFamily: _family, fontPackage: _package);
   static const folder_open =
       IconData(58056, fontFamily: _family, fontPackage: _package);
   static const folder_shared =
       IconData(58057, fontFamily: _family, fontPackage: _package);
   static const folder_special =
       IconData(58903, fontFamily: _family, fontPackage: _package);
+  static const folder_zip =
+      IconData(60204, fontFamily: _family, fontPackage: _package);
   static const follow_the_signs =
       IconData(61986, fontFamily: _family, fontPackage: _package);
   static const font_download =
       IconData(57703, fontFamily: _family, fontPackage: _package);
+  static const font_download_off =
+      IconData(58617, fontFamily: _family, fontPackage: _package);
   static const food_bank =
       IconData(61938, fontFamily: _family, fontPackage: _package);
+  static const forest =
+      IconData(60057, fontFamily: _family, fontPackage: _package);
+  static const fork_left =
+      IconData(60320, fontFamily: _family, fontPackage: _package);
+  static const fork_right =
+      IconData(60332, fontFamily: _family, fontPackage: _package);
+  static const forklift =
+      IconData(63592, fontFamily: _family, fontPackage: _package);
   static const format_align_center =
       IconData(57908, fontFamily: _family, fontPackage: _package);
   static const format_align_justify =
@@ -1217,10 +1709,14 @@ class MaterialIcons {
       IconData(57920, fontFamily: _family, fontPackage: _package);
   static const format_list_bulleted =
       IconData(57921, fontFamily: _family, fontPackage: _package);
+  static const format_list_bulleted_add =
+      IconData(63561, fontFamily: _family, fontPackage: _package);
   static const format_list_numbered =
       IconData(57922, fontFamily: _family, fontPackage: _package);
   static const format_list_numbered_rtl =
       IconData(57959, fontFamily: _family, fontPackage: _package);
+  static const format_overline =
+      IconData(60261, fontFamily: _family, fontPackage: _package);
   static const format_paint =
       IconData(57923, fontFamily: _family, fontPackage: _package);
   static const format_quote =
@@ -1239,6 +1735,8 @@ class MaterialIcons {
       IconData(57929, fontFamily: _family, fontPackage: _package);
   static const format_underlined =
       IconData(57929, fontFamily: _family, fontPackage: _package);
+  static const fort =
+      IconData(60077, fontFamily: _family, fontPackage: _package);
   static const forum =
       IconData(57535, fontFamily: _family, fontPackage: _package);
   static const forward =
@@ -1255,30 +1753,56 @@ class MaterialIcons {
       IconData(61952, fontFamily: _family, fontPackage: _package);
   static const free_breakfast =
       IconData(60228, fontFamily: _family, fontPackage: _package);
+  static const free_cancellation =
+      IconData(59208, fontFamily: _family, fontPackage: _package);
+  static const front_hand =
+      IconData(59241, fontFamily: _family, fontPackage: _package);
+  static const front_loader =
+      IconData(63593, fontFamily: _family, fontPackage: _package);
   static const fullscreen =
       IconData(58832, fontFamily: _family, fontPackage: _package);
   static const fullscreen_exit =
       IconData(58833, fontFamily: _family, fontPackage: _package);
   static const functions =
       IconData(57930, fontFamily: _family, fontPackage: _package);
+  static const g_mobiledata =
+      IconData(61456, fontFamily: _family, fontPackage: _package);
   static const g_translate =
       IconData(59687, fontFamily: _family, fontPackage: _package);
   static const gamepad =
       IconData(58127, fontFamily: _family, fontPackage: _package);
   static const games =
       IconData(57377, fontFamily: _family, fontPackage: _package);
+  static const garage =
+      IconData(61457, fontFamily: _family, fontPackage: _package);
+  static const gas_meter =
+      IconData(60441, fontFamily: _family, fontPackage: _package);
   static const gavel =
       IconData(59662, fontFamily: _family, fontPackage: _package);
+  static const generating_tokens =
+      IconData(59209, fontFamily: _family, fontPackage: _package);
   static const gesture =
       IconData(57685, fontFamily: _family, fontPackage: _package);
   static const get_app =
       IconData(59524, fontFamily: _family, fontPackage: _package);
   static const gif =
       IconData(59656, fontFamily: _family, fontPackage: _package);
+  static const gif_box =
+      IconData(59299, fontFamily: _family, fontPackage: _package);
+  static const girl =
+      IconData(60264, fontFamily: _family, fontPackage: _package);
+  static const gite =
+      IconData(58763, fontFamily: _family, fontPackage: _package);
   static const goat =
       IconData(1114109, fontFamily: _family, fontPackage: _package);
   static const golf_course =
       IconData(60229, fontFamily: _family, fontPackage: _package);
+  static const gpp_bad =
+      IconData(61458, fontFamily: _family, fontPackage: _package);
+  static const gpp_good =
+      IconData(61459, fontFamily: _family, fontPackage: _package);
+  static const gpp_maybe =
+      IconData(61460, fontFamily: _family, fontPackage: _package);
   static const gps_fixed =
       IconData(57779, fontFamily: _family, fontPackage: _package);
   static const gps_not_fixed =
@@ -1297,6 +1821,12 @@ class MaterialIcons {
       IconData(57784, fontFamily: _family, fontPackage: _package);
   static const grass =
       IconData(61957, fontFamily: _family, fontPackage: _package);
+  static const grid_3x3 =
+      IconData(61461, fontFamily: _family, fontPackage: _package);
+  static const grid_4x4 =
+      IconData(61462, fontFamily: _family, fontPackage: _package);
+  static const grid_goldenratio =
+      IconData(61463, fontFamily: _family, fontPackage: _package);
   static const grid_off =
       IconData(58347, fontFamily: _family, fontPackage: _package);
   static const grid_on =
@@ -1307,27 +1837,55 @@ class MaterialIcons {
       IconData(59375, fontFamily: _family, fontPackage: _package);
   static const group_add =
       IconData(59376, fontFamily: _family, fontPackage: _package);
+  static const group_off =
+      IconData(59207, fontFamily: _family, fontPackage: _package);
+  static const group_remove =
+      IconData(59309, fontFamily: _family, fontPackage: _package);
   static const group_work =
       IconData(59526, fontFamily: _family, fontPackage: _package);
   static const groups =
       IconData(62003, fontFamily: _family, fontPackage: _package);
+  static const groups_2 =
+      IconData(63711, fontFamily: _family, fontPackage: _package);
+  static const groups_3 =
+      IconData(63712, fontFamily: _family, fontPackage: _package);
+  static const h_mobiledata =
+      IconData(61464, fontFamily: _family, fontPackage: _package);
+  static const h_plus_mobiledata =
+      IconData(61465, fontFamily: _family, fontPackage: _package);
   static const hail =
       IconData(59825, fontFamily: _family, fontPackage: _package);
+  static const handshake =
+      IconData(60363, fontFamily: _family, fontPackage: _package);
   static const handyman =
       IconData(61707, fontFamily: _family, fontPackage: _package);
   static const hardware =
       IconData(59993, fontFamily: _family, fontPackage: _package);
   static const hd = IconData(57426, fontFamily: _family, fontPackage: _package);
+  static const hdr_auto =
+      IconData(61466, fontFamily: _family, fontPackage: _package);
+  static const hdr_auto_select =
+      IconData(61467, fontFamily: _family, fontPackage: _package);
   static const hdr_enhanced_select =
       IconData(61265, fontFamily: _family, fontPackage: _package);
   static const hdr_off =
       IconData(58349, fontFamily: _family, fontPackage: _package);
+  static const hdr_off_select =
+      IconData(61468, fontFamily: _family, fontPackage: _package);
   static const hdr_on =
       IconData(58350, fontFamily: _family, fontPackage: _package);
+  static const hdr_on_select =
+      IconData(61469, fontFamily: _family, fontPackage: _package);
+  static const hdr_plus =
+      IconData(61470, fontFamily: _family, fontPackage: _package);
   static const hdr_strong =
       IconData(58353, fontFamily: _family, fontPackage: _package);
   static const hdr_weak =
       IconData(58354, fontFamily: _family, fontPackage: _package);
+  static const headphones =
+      IconData(61471, fontFamily: _family, fontPackage: _package);
+  static const headphones_battery =
+      IconData(61472, fontFamily: _family, fontPackage: _package);
   static const headset =
       IconData(58128, fontFamily: _family, fontPackage: _package);
   static const headset_mic =
@@ -1336,10 +1894,16 @@ class MaterialIcons {
       IconData(58170, fontFamily: _family, fontPackage: _package);
   static const healing =
       IconData(58355, fontFamily: _family, fontPackage: _package);
+  static const health_and_safety =
+      IconData(57813, fontFamily: _family, fontPackage: _package);
   static const hearing =
       IconData(57379, fontFamily: _family, fontPackage: _package);
   static const hearing_disabled =
       IconData(61700, fontFamily: _family, fontPackage: _package);
+  static const heart_broken =
+      IconData(60098, fontFamily: _family, fontPackage: _package);
+  static const heat_pump =
+      IconData(60440, fontFamily: _family, fontPackage: _package);
   static const height =
       IconData(59926, fontFamily: _family, fontPackage: _package);
   static const help =
@@ -1348,6 +1912,14 @@ class MaterialIcons {
       IconData(61888, fontFamily: _family, fontPackage: _package);
   static const help_outline =
       IconData(59645, fontFamily: _family, fontPackage: _package);
+  static const hevc =
+      IconData(61473, fontFamily: _family, fontPackage: _package);
+  static const hexagon =
+      IconData(60217, fontFamily: _family, fontPackage: _package);
+  static const hide_image =
+      IconData(61474, fontFamily: _family, fontPackage: _package);
+  static const hide_source =
+      IconData(61475, fontFamily: _family, fontPackage: _package);
   static const high_quality =
       IconData(57380, fontFamily: _family, fontPackage: _package);
   static const highlight =
@@ -1358,16 +1930,30 @@ class MaterialIcons {
       IconData(59528, fontFamily: _family, fontPackage: _package);
   static const highlight_remove =
       IconData(59528, fontFamily: _family, fontPackage: _package);
+  static const hiking =
+      IconData(58634, fontFamily: _family, fontPackage: _package);
   static const history =
       IconData(59529, fontFamily: _family, fontPackage: _package);
   static const history_edu =
       IconData(59966, fontFamily: _family, fontPackage: _package);
   static const history_toggle_off =
       IconData(61821, fontFamily: _family, fontPackage: _package);
+  static const hive =
+      IconData(60070, fontFamily: _family, fontPackage: _package);
+  static const hls =
+      IconData(60298, fontFamily: _family, fontPackage: _package);
+  static const hls_off =
+      IconData(60300, fontFamily: _family, fontPackage: _package);
+  static const holiday_village =
+      IconData(58762, fontFamily: _family, fontPackage: _package);
   static const home =
       IconData(59530, fontFamily: _family, fontPackage: _package);
   static const home_filled =
       IconData(59826, fontFamily: _family, fontPackage: _package);
+  static const home_max =
+      IconData(61476, fontFamily: _family, fontPackage: _package);
+  static const home_mini =
+      IconData(61477, fontFamily: _family, fontPackage: _package);
   static const home_repair_service =
       IconData(61696, fontFamily: _family, fontPackage: _package);
   static const home_work =
@@ -1382,6 +1968,8 @@ class MaterialIcons {
       IconData(60230, fontFamily: _family, fontPackage: _package);
   static const hotel =
       IconData(58682, fontFamily: _family, fontPackage: _package);
+  static const hotel_class =
+      IconData(59203, fontFamily: _family, fontPackage: _package);
   static const hourglass_bottom =
       IconData(59996, fontFamily: _family, fontPackage: _package);
   static const hourglass_disabled =
@@ -1396,16 +1984,24 @@ class MaterialIcons {
       IconData(59972, fontFamily: _family, fontPackage: _package);
   static const house_siding =
       IconData(61954, fontFamily: _family, fontPackage: _package);
+  static const houseboat =
+      IconData(58756, fontFamily: _family, fontPackage: _package);
   static const how_to_reg =
       IconData(57716, fontFamily: _family, fontPackage: _package);
   static const how_to_vote =
       IconData(57717, fontFamily: _family, fontPackage: _package);
+  static const html =
+      IconData(60286, fontFamily: _family, fontPackage: _package);
   static const http =
       IconData(59650, fontFamily: _family, fontPackage: _package);
   static const https =
       IconData(59533, fontFamily: _family, fontPackage: _package);
+  static const hub =
+      IconData(59892, fontFamily: _family, fontPackage: _package);
   static const hvac =
       IconData(61710, fontFamily: _family, fontPackage: _package);
+  static const ice_skating =
+      IconData(58635, fontFamily: _family, fontPackage: _package);
   static const icecream =
       IconData(60009, fontFamily: _family, fontPackage: _package);
   static const image =
@@ -1426,6 +2022,8 @@ class MaterialIcons {
       IconData(59666, fontFamily: _family, fontPackage: _package);
   static const inbox =
       IconData(57686, fontFamily: _family, fontPackage: _package);
+  static const incomplete_circle =
+      IconData(59291, fontFamily: _family, fontPackage: _package);
   static const indeterminate_check_box =
       IconData(59657, fontFamily: _family, fontPackage: _package);
   static const info =
@@ -1448,14 +2046,26 @@ class MaterialIcons {
       IconData(57935, fontFamily: _family, fontPackage: _package);
   static const insert_link =
       IconData(57936, fontFamily: _family, fontPackage: _package);
+  static const insert_page_break =
+      IconData(60106, fontFamily: _family, fontPackage: _package);
   static const insert_photo =
       IconData(57937, fontFamily: _family, fontPackage: _package);
   static const insights =
       IconData(61586, fontFamily: _family, fontPackage: _package);
+  static const install_desktop =
+      IconData(60273, fontFamily: _family, fontPackage: _package);
+  static const install_mobile =
+      IconData(60274, fontFamily: _family, fontPackage: _package);
   static const integration_instructions =
       IconData(61268, fontFamily: _family, fontPackage: _package);
+  static const interests =
+      IconData(59336, fontFamily: _family, fontPackage: _package);
+  static const interpreter_mode =
+      IconData(59451, fontFamily: _family, fontPackage: _package);
   static const inventory =
       IconData(57721, fontFamily: _family, fontPackage: _package);
+  static const inventory_2 =
+      IconData(57761, fontFamily: _family, fontPackage: _package);
   static const invert_colors =
       IconData(59537, fontFamily: _family, fontPackage: _package);
   static const invert_colors_off =
@@ -1464,10 +2074,32 @@ class MaterialIcons {
       IconData(59537, fontFamily: _family, fontPackage: _package);
   static const ios_share =
       IconData(59064, fontFamily: _family, fontPackage: _package);
+  static const iron =
+      IconData(58755, fontFamily: _family, fontPackage: _package);
   static const iso =
       IconData(58358, fontFamily: _family, fontPackage: _package);
+  static const javascript =
+      IconData(60284, fontFamily: _family, fontPackage: _package);
+  static const join_full =
+      IconData(60139, fontFamily: _family, fontPackage: _package);
+  static const join_inner =
+      IconData(60148, fontFamily: _family, fontPackage: _package);
+  static const join_left =
+      IconData(60146, fontFamily: _family, fontPackage: _package);
+  static const join_right =
+      IconData(60138, fontFamily: _family, fontPackage: _package);
+  static const kayaking =
+      IconData(58636, fontFamily: _family, fontPackage: _package);
+  static const kebab_dining =
+      IconData(59458, fontFamily: _family, fontPackage: _package);
+  static const key =
+      IconData(59196, fontFamily: _family, fontPackage: _package);
+  static const key_off =
+      IconData(60292, fontFamily: _family, fontPackage: _package);
   static const keyboard =
       IconData(58130, fontFamily: _family, fontPackage: _package);
+  static const keyboard_alt =
+      IconData(61480, fontFamily: _family, fontPackage: _package);
   static const keyboard_arrow_down =
       IconData(58131, fontFamily: _family, fontPackage: _package);
   static const keyboard_arrow_left =
@@ -1480,10 +2112,28 @@ class MaterialIcons {
       IconData(58135, fontFamily: _family, fontPackage: _package);
   static const keyboard_capslock =
       IconData(58136, fontFamily: _family, fontPackage: _package);
+  static const keyboard_command =
+      IconData(60128, fontFamily: _family, fontPackage: _package);
+  static const keyboard_command_key =
+      IconData(60135, fontFamily: _family, fontPackage: _package);
   static const keyboard_control =
       IconData(58835, fontFamily: _family, fontPackage: _package);
+  static const keyboard_control_key =
+      IconData(60134, fontFamily: _family, fontPackage: _package);
+  static const keyboard_double_arrow_down =
+      IconData(60112, fontFamily: _family, fontPackage: _package);
+  static const keyboard_double_arrow_left =
+      IconData(60099, fontFamily: _family, fontPackage: _package);
+  static const keyboard_double_arrow_right =
+      IconData(60105, fontFamily: _family, fontPackage: _package);
+  static const keyboard_double_arrow_up =
+      IconData(60111, fontFamily: _family, fontPackage: _package);
   static const keyboard_hide =
       IconData(58138, fontFamily: _family, fontPackage: _package);
+  static const keyboard_option =
+      IconData(60127, fontFamily: _family, fontPackage: _package);
+  static const keyboard_option_key =
+      IconData(60136, fontFamily: _family, fontPackage: _package);
   static const keyboard_return =
       IconData(58139, fontFamily: _family, fontPackage: _package);
   static const keyboard_tab =
@@ -1494,6 +2144,8 @@ class MaterialIcons {
       IconData(59973, fontFamily: _family, fontPackage: _package);
   static const kitchen =
       IconData(60231, fontFamily: _family, fontPackage: _package);
+  static const kitesurfing =
+      IconData(58637, fontFamily: _family, fontPackage: _package);
   static const label =
       IconData(59538, fontFamily: _family, fontPackage: _package);
   static const label_important =
@@ -1504,8 +2156,12 @@ class MaterialIcons {
       IconData(59830, fontFamily: _family, fontPackage: _package);
   static const label_outline =
       IconData(59539, fontFamily: _family, fontPackage: _package);
+  static const lan =
+      IconData(60207, fontFamily: _family, fontPackage: _package);
   static const landscape =
       IconData(58359, fontFamily: _family, fontPackage: _package);
+  static const landslide =
+      IconData(60375, fontFamily: _family, fontPackage: _package);
   static const language =
       IconData(59540, fontFamily: _family, fontPackage: _package);
   static const laptop =
@@ -1536,6 +2192,8 @@ class MaterialIcons {
       IconData(61723, fontFamily: _family, fontPackage: _package);
   static const lens =
       IconData(58362, fontFamily: _family, fontPackage: _package);
+  static const lens_blur =
+      IconData(61481, fontFamily: _family, fontPackage: _package);
   static const library_add =
       IconData(57390, fontFamily: _family, fontPackage: _package);
   static const library_add_check =
@@ -1544,10 +2202,18 @@ class MaterialIcons {
       IconData(57391, fontFamily: _family, fontPackage: _package);
   static const library_music =
       IconData(57392, fontFamily: _family, fontPackage: _package);
+  static const light =
+      IconData(61482, fontFamily: _family, fontPackage: _package);
+  static const light_mode =
+      IconData(58648, fontFamily: _family, fontPackage: _package);
   static const lightbulb =
       IconData(57584, fontFamily: _family, fontPackage: _package);
+  static const lightbulb_circle =
+      IconData(60414, fontFamily: _family, fontPackage: _package);
   static const lightbulb_outline =
       IconData(59663, fontFamily: _family, fontPackage: _package);
+  static const line_axis =
+      IconData(60058, fontFamily: _family, fontPackage: _package);
   static const line_style =
       IconData(59673, fontFamily: _family, fontPackage: _package);
   static const line_weight =
@@ -1570,6 +2236,8 @@ class MaterialIcons {
       IconData(57542, fontFamily: _family, fontPackage: _package);
   static const live_tv =
       IconData(58937, fontFamily: _family, fontPackage: _package);
+  static const living =
+      IconData(61483, fontFamily: _family, fontPackage: _package);
   static const local_activity =
       IconData(58687, fontFamily: _family, fontPackage: _package);
   static const local_airport =
@@ -1660,8 +2328,14 @@ class MaterialIcons {
       IconData(59544, fontFamily: _family, fontPackage: _package);
   static const lock_outline =
       IconData(59545, fontFamily: _family, fontPackage: _package);
+  static const lock_person =
+      IconData(63731, fontFamily: _family, fontPackage: _package);
+  static const lock_reset =
+      IconData(60126, fontFamily: _family, fontPackage: _package);
   static const login =
       IconData(60023, fontFamily: _family, fontPackage: _package);
+  static const logo_dev =
+      IconData(60118, fontFamily: _family, fontPackage: _package);
   static const logout =
       IconData(59834, fontFamily: _family, fontPackage: _package);
   static const looks =
@@ -1686,16 +2360,44 @@ class MaterialIcons {
       IconData(57709, fontFamily: _family, fontPackage: _package);
   static const loyalty =
       IconData(59546, fontFamily: _family, fontPackage: _package);
+  static const lte_mobiledata =
+      IconData(61484, fontFamily: _family, fontPackage: _package);
+  static const lte_plus_mobiledata =
+      IconData(61485, fontFamily: _family, fontPackage: _package);
   static const luggage =
       IconData(62005, fontFamily: _family, fontPackage: _package);
   static const lunch_dining =
       IconData(60001, fontFamily: _family, fontPackage: _package);
+  static const lyrics =
+      IconData(60427, fontFamily: _family, fontPackage: _package);
+  static const macro_off =
+      IconData(63698, fontFamily: _family, fontPackage: _package);
   static const mail =
       IconData(57688, fontFamily: _family, fontPackage: _package);
+  static const mail_lock =
+      IconData(60426, fontFamily: _family, fontPackage: _package);
   static const mail_outline =
       IconData(57569, fontFamily: _family, fontPackage: _package);
+  static const male =
+      IconData(58766, fontFamily: _family, fontPackage: _package);
+  static const man =
+      IconData(58603, fontFamily: _family, fontPackage: _package);
+  static const man_2 =
+      IconData(63713, fontFamily: _family, fontPackage: _package);
+  static const man_3 =
+      IconData(63714, fontFamily: _family, fontPackage: _package);
+  static const man_4 =
+      IconData(63715, fontFamily: _family, fontPackage: _package);
+  static const manage_accounts =
+      IconData(61486, fontFamily: _family, fontPackage: _package);
+  static const manage_history =
+      IconData(60391, fontFamily: _family, fontPackage: _package);
+  static const manage_search =
+      IconData(61487, fontFamily: _family, fontPackage: _package);
   static const map =
       IconData(58715, fontFamily: _family, fontPackage: _package);
+  static const maps_home_work =
+      IconData(61488, fontFamily: _family, fontPackage: _package);
   static const maps_ugc =
       IconData(61272, fontFamily: _family, fontPackage: _package);
   static const margin =
@@ -1710,6 +2412,8 @@ class MaterialIcons {
       IconData(61836, fontFamily: _family, fontPackage: _package);
   static const mark_email_unread =
       IconData(61834, fontFamily: _family, fontPackage: _package);
+  static const mark_unread_chat_alt =
+      IconData(60317, fontFamily: _family, fontPackage: _package);
   static const markunread =
       IconData(57689, fontFamily: _family, fontPackage: _package);
   static const markunread_mailbox =
@@ -1718,10 +2422,20 @@ class MaterialIcons {
       IconData(61976, fontFamily: _family, fontPackage: _package);
   static const maximize =
       IconData(59696, fontFamily: _family, fontPackage: _package);
+  static const media_bluetooth_off =
+      IconData(61489, fontFamily: _family, fontPackage: _package);
+  static const media_bluetooth_on =
+      IconData(61490, fontFamily: _family, fontPackage: _package);
   static const mediation =
       IconData(61351, fontFamily: _family, fontPackage: _package);
+  static const medical_information =
+      IconData(60397, fontFamily: _family, fontPackage: _package);
   static const medical_services =
       IconData(61705, fontFamily: _family, fontPackage: _package);
+  static const medication =
+      IconData(61491, fontFamily: _family, fontPackage: _package);
+  static const medication_liquid =
+      IconData(60039, fontFamily: _family, fontPackage: _package);
   static const meeting_room =
       IconData(60239, fontFamily: _family, fontPackage: _package);
   static const memory =
@@ -1732,6 +2446,8 @@ class MaterialIcons {
       IconData(59929, fontFamily: _family, fontPackage: _package);
   static const menu_open =
       IconData(59837, fontFamily: _family, fontPackage: _package);
+  static const merge =
+      IconData(60312, fontFamily: _family, fontPackage: _package);
   static const merge_type =
       IconData(57938, fontFamily: _family, fontPackage: _package);
   static const message =
@@ -1756,6 +2472,8 @@ class MaterialIcons {
       IconData(59967, fontFamily: _family, fontPackage: _package);
   static const minimize =
       IconData(59697, fontFamily: _family, fontPackage: _package);
+  static const minor_crash =
+      IconData(60401, fontFamily: _family, fontPackage: _package);
   static const miscellaneous_services =
       IconData(61708, fontFamily: _family, fontPackage: _package);
   static const missed_video_call =
@@ -1768,10 +2486,24 @@ class MaterialIcons {
       IconData(57857, fontFamily: _family, fontPackage: _package);
   static const mobile_screen_share =
       IconData(57575, fontFamily: _family, fontPackage: _package);
+  static const mobiledata_off =
+      IconData(61492, fontFamily: _family, fontPackage: _package);
+  static const mode =
+      IconData(61591, fontFamily: _family, fontPackage: _package);
   static const mode_comment =
       IconData(57939, fontFamily: _family, fontPackage: _package);
   static const mode_edit =
       IconData(57940, fontFamily: _family, fontPackage: _package);
+  static const mode_edit_outline =
+      IconData(61493, fontFamily: _family, fontPackage: _package);
+  static const mode_fan_off =
+      IconData(60439, fontFamily: _family, fontPackage: _package);
+  static const mode_night =
+      IconData(61494, fontFamily: _family, fontPackage: _package);
+  static const mode_of_travel =
+      IconData(59342, fontFamily: _family, fontPackage: _package);
+  static const mode_standby =
+      IconData(61495, fontFamily: _family, fontPackage: _package);
   static const model_training =
       IconData(61647, fontFamily: _family, fontPackage: _package);
   static const monetization_on =
@@ -1780,8 +2512,14 @@ class MaterialIcons {
       IconData(58749, fontFamily: _family, fontPackage: _package);
   static const money_off =
       IconData(57948, fontFamily: _family, fontPackage: _package);
+  static const money_off_csred =
+      IconData(61496, fontFamily: _family, fontPackage: _package);
   static const monitor =
       IconData(61275, fontFamily: _family, fontPackage: _package);
+  static const monitor_heart =
+      IconData(60066, fontFamily: _family, fontPackage: _package);
+  static const monitor_weight =
+      IconData(61497, fontFamily: _family, fontPackage: _package);
   static const monochrome_photos =
       IconData(58371, fontFamily: _family, fontPackage: _package);
   static const mood =
@@ -1798,6 +2536,10 @@ class MaterialIcons {
       IconData(59997, fontFamily: _family, fontPackage: _package);
   static const more_vert =
       IconData(58836, fontFamily: _family, fontPackage: _package);
+  static const mosque =
+      IconData(60082, fontFamily: _family, fontPackage: _package);
+  static const motion_photos_auto =
+      IconData(61498, fontFamily: _family, fontPackage: _package);
   static const motion_photos_off =
       IconData(59840, fontFamily: _family, fontPackage: _package);
   static const motion_photos_on =
@@ -1810,14 +2552,22 @@ class MaterialIcons {
       IconData(59675, fontFamily: _family, fontPackage: _package);
   static const mouse =
       IconData(58147, fontFamily: _family, fontPackage: _package);
+  static const move_down =
+      IconData(60257, fontFamily: _family, fontPackage: _package);
   static const move_to_inbox =
       IconData(57704, fontFamily: _family, fontPackage: _package);
+  static const move_up =
+      IconData(60260, fontFamily: _family, fontPackage: _package);
   static const movie =
       IconData(57388, fontFamily: _family, fontPackage: _package);
   static const movie_creation =
       IconData(58372, fontFamily: _family, fontPackage: _package);
+  static const movie_edit =
+      IconData(63552, fontFamily: _family, fontPackage: _package);
   static const movie_filter =
       IconData(58426, fontFamily: _family, fontPackage: _package);
+  static const moving =
+      IconData(58625, fontFamily: _family, fontPackage: _package);
   static const mp = IconData(59843, fontFamily: _family, fontPackage: _package);
   static const multiline_chart =
       IconData(59103, fontFamily: _family, fontPackage: _package);
@@ -1857,16 +2607,34 @@ class MaterialIcons {
       IconData(58729, fontFamily: _family, fontPackage: _package);
   static const near_me_disabled =
       IconData(61935, fontFamily: _family, fontPackage: _package);
+  static const nearby_error =
+      IconData(61499, fontFamily: _family, fontPackage: _package);
+  static const nearby_off =
+      IconData(61500, fontFamily: _family, fontPackage: _package);
+  static const nest_cam_wired_stand =
+      IconData(60438, fontFamily: _family, fontPackage: _package);
   static const network_cell =
       IconData(57785, fontFamily: _family, fontPackage: _package);
   static const network_check =
       IconData(58944, fontFamily: _family, fontPackage: _package);
   static const network_locked =
       IconData(58906, fontFamily: _family, fontPackage: _package);
+  static const network_ping =
+      IconData(60362, fontFamily: _family, fontPackage: _package);
   static const network_wifi =
       IconData(57786, fontFamily: _family, fontPackage: _package);
+  static const network_wifi_1_bar =
+      IconData(60388, fontFamily: _family, fontPackage: _package);
+  static const network_wifi_2_bar =
+      IconData(60374, fontFamily: _family, fontPackage: _package);
+  static const network_wifi_3_bar =
+      IconData(60385, fontFamily: _family, fontPackage: _package);
+  static const new_label =
+      IconData(58889, fontFamily: _family, fontPackage: _package);
   static const new_releases =
       IconData(57393, fontFamily: _family, fontPackage: _package);
+  static const newspaper =
+      IconData(60289, fontFamily: _family, fontPackage: _package);
   static const next_plan =
       IconData(61277, fontFamily: _family, fontPackage: _package);
   static const next_week =
@@ -1877,18 +2645,28 @@ class MaterialIcons {
       IconData(61937, fontFamily: _family, fontPackage: _package);
   static const nightlife =
       IconData(60002, fontFamily: _family, fontPackage: _package);
+  static const nightlight =
+      IconData(61501, fontFamily: _family, fontPackage: _package);
   static const nightlight_round =
       IconData(61278, fontFamily: _family, fontPackage: _package);
   static const nights_stay =
       IconData(59974, fontFamily: _family, fontPackage: _package);
+  static const no_accounts =
+      IconData(61502, fontFamily: _family, fontPackage: _package);
+  static const no_adult_content =
+      IconData(63742, fontFamily: _family, fontPackage: _package);
   static const no_backpack =
       IconData(62007, fontFamily: _family, fontPackage: _package);
   static const no_cell =
       IconData(61860, fontFamily: _family, fontPackage: _package);
+  static const no_crash =
+      IconData(60400, fontFamily: _family, fontPackage: _package);
   static const no_drinks =
       IconData(61861, fontFamily: _family, fontPackage: _package);
   static const no_encryption =
       IconData(58945, fontFamily: _family, fontPackage: _package);
+  static const no_encryption_gmailerrorred =
+      IconData(61503, fontFamily: _family, fontPackage: _package);
   static const no_flash =
       IconData(61862, fontFamily: _family, fontPackage: _package);
   static const no_food =
@@ -1909,6 +2687,12 @@ class MaterialIcons {
       IconData(61871, fontFamily: _family, fontPackage: _package);
   static const no_transfer =
       IconData(61909, fontFamily: _family, fontPackage: _package);
+  static const noise_aware =
+      IconData(60396, fontFamily: _family, fontPackage: _package);
+  static const noise_control_off =
+      IconData(60403, fontFamily: _family, fontPackage: _package);
+  static const nordic_walking =
+      IconData(58638, fontFamily: _family, fontPackage: _package);
   static const north =
       IconData(61920, fontFamily: _family, fontPackage: _package);
   static const north_east =
@@ -1927,8 +2711,12 @@ class MaterialIcons {
       IconData(57455, fontFamily: _family, fontPackage: _package);
   static const note_add =
       IconData(59548, fontFamily: _family, fontPackage: _package);
+  static const note_alt =
+      IconData(61504, fontFamily: _family, fontPackage: _package);
   static const notes =
       IconData(57964, fontFamily: _family, fontPackage: _package);
+  static const notification_add =
+      IconData(58265, fontFamily: _family, fontPackage: _package);
   static const notification_important =
       IconData(57348, fontFamily: _family, fontPackage: _package);
   static const notifications =
@@ -1947,12 +2735,18 @@ class MaterialIcons {
       IconData(57788, fontFamily: _family, fontPackage: _package);
   static const now_widgets =
       IconData(57789, fontFamily: _family, fontPackage: _package);
+  static const numbers =
+      IconData(60103, fontFamily: _family, fontPackage: _package);
   static const offline_bolt =
       IconData(59698, fontFamily: _family, fontPackage: _package);
   static const offline_pin =
       IconData(59658, fontFamily: _family, fontPackage: _package);
   static const offline_share =
       IconData(59845, fontFamily: _family, fontPackage: _package);
+  static const oil_barrel =
+      IconData(60437, fontFamily: _family, fontPackage: _package);
+  static const on_device_training =
+      IconData(60413, fontFamily: _family, fontPackage: _package);
   static const ondemand_video =
       IconData(58938, fontFamily: _family, fontPackage: _package);
   static const online_prediction =
@@ -1965,10 +2759,16 @@ class MaterialIcons {
       IconData(61902, fontFamily: _family, fontPackage: _package);
   static const open_in_new =
       IconData(59550, fontFamily: _family, fontPackage: _package);
+  static const open_in_new_off =
+      IconData(58614, fontFamily: _family, fontPackage: _package);
   static const open_with =
       IconData(59551, fontFamily: _family, fontPackage: _package);
+  static const other_houses =
+      IconData(58764, fontFamily: _family, fontPackage: _package);
   static const outbond =
       IconData(61992, fontFamily: _family, fontPackage: _package);
+  static const outbound =
+      IconData(57802, fontFamily: _family, fontPackage: _package);
   static const outbox =
       IconData(61279, fontFamily: _family, fontPackage: _package);
   static const outdoor_grill =
@@ -1979,16 +2779,24 @@ class MaterialIcons {
       IconData(61908, fontFamily: _family, fontPackage: _package);
   static const outlined_flag =
       IconData(57710, fontFamily: _family, fontPackage: _package);
+  static const output =
+      IconData(60350, fontFamily: _family, fontPackage: _package);
   static const padding =
       IconData(59848, fontFamily: _family, fontPackage: _package);
   static const pages =
       IconData(59385, fontFamily: _family, fontPackage: _package);
   static const pageview =
       IconData(59552, fontFamily: _family, fontPackage: _package);
+  static const paid =
+      IconData(61505, fontFamily: _family, fontPackage: _package);
   static const palette =
       IconData(58378, fontFamily: _family, fontPackage: _package);
+  static const pallet =
+      IconData(63594, fontFamily: _family, fontPackage: _package);
   static const pan_tool =
       IconData(59685, fontFamily: _family, fontPackage: _package);
+  static const pan_tool_alt =
+      IconData(60345, fontFamily: _family, fontPackage: _package);
   static const panorama =
       IconData(58379, fontFamily: _family, fontPackage: _package);
   static const panorama_fish_eye =
@@ -2011,12 +2819,20 @@ class MaterialIcons {
       IconData(58383, fontFamily: _family, fontPackage: _package);
   static const panorama_wide_angle_select =
       IconData(61282, fontFamily: _family, fontPackage: _package);
+  static const paragliding =
+      IconData(58639, fontFamily: _family, fontPackage: _package);
   static const park =
       IconData(60003, fontFamily: _family, fontPackage: _package);
   static const party_mode =
       IconData(59386, fontFamily: _family, fontPackage: _package);
+  static const password =
+      IconData(61506, fontFamily: _family, fontPackage: _package);
+  static const pattern =
+      IconData(61507, fontFamily: _family, fontPackage: _package);
   static const pause =
       IconData(57396, fontFamily: _family, fontPackage: _package);
+  static const pause_circle =
+      IconData(57762, fontFamily: _family, fontPackage: _package);
   static const pause_circle_filled =
       IconData(57397, fontFamily: _family, fontPackage: _package);
   static const pause_circle_outline =
@@ -2027,18 +2843,24 @@ class MaterialIcons {
       IconData(59553, fontFamily: _family, fontPackage: _package);
   static const payments =
       IconData(61283, fontFamily: _family, fontPackage: _package);
+  static const paypal =
+      IconData(60045, fontFamily: _family, fontPackage: _package);
   static const pedal_bike =
       IconData(60201, fontFamily: _family, fontPackage: _package);
   static const pending =
       IconData(61284, fontFamily: _family, fontPackage: _package);
   static const pending_actions =
       IconData(61883, fontFamily: _family, fontPackage: _package);
+  static const pentagon =
+      IconData(60240, fontFamily: _family, fontPackage: _package);
   static const people =
       IconData(59387, fontFamily: _family, fontPackage: _package);
   static const people_alt =
       IconData(59937, fontFamily: _family, fontPackage: _package);
   static const people_outline =
       IconData(59388, fontFamily: _family, fontPackage: _package);
+  static const percent =
+      IconData(60248, fontFamily: _family, fontPackage: _package);
   static const perm_camera_mic =
       IconData(59554, fontFamily: _family, fontPackage: _package);
   static const perm_contact_cal =
@@ -2061,6 +2883,12 @@ class MaterialIcons {
       IconData(59561, fontFamily: _family, fontPackage: _package);
   static const person =
       IconData(59389, fontFamily: _family, fontPackage: _package);
+  static const person_2 =
+      IconData(63716, fontFamily: _family, fontPackage: _package);
+  static const person_3 =
+      IconData(63717, fontFamily: _family, fontPackage: _package);
+  static const person_4 =
+      IconData(63718, fontFamily: _family, fontPackage: _package);
   static const person_add =
       IconData(59390, fontFamily: _family, fontPackage: _package);
   static const person_add_alt =
@@ -2069,6 +2897,8 @@ class MaterialIcons {
       IconData(61285, fontFamily: _family, fontPackage: _package);
   static const person_add_disabled =
       IconData(59851, fontFamily: _family, fontPackage: _package);
+  static const person_off =
+      IconData(58640, fontFamily: _family, fontPackage: _package);
   static const person_outline =
       IconData(59391, fontFamily: _family, fontPackage: _package);
   static const person_pin =
@@ -2081,6 +2911,8 @@ class MaterialIcons {
       IconData(61287, fontFamily: _family, fontPackage: _package);
   static const person_search =
       IconData(61702, fontFamily: _family, fontPackage: _package);
+  static const personal_injury =
+      IconData(59098, fontFamily: _family, fontPackage: _package);
   static const personal_video =
       IconData(58939, fontFamily: _family, fontPackage: _package);
   static const pest_control =
@@ -2089,6 +2921,8 @@ class MaterialIcons {
       IconData(61693, fontFamily: _family, fontPackage: _package);
   static const pets =
       IconData(59677, fontFamily: _family, fontPackage: _package);
+  static const phishing =
+      IconData(60119, fontFamily: _family, fontPackage: _package);
   static const phone =
       IconData(57549, fontFamily: _family, fontPackage: _package);
   static const phone_android =
@@ -2145,6 +2979,12 @@ class MaterialIcons {
       IconData(58419, fontFamily: _family, fontPackage: _package);
   static const photo_size_select_small =
       IconData(58420, fontFamily: _family, fontPackage: _package);
+  static const php =
+      IconData(60303, fontFamily: _family, fontPackage: _package);
+  static const piano =
+      IconData(58657, fontFamily: _family, fontPackage: _package);
+  static const piano_off =
+      IconData(58656, fontFamily: _family, fontPackage: _package);
   static const picture_as_pdf =
       IconData(58389, fontFamily: _family, fontPackage: _package);
   static const picture_in_picture =
@@ -2153,18 +2993,32 @@ class MaterialIcons {
       IconData(59665, fontFamily: _family, fontPackage: _package);
   static const pie_chart =
       IconData(59076, fontFamily: _family, fontPackage: _package);
+  static const pie_chart_outline =
+      IconData(61508, fontFamily: _family, fontPackage: _package);
   static const pie_chart_outlined =
       IconData(59077, fontFamily: _family, fontPackage: _package);
+  static const pin =
+      IconData(61509, fontFamily: _family, fontPackage: _package);
   static const pin_drop =
       IconData(58718, fontFamily: _family, fontPackage: _package);
+  static const pin_end =
+      IconData(59239, fontFamily: _family, fontPackage: _package);
+  static const pin_invoke =
+      IconData(59235, fontFamily: _family, fontPackage: _package);
+  static const pinch =
+      IconData(60216, fontFamily: _family, fontPackage: _package);
   static const pivot_table_chart =
       IconData(59854, fontFamily: _family, fontPackage: _package);
+  static const pix =
+      IconData(60067, fontFamily: _family, fontPackage: _package);
   static const place =
       IconData(58719, fontFamily: _family, fontPackage: _package);
   static const plagiarism =
       IconData(59994, fontFamily: _family, fontPackage: _package);
   static const play_arrow =
       IconData(57399, fontFamily: _family, fontPackage: _package);
+  static const play_circle =
+      IconData(57796, fontFamily: _family, fontPackage: _package);
   static const play_circle_fill =
       IconData(57400, fontFamily: _family, fontPackage: _package);
   static const play_circle_filled =
@@ -2175,22 +3029,34 @@ class MaterialIcons {
       IconData(61290, fontFamily: _family, fontPackage: _package);
   static const play_for_work =
       IconData(59654, fontFamily: _family, fontPackage: _package);
+  static const play_lesson =
+      IconData(61511, fontFamily: _family, fontPackage: _package);
   static const playlist_add =
       IconData(57403, fontFamily: _family, fontPackage: _package);
   static const playlist_add_check =
       IconData(57445, fontFamily: _family, fontPackage: _package);
+  static const playlist_add_check_circle =
+      IconData(59366, fontFamily: _family, fontPackage: _package);
+  static const playlist_add_circle =
+      IconData(59365, fontFamily: _family, fontPackage: _package);
   static const playlist_play =
       IconData(57439, fontFamily: _family, fontPackage: _package);
+  static const playlist_remove =
+      IconData(60288, fontFamily: _family, fontPackage: _package);
   static const plumbing =
       IconData(61703, fontFamily: _family, fontPackage: _package);
   static const plus_one =
       IconData(59392, fontFamily: _family, fontPackage: _package);
+  static const podcasts =
+      IconData(61512, fontFamily: _family, fontPackage: _package);
   static const point_of_sale =
       IconData(61822, fontFamily: _family, fontPackage: _package);
   static const policy =
       IconData(59927, fontFamily: _family, fontPackage: _package);
   static const poll =
       IconData(59393, fontFamily: _family, fontPackage: _package);
+  static const polyline =
+      IconData(60347, fontFamily: _family, fontPackage: _package);
   static const polymer =
       IconData(59563, fontFamily: _family, fontPackage: _package);
   static const pool =
@@ -2209,12 +3075,18 @@ class MaterialIcons {
       IconData(58950, fontFamily: _family, fontPackage: _package);
   static const power_settings_new =
       IconData(59564, fontFamily: _family, fontPackage: _package);
+  static const precision_manufacturing =
+      IconData(61513, fontFamily: _family, fontPackage: _package);
   static const pregnant_woman =
       IconData(59678, fontFamily: _family, fontPackage: _package);
   static const present_to_all =
       IconData(57567, fontFamily: _family, fontPackage: _package);
   static const preview =
       IconData(61893, fontFamily: _family, fontPackage: _package);
+  static const price_change =
+      IconData(61514, fontFamily: _family, fontPackage: _package);
+  static const price_check =
+      IconData(61515, fontFamily: _family, fontPackage: _package);
   static const print =
       IconData(59565, fontFamily: _family, fontPackage: _package);
   static const print_disabled =
@@ -2223,8 +3095,18 @@ class MaterialIcons {
       IconData(58949, fontFamily: _family, fontPackage: _package);
   static const privacy_tip =
       IconData(61660, fontFamily: _family, fontPackage: _package);
+  static const private_connectivity =
+      IconData(59204, fontFamily: _family, fontPackage: _package);
+  static const production_quantity_limits =
+      IconData(57809, fontFamily: _family, fontPackage: _package);
+  static const propane =
+      IconData(60436, fontFamily: _family, fontPackage: _package);
+  static const propane_tank =
+      IconData(60435, fontFamily: _family, fontPackage: _package);
   static const psychology =
       IconData(59978, fontFamily: _family, fontPackage: _package);
+  static const psychology_alt =
+      IconData(63722, fontFamily: _family, fontPackage: _package);
   static const public =
       IconData(59403, fontFamily: _family, fontPackage: _package);
   static const public_off =
@@ -2233,6 +3115,8 @@ class MaterialIcons {
       IconData(57941, fontFamily: _family, fontPackage: _package);
   static const published_with_changes =
       IconData(62002, fontFamily: _family, fontPackage: _package);
+  static const punch_clock =
+      IconData(60072, fontFamily: _family, fontPackage: _package);
   static const push_pin =
       IconData(61709, fontFamily: _family, fontPackage: _package);
   static const qr_code =
@@ -2243,8 +3127,12 @@ class MaterialIcons {
       IconData(61958, fontFamily: _family, fontPackage: _package);
   static const query_builder =
       IconData(59566, fontFamily: _family, fontPackage: _package);
+  static const query_stats =
+      IconData(58620, fontFamily: _family, fontPackage: _package);
   static const question_answer =
       IconData(59567, fontFamily: _family, fontPackage: _package);
+  static const question_mark =
+      IconData(60299, fontFamily: _family, fontPackage: _package);
   static const queue =
       IconData(57404, fontFamily: _family, fontPackage: _package);
   static const queue_music =
@@ -2257,6 +3145,14 @@ class MaterialIcons {
       IconData(57552, fontFamily: _family, fontPackage: _package);
   static const quickreply =
       IconData(61292, fontFamily: _family, fontPackage: _package);
+  static const quiz =
+      IconData(61516, fontFamily: _family, fontPackage: _package);
+  static const quora =
+      IconData(60056, fontFamily: _family, fontPackage: _package);
+  static const r_mobiledata =
+      IconData(61517, fontFamily: _family, fontPackage: _package);
+  static const radar =
+      IconData(61518, fontFamily: _family, fontPackage: _package);
   static const radio =
       IconData(57406, fontFamily: _family, fontPackage: _package);
   static const radio_button_checked =
@@ -2271,10 +3167,22 @@ class MaterialIcons {
       IconData(59857, fontFamily: _family, fontPackage: _package);
   static const ramen_dining =
       IconData(60004, fontFamily: _family, fontPackage: _package);
+  static const ramp_left =
+      IconData(60316, fontFamily: _family, fontPackage: _package);
+  static const ramp_right =
+      IconData(60310, fontFamily: _family, fontPackage: _package);
   static const rate_review =
       IconData(58720, fontFamily: _family, fontPackage: _package);
+  static const raw_off =
+      IconData(61519, fontFamily: _family, fontPackage: _package);
+  static const raw_on =
+      IconData(61520, fontFamily: _family, fontPackage: _package);
   static const read_more =
       IconData(61293, fontFamily: _family, fontPackage: _package);
+  static const real_estate_agent =
+      IconData(59194, fontFamily: _family, fontPackage: _package);
+  static const rebase_edit =
+      IconData(63558, fontFamily: _family, fontPackage: _package);
   static const receipt =
       IconData(59568, fontFamily: _family, fontPackage: _package);
   static const receipt_long =
@@ -2285,6 +3193,12 @@ class MaterialIcons {
       IconData(59858, fontFamily: _family, fontPackage: _package);
   static const record_voice_over =
       IconData(59679, fontFamily: _family, fontPackage: _package);
+  static const rectangle =
+      IconData(60244, fontFamily: _family, fontPackage: _package);
+  static const recycling =
+      IconData(59232, fontFamily: _family, fontPackage: _package);
+  static const reddit =
+      IconData(60064, fontFamily: _family, fontPackage: _package);
   static const redeem =
       IconData(59569, fontFamily: _family, fontPackage: _package);
   static const redo =
@@ -2293,6 +3207,8 @@ class MaterialIcons {
       IconData(61980, fontFamily: _family, fontPackage: _package);
   static const refresh =
       IconData(58837, fontFamily: _family, fontPackage: _package);
+  static const remember_me =
+      IconData(61521, fontFamily: _family, fontPackage: _package);
   static const remove =
       IconData(57691, fontFamily: _family, fontPackage: _package);
   static const remove_circle =
@@ -2307,10 +3223,14 @@ class MaterialIcons {
       IconData(59860, fontFamily: _family, fontPackage: _package);
   static const remove_red_eye =
       IconData(58391, fontFamily: _family, fontPackage: _package);
+  static const remove_road =
+      IconData(60412, fontFamily: _family, fontPackage: _package);
   static const remove_shopping_cart =
       IconData(59688, fontFamily: _family, fontPackage: _package);
   static const reorder =
       IconData(59646, fontFamily: _family, fontPackage: _package);
+  static const repartition =
+      IconData(63720, fontFamily: _family, fontPackage: _package);
   static const repeat =
       IconData(57408, fontFamily: _family, fontPackage: _package);
   static const repeat_on =
@@ -2335,6 +3255,8 @@ class MaterialIcons {
       IconData(57695, fontFamily: _family, fontPackage: _package);
   static const report =
       IconData(57696, fontFamily: _family, fontPackage: _package);
+  static const report_gmailerrorred =
+      IconData(61522, fontFamily: _family, fontPackage: _package);
   static const report_off =
       IconData(57712, fontFamily: _family, fontPackage: _package);
   static const report_problem =
@@ -2345,6 +3267,8 @@ class MaterialIcons {
       IconData(61878, fontFamily: _family, fontPackage: _package);
   static const reset_tv =
       IconData(59865, fontFamily: _family, fontPackage: _package);
+  static const restart_alt =
+      IconData(61523, fontFamily: _family, fontPackage: _package);
   static const restaurant =
       IconData(58732, fontFamily: _family, fontPackage: _package);
   static const restaurant_menu =
@@ -2355,10 +3279,22 @@ class MaterialIcons {
       IconData(59704, fontFamily: _family, fontPackage: _package);
   static const restore_page =
       IconData(59689, fontFamily: _family, fontPackage: _package);
+  static const reviews =
+      IconData(61524, fontFamily: _family, fontPackage: _package);
   static const rice_bowl =
       IconData(61941, fontFamily: _family, fontPackage: _package);
   static const ring_volume =
       IconData(57553, fontFamily: _family, fontPackage: _package);
+  static const rocket =
+      IconData(60325, fontFamily: _family, fontPackage: _package);
+  static const rocket_launch =
+      IconData(60315, fontFamily: _family, fontPackage: _package);
+  static const roller_shades =
+      IconData(60434, fontFamily: _family, fontPackage: _package);
+  static const roller_shades_closed =
+      IconData(60433, fontFamily: _family, fontPackage: _package);
+  static const roller_skating =
+      IconData(60365, fontFamily: _family, fontPackage: _package);
   static const roofing =
       IconData(61953, fontFamily: _family, fontPackage: _package);
   static const room =
@@ -2369,18 +3305,28 @@ class MaterialIcons {
       IconData(60233, fontFamily: _family, fontPackage: _package);
   static const rotate_90_degrees_ccw =
       IconData(58392, fontFamily: _family, fontPackage: _package);
+  static const rotate_90_degrees_cw =
+      IconData(60075, fontFamily: _family, fontPackage: _package);
   static const rotate_left =
       IconData(58393, fontFamily: _family, fontPackage: _package);
   static const rotate_right =
       IconData(58394, fontFamily: _family, fontPackage: _package);
+  static const roundabout_left =
+      IconData(60313, fontFamily: _family, fontPackage: _package);
+  static const roundabout_right =
+      IconData(60323, fontFamily: _family, fontPackage: _package);
   static const rounded_corner =
       IconData(59680, fontFamily: _family, fontPackage: _package);
+  static const route =
+      IconData(60109, fontFamily: _family, fontPackage: _package);
   static const router =
       IconData(58152, fontFamily: _family, fontPackage: _package);
   static const rowing =
       IconData(59681, fontFamily: _family, fontPackage: _package);
   static const rss_feed =
       IconData(57573, fontFamily: _family, fontPackage: _package);
+  static const rsvp =
+      IconData(61525, fontFamily: _family, fontPackage: _package);
   static const rtt =
       IconData(59821, fontFamily: _family, fontPackage: _package);
   static const rule =
@@ -2389,18 +3335,34 @@ class MaterialIcons {
       IconData(61897, fontFamily: _family, fontPackage: _package);
   static const run_circle =
       IconData(61295, fontFamily: _family, fontPackage: _package);
+  static const running_with_errors =
+      IconData(58653, fontFamily: _family, fontPackage: _package);
   static const rv_hookup =
       IconData(58946, fontFamily: _family, fontPackage: _package);
+  static const safety_check =
+      IconData(60399, fontFamily: _family, fontPackage: _package);
+  static const safety_divider =
+      IconData(57804, fontFamily: _family, fontPackage: _package);
+  static const sailing =
+      IconData(58626, fontFamily: _family, fontPackage: _package);
   static const sanitizer =
       IconData(61981, fontFamily: _family, fontPackage: _package);
   static const satellite =
       IconData(58722, fontFamily: _family, fontPackage: _package);
+  static const satellite_alt =
+      IconData(60218, fontFamily: _family, fontPackage: _package);
   static const save =
       IconData(57697, fontFamily: _family, fontPackage: _package);
   static const save_alt =
       IconData(57713, fontFamily: _family, fontPackage: _package);
+  static const save_as =
+      IconData(60256, fontFamily: _family, fontPackage: _package);
   static const saved_search =
       IconData(59921, fontFamily: _family, fontPackage: _package);
+  static const savings =
+      IconData(58091, fontFamily: _family, fontPackage: _package);
+  static const scale =
+      IconData(60255, fontFamily: _family, fontPackage: _package);
   static const scanner =
       IconData(58153, fontFamily: _family, fontPackage: _package);
   static const scatter_plot =
@@ -2409,12 +3371,16 @@ class MaterialIcons {
       IconData(59573, fontFamily: _family, fontPackage: _package);
   static const schedule_send =
       IconData(59914, fontFamily: _family, fontPackage: _package);
+  static const schema =
+      IconData(58621, fontFamily: _family, fontPackage: _package);
   static const school =
       IconData(59404, fontFamily: _family, fontPackage: _package);
   static const science =
       IconData(59979, fontFamily: _family, fontPackage: _package);
   static const score =
       IconData(57961, fontFamily: _family, fontPackage: _package);
+  static const scoreboard =
+      IconData(60368, fontFamily: _family, fontPackage: _package);
   static const screen_lock_landscape =
       IconData(57790, fontFamily: _family, fontPackage: _package);
   static const screen_lock_portrait =
@@ -2423,13 +3389,23 @@ class MaterialIcons {
       IconData(57792, fontFamily: _family, fontPackage: _package);
   static const screen_rotation =
       IconData(57793, fontFamily: _family, fontPackage: _package);
+  static const screen_rotation_alt =
+      IconData(60398, fontFamily: _family, fontPackage: _package);
   static const screen_search_desktop =
       IconData(61296, fontFamily: _family, fontPackage: _package);
   static const screen_share =
       IconData(57570, fontFamily: _family, fontPackage: _package);
+  static const screenshot =
+      IconData(61526, fontFamily: _family, fontPackage: _package);
+  static const screenshot_monitor =
+      IconData(60424, fontFamily: _family, fontPackage: _package);
+  static const scuba_diving =
+      IconData(60366, fontFamily: _family, fontPackage: _package);
   static const sd = IconData(59869, fontFamily: _family, fontPackage: _package);
   static const sd_card =
       IconData(58915, fontFamily: _family, fontPackage: _package);
+  static const sd_card_alert =
+      IconData(61527, fontFamily: _family, fontPackage: _package);
   static const sd_storage =
       IconData(57794, fontFamily: _family, fontPackage: _package);
   static const search =
@@ -2438,22 +3414,38 @@ class MaterialIcons {
       IconData(60022, fontFamily: _family, fontPackage: _package);
   static const security =
       IconData(58154, fontFamily: _family, fontPackage: _package);
+  static const security_update =
+      IconData(61528, fontFamily: _family, fontPackage: _package);
+  static const security_update_good =
+      IconData(61529, fontFamily: _family, fontPackage: _package);
+  static const security_update_warning =
+      IconData(61530, fontFamily: _family, fontPackage: _package);
   static const segment =
       IconData(59723, fontFamily: _family, fontPackage: _package);
   static const select_all =
       IconData(57698, fontFamily: _family, fontPackage: _package);
   static const self_improvement =
       IconData(60024, fontFamily: _family, fontPackage: _package);
+  static const sell =
+      IconData(61531, fontFamily: _family, fontPackage: _package);
   static const send =
       IconData(57699, fontFamily: _family, fontPackage: _package);
   static const send_and_archive =
       IconData(59916, fontFamily: _family, fontPackage: _package);
+  static const send_time_extension =
+      IconData(60123, fontFamily: _family, fontPackage: _package);
   static const send_to_mobile =
       IconData(61532, fontFamily: _family, fontPackage: _package);
   static const sensor_door =
       IconData(61877, fontFamily: _family, fontPackage: _package);
+  static const sensor_occupied =
+      IconData(60432, fontFamily: _family, fontPackage: _package);
   static const sensor_window =
       IconData(61876, fontFamily: _family, fontPackage: _package);
+  static const sensors =
+      IconData(58654, fontFamily: _family, fontPackage: _package);
+  static const sensors_off =
+      IconData(58655, fontFamily: _family, fontPackage: _package);
   static const sentiment_dissatisfied =
       IconData(59409, fontFamily: _family, fontPackage: _package);
   static const sentiment_neutral =
@@ -2470,6 +3462,8 @@ class MaterialIcons {
       IconData(61930, fontFamily: _family, fontPackage: _package);
   static const settings =
       IconData(59576, fontFamily: _family, fontPackage: _package);
+  static const settings_accessibility =
+      IconData(61533, fontFamily: _family, fontPackage: _package);
   static const settings_applications =
       IconData(59577, fontFamily: _family, fontPackage: _package);
   static const settings_backup_restore =
@@ -2502,28 +3496,52 @@ class MaterialIcons {
       IconData(59590, fontFamily: _family, fontPackage: _package);
   static const settings_remote =
       IconData(59591, fontFamily: _family, fontPackage: _package);
+  static const settings_suggest =
+      IconData(61534, fontFamily: _family, fontPackage: _package);
   static const settings_system_daydream =
       IconData(57795, fontFamily: _family, fontPackage: _package);
   static const settings_voice =
       IconData(59592, fontFamily: _family, fontPackage: _package);
+  static const severe_cold =
+      IconData(60371, fontFamily: _family, fontPackage: _package);
+  static const shape_line =
+      IconData(63699, fontFamily: _family, fontPackage: _package);
   static const share =
       IconData(59405, fontFamily: _family, fontPackage: _package);
+  static const share_arrival_time =
+      IconData(58660, fontFamily: _family, fontPackage: _package);
+  static const share_location =
+      IconData(61535, fontFamily: _family, fontPackage: _package);
+  static const shelves =
+      IconData(63598, fontFamily: _family, fontPackage: _package);
   static const shield =
       IconData(59872, fontFamily: _family, fontPackage: _package);
+  static const shield_moon =
+      IconData(60073, fontFamily: _family, fontPackage: _package);
   static const shop =
       IconData(59593, fontFamily: _family, fontPackage: _package);
+  static const shop_2 =
+      IconData(57758, fontFamily: _family, fontPackage: _package);
   static const shop_two =
       IconData(59594, fontFamily: _family, fontPackage: _package);
+  static const shopify =
+      IconData(60061, fontFamily: _family, fontPackage: _package);
   static const shopping_bag =
       IconData(61900, fontFamily: _family, fontPackage: _package);
   static const shopping_basket =
       IconData(59595, fontFamily: _family, fontPackage: _package);
   static const shopping_cart =
       IconData(59596, fontFamily: _family, fontPackage: _package);
+  static const shopping_cart_checkout =
+      IconData(60296, fontFamily: _family, fontPackage: _package);
   static const short_text =
       IconData(57953, fontFamily: _family, fontPackage: _package);
+  static const shortcut =
+      IconData(61536, fontFamily: _family, fontPackage: _package);
   static const show_chart =
       IconData(59105, fontFamily: _family, fontPackage: _package);
+  static const shower =
+      IconData(61537, fontFamily: _family, fontPackage: _package);
   static const shuffle =
       IconData(57411, fontFamily: _family, fontPackage: _package);
   static const shuffle_on =
@@ -2532,16 +3550,26 @@ class MaterialIcons {
       IconData(58429, fontFamily: _family, fontPackage: _package);
   static const sick =
       IconData(61984, fontFamily: _family, fontPackage: _package);
+  static const sign_language =
+      IconData(60389, fontFamily: _family, fontPackage: _package);
   static const signal_cellular_0_bar =
       IconData(61608, fontFamily: _family, fontPackage: _package);
   static const signal_cellular_4_bar =
       IconData(57800, fontFamily: _family, fontPackage: _package);
   static const signal_cellular_alt =
       IconData(57858, fontFamily: _family, fontPackage: _package);
+  static const signal_cellular_alt_1_bar =
+      IconData(60383, fontFamily: _family, fontPackage: _package);
+  static const signal_cellular_alt_2_bar =
+      IconData(60387, fontFamily: _family, fontPackage: _package);
+  static const signal_cellular_connected_no_internet_0_bar =
+      IconData(61612, fontFamily: _family, fontPackage: _package);
   static const signal_cellular_connected_no_internet_4_bar =
       IconData(57805, fontFamily: _family, fontPackage: _package);
   static const signal_cellular_no_sim =
       IconData(57806, fontFamily: _family, fontPackage: _package);
+  static const signal_cellular_nodata =
+      IconData(61538, fontFamily: _family, fontPackage: _package);
   static const signal_cellular_null =
       IconData(57807, fontFamily: _family, fontPackage: _package);
   static const signal_cellular_off =
@@ -2552,24 +3580,50 @@ class MaterialIcons {
       IconData(57816, fontFamily: _family, fontPackage: _package);
   static const signal_wifi_4_bar_lock =
       IconData(57817, fontFamily: _family, fontPackage: _package);
+  static const signal_wifi_bad =
+      IconData(61539, fontFamily: _family, fontPackage: _package);
+  static const signal_wifi_connected_no_internet_4 =
+      IconData(61540, fontFamily: _family, fontPackage: _package);
   static const signal_wifi_off =
       IconData(57818, fontFamily: _family, fontPackage: _package);
+  static const signal_wifi_statusbar_4_bar =
+      IconData(61541, fontFamily: _family, fontPackage: _package);
+  static const signal_wifi_statusbar_connected_no_internet_4 =
+      IconData(61542, fontFamily: _family, fontPackage: _package);
+  static const signal_wifi_statusbar_null =
+      IconData(61543, fontFamily: _family, fontPackage: _package);
+  static const signpost =
+      IconData(60305, fontFamily: _family, fontPackage: _package);
   static const sim_card =
       IconData(58155, fontFamily: _family, fontPackage: _package);
   static const sim_card_alert =
       IconData(58916, fontFamily: _family, fontPackage: _package);
+  static const sim_card_download =
+      IconData(61544, fontFamily: _family, fontPackage: _package);
   static const single_bed =
       IconData(59976, fontFamily: _family, fontPackage: _package);
+  static const sip =
+      IconData(61545, fontFamily: _family, fontPackage: _package);
+  static const skateboarding =
+      IconData(58641, fontFamily: _family, fontPackage: _package);
   static const skip_next =
       IconData(57412, fontFamily: _family, fontPackage: _package);
   static const skip_previous =
       IconData(57413, fontFamily: _family, fontPackage: _package);
+  static const sledding =
+      IconData(58642, fontFamily: _family, fontPackage: _package);
   static const slideshow =
       IconData(58395, fontFamily: _family, fontPackage: _package);
   static const slow_motion_video =
       IconData(57448, fontFamily: _family, fontPackage: _package);
   static const smart_button =
       IconData(61889, fontFamily: _family, fontPackage: _package);
+  static const smart_display =
+      IconData(61546, fontFamily: _family, fontPackage: _package);
+  static const smart_screen =
+      IconData(61547, fontFamily: _family, fontPackage: _package);
+  static const smart_toy =
+      IconData(61548, fontFamily: _family, fontPackage: _package);
   static const smartphone =
       IconData(58156, fontFamily: _family, fontPackage: _package);
   static const smoke_free =
@@ -2580,20 +3634,40 @@ class MaterialIcons {
       IconData(58917, fontFamily: _family, fontPackage: _package);
   static const sms_failed =
       IconData(58918, fontFamily: _family, fontPackage: _package);
+  static const snapchat =
+      IconData(60014, fontFamily: _family, fontPackage: _package);
   static const snippet_folder =
       IconData(61895, fontFamily: _family, fontPackage: _package);
   static const snooze =
       IconData(57414, fontFamily: _family, fontPackage: _package);
+  static const snowboarding =
+      IconData(58643, fontFamily: _family, fontPackage: _package);
+  static const snowing =
+      IconData(59407, fontFamily: _family, fontPackage: _package);
+  static const snowmobile =
+      IconData(58627, fontFamily: _family, fontPackage: _package);
+  static const snowshoeing =
+      IconData(58644, fontFamily: _family, fontPackage: _package);
   static const soap =
       IconData(61874, fontFamily: _family, fontPackage: _package);
+  static const social_distance =
+      IconData(57803, fontFamily: _family, fontPackage: _package);
+  static const solar_power =
+      IconData(60431, fontFamily: _family, fontPackage: _package);
   static const sort =
       IconData(57700, fontFamily: _family, fontPackage: _package);
   static const sort_by_alpha =
       IconData(57427, fontFamily: _family, fontPackage: _package);
+  static const sos =
+      IconData(60407, fontFamily: _family, fontPackage: _package);
+  static const soup_kitchen =
+      IconData(59347, fontFamily: _family, fontPackage: _package);
   static const source =
       IconData(61892, fontFamily: _family, fontPackage: _package);
   static const south =
       IconData(61923, fontFamily: _family, fontPackage: _package);
+  static const south_america =
+      IconData(59364, fontFamily: _family, fontPackage: _package);
   static const south_east =
       IconData(61924, fontFamily: _family, fontPackage: _package);
   static const south_west =
@@ -2602,6 +3676,14 @@ class MaterialIcons {
       IconData(60236, fontFamily: _family, fontPackage: _package);
   static const space_bar =
       IconData(57942, fontFamily: _family, fontPackage: _package);
+  static const space_dashboard =
+      IconData(58987, fontFamily: _family, fontPackage: _package);
+  static const spatial_audio =
+      IconData(60395, fontFamily: _family, fontPackage: _package);
+  static const spatial_audio_off =
+      IconData(60392, fontFamily: _family, fontPackage: _package);
+  static const spatial_tracking =
+      IconData(60394, fontFamily: _family, fontPackage: _package);
   static const speaker =
       IconData(58157, fontFamily: _family, fontPackage: _package);
   static const speaker_group =
@@ -2616,6 +3698,10 @@ class MaterialIcons {
       IconData(59876, fontFamily: _family, fontPackage: _package);
   static const spellcheck =
       IconData(59598, fontFamily: _family, fontPackage: _package);
+  static const splitscreen =
+      IconData(61549, fontFamily: _family, fontPackage: _package);
+  static const spoke =
+      IconData(59815, fontFamily: _family, fontPackage: _package);
   static const sports =
       IconData(59952, fontFamily: _family, fontPackage: _package);
   static const sports_bar =
@@ -2632,44 +3718,62 @@ class MaterialIcons {
       IconData(59945, fontFamily: _family, fontPackage: _package);
   static const sports_golf =
       IconData(59946, fontFamily: _family, fontPackage: _package);
+  static const sports_gymnastics =
+      IconData(60356, fontFamily: _family, fontPackage: _package);
   static const sports_handball =
       IconData(59955, fontFamily: _family, fontPackage: _package);
   static const sports_hockey =
       IconData(59947, fontFamily: _family, fontPackage: _package);
   static const sports_kabaddi =
       IconData(59956, fontFamily: _family, fontPackage: _package);
+  static const sports_martial_arts =
+      IconData(60137, fontFamily: _family, fontPackage: _package);
   static const sports_mma =
       IconData(59948, fontFamily: _family, fontPackage: _package);
   static const sports_motorsports =
       IconData(59949, fontFamily: _family, fontPackage: _package);
   static const sports_rugby =
       IconData(59950, fontFamily: _family, fontPackage: _package);
+  static const sports_score =
+      IconData(61550, fontFamily: _family, fontPackage: _package);
   static const sports_soccer =
       IconData(59951, fontFamily: _family, fontPackage: _package);
   static const sports_tennis =
       IconData(59954, fontFamily: _family, fontPackage: _package);
   static const sports_volleyball =
       IconData(59953, fontFamily: _family, fontPackage: _package);
+  static const square =
+      IconData(60214, fontFamily: _family, fontPackage: _package);
   static const square_foot =
       IconData(59977, fontFamily: _family, fontPackage: _package);
+  static const ssid_chart =
+      IconData(60262, fontFamily: _family, fontPackage: _package);
   static const stacked_bar_chart =
       IconData(59878, fontFamily: _family, fontPackage: _package);
   static const stacked_line_chart =
       IconData(61995, fontFamily: _family, fontPackage: _package);
+  static const stadium =
+      IconData(60304, fontFamily: _family, fontPackage: _package);
   static const stairs =
       IconData(61865, fontFamily: _family, fontPackage: _package);
   static const star =
       IconData(59448, fontFamily: _family, fontPackage: _package);
   static const star_border =
       IconData(59450, fontFamily: _family, fontPackage: _package);
+  static const star_border_purple500 =
+      IconData(61593, fontFamily: _family, fontPackage: _package);
   static const star_half =
       IconData(59449, fontFamily: _family, fontPackage: _package);
   static const star_outline =
       IconData(61551, fontFamily: _family, fontPackage: _package);
+  static const star_purple500 =
+      IconData(61594, fontFamily: _family, fontPackage: _package);
   static const star_rate =
       IconData(61676, fontFamily: _family, fontPackage: _package);
   static const stars =
       IconData(59600, fontFamily: _family, fontPackage: _package);
+  static const start =
+      IconData(57481, fontFamily: _family, fontPackage: _package);
   static const stay_current_landscape =
       IconData(57555, fontFamily: _family, fontPackage: _package);
   static const stay_current_portrait =
@@ -2694,6 +3798,10 @@ class MaterialIcons {
       IconData(58723, fontFamily: _family, fontPackage: _package);
   static const storefront =
       IconData(59922, fontFamily: _family, fontPackage: _package);
+  static const storm =
+      IconData(61552, fontFamily: _family, fontPackage: _package);
+  static const straight =
+      IconData(60309, fontFamily: _family, fontPackage: _package);
   static const straighten =
       IconData(58396, fontFamily: _family, fontPackage: _package);
   static const stream =
@@ -2722,6 +3830,12 @@ class MaterialIcons {
       IconData(61298, fontFamily: _family, fontPackage: _package);
   static const subway =
       IconData(58735, fontFamily: _family, fontPackage: _package);
+  static const summarize =
+      IconData(61553, fontFamily: _family, fontPackage: _package);
+  static const sunny =
+      IconData(59418, fontFamily: _family, fontPackage: _package);
+  static const sunny_snowing =
+      IconData(59417, fontFamily: _family, fontPackage: _package);
   static const superscript =
       IconData(61714, fontFamily: _family, fontPackage: _package);
   static const supervised_user_circle =
@@ -2732,6 +3846,8 @@ class MaterialIcons {
       IconData(61299, fontFamily: _family, fontPackage: _package);
   static const support_agent =
       IconData(61666, fontFamily: _family, fontPackage: _package);
+  static const surfing =
+      IconData(58645, fontFamily: _family, fontPackage: _package);
   static const surround_sound =
       IconData(57417, fontFamily: _family, fontPackage: _package);
   static const swap_calls =
@@ -2748,6 +3864,28 @@ class MaterialIcons {
       IconData(59606, fontFamily: _family, fontPackage: _package);
   static const swipe =
       IconData(59884, fontFamily: _family, fontPackage: _package);
+  static const swipe_down =
+      IconData(60243, fontFamily: _family, fontPackage: _package);
+  static const swipe_down_alt =
+      IconData(60208, fontFamily: _family, fontPackage: _package);
+  static const swipe_left =
+      IconData(60249, fontFamily: _family, fontPackage: _package);
+  static const swipe_left_alt =
+      IconData(60211, fontFamily: _family, fontPackage: _package);
+  static const swipe_right =
+      IconData(60242, fontFamily: _family, fontPackage: _package);
+  static const swipe_right_alt =
+      IconData(60246, fontFamily: _family, fontPackage: _package);
+  static const swipe_up =
+      IconData(60206, fontFamily: _family, fontPackage: _package);
+  static const swipe_up_alt =
+      IconData(60213, fontFamily: _family, fontPackage: _package);
+  static const swipe_vertical =
+      IconData(60241, fontFamily: _family, fontPackage: _package);
+  static const switch_access_shortcut =
+      IconData(59361, fontFamily: _family, fontPackage: _package);
+  static const switch_access_shortcut_add =
+      IconData(59362, fontFamily: _family, fontPackage: _package);
   static const switch_account =
       IconData(59885, fontFamily: _family, fontPackage: _package);
   static const switch_camera =
@@ -2758,14 +3896,24 @@ class MaterialIcons {
       IconData(61906, fontFamily: _family, fontPackage: _package);
   static const switch_video =
       IconData(58399, fontFamily: _family, fontPackage: _package);
+  static const synagogue =
+      IconData(60080, fontFamily: _family, fontPackage: _package);
   static const sync_icon =
       IconData(58919, fontFamily: _family, fontPackage: _package);
   static const sync_alt =
       IconData(59928, fontFamily: _family, fontPackage: _package);
   static const sync_disabled =
       IconData(58920, fontFamily: _family, fontPackage: _package);
+  static const sync_lock =
+      IconData(60142, fontFamily: _family, fontPackage: _package);
   static const sync_problem =
       IconData(58921, fontFamily: _family, fontPackage: _package);
+  static const system_security_update =
+      IconData(61554, fontFamily: _family, fontPackage: _package);
+  static const system_security_update_good =
+      IconData(61555, fontFamily: _family, fontPackage: _package);
+  static const system_security_update_warning =
+      IconData(61556, fontFamily: _family, fontPackage: _package);
   static const system_update =
       IconData(58922, fontFamily: _family, fontPackage: _package);
   static const system_update_alt =
@@ -2776,8 +3924,12 @@ class MaterialIcons {
       IconData(59608, fontFamily: _family, fontPackage: _package);
   static const tab_unselected =
       IconData(59609, fontFamily: _family, fontPackage: _package);
+  static const table_bar =
+      IconData(60114, fontFamily: _family, fontPackage: _package);
   static const table_chart =
       IconData(57957, fontFamily: _family, fontPackage: _package);
+  static const table_restaurant =
+      IconData(60102, fontFamily: _family, fontPackage: _package);
   static const table_rows =
       IconData(61697, fontFamily: _family, fontPackage: _package);
   static const table_view =
@@ -2798,14 +3950,30 @@ class MaterialIcons {
       IconData(58923, fontFamily: _family, fontPackage: _package);
   static const tapas =
       IconData(61929, fontFamily: _family, fontPackage: _package);
+  static const task =
+      IconData(61557, fontFamily: _family, fontPackage: _package);
+  static const task_alt =
+      IconData(58086, fontFamily: _family, fontPackage: _package);
   static const taxi_alert =
       IconData(61300, fontFamily: _family, fontPackage: _package);
+  static const telegram =
+      IconData(60011, fontFamily: _family, fontPackage: _package);
+  static const temple_buddhist =
+      IconData(60083, fontFamily: _family, fontPackage: _package);
+  static const temple_hindu =
+      IconData(60079, fontFamily: _family, fontPackage: _package);
+  static const terminal =
+      IconData(60302, fontFamily: _family, fontPackage: _package);
   static const terrain =
       IconData(58724, fontFamily: _family, fontPackage: _package);
+  static const text_decrease =
+      IconData(60125, fontFamily: _family, fontPackage: _package);
   static const text_fields =
       IconData(57954, fontFamily: _family, fontPackage: _package);
   static const text_format =
       IconData(57701, fontFamily: _family, fontPackage: _package);
+  static const text_increase =
+      IconData(60130, fontFamily: _family, fontPackage: _package);
   static const text_rotate_up =
       IconData(59706, fontFamily: _family, fontPackage: _package);
   static const text_rotate_vertical =
@@ -2828,6 +3996,10 @@ class MaterialIcons {
       IconData(60006, fontFamily: _family, fontPackage: _package);
   static const theaters =
       IconData(59610, fontFamily: _family, fontPackage: _package);
+  static const thermostat =
+      IconData(61558, fontFamily: _family, fontPackage: _package);
+  static const thermostat_auto =
+      IconData(61559, fontFamily: _family, fontPackage: _package);
   static const thumb_down =
       IconData(59611, fontFamily: _family, fontPackage: _package);
   static const thumb_down_alt =
@@ -2842,6 +4014,10 @@ class MaterialIcons {
       IconData(59891, fontFamily: _family, fontPackage: _package);
   static const thumbs_up_down =
       IconData(59613, fontFamily: _family, fontPackage: _package);
+  static const thunderstorm =
+      IconData(60379, fontFamily: _family, fontPackage: _package);
+  static const tiktok =
+      IconData(60030, fontFamily: _family, fontPackage: _package);
   static const time_to_leave =
       IconData(58924, fontFamily: _family, fontPackage: _package);
   static const timelapse =
@@ -2852,10 +4028,18 @@ class MaterialIcons {
       IconData(58405, fontFamily: _family, fontPackage: _package);
   static const timer_10 =
       IconData(58403, fontFamily: _family, fontPackage: _package);
+  static const timer_10_select =
+      IconData(61562, fontFamily: _family, fontPackage: _package);
   static const timer_3 =
       IconData(58404, fontFamily: _family, fontPackage: _package);
+  static const timer_3_select =
+      IconData(61563, fontFamily: _family, fontPackage: _package);
   static const timer_off =
       IconData(58406, fontFamily: _family, fontPackage: _package);
+  static const tips_and_updates =
+      IconData(59290, fontFamily: _family, fontPackage: _package);
+  static const tire_repair =
+      IconData(60360, fontFamily: _family, fontPackage: _package);
   static const title =
       IconData(57956, fontFamily: _family, fontPackage: _package);
   static const toc =
@@ -2866,12 +4050,16 @@ class MaterialIcons {
       IconData(59893, fontFamily: _family, fontPackage: _package);
   static const toggle_on =
       IconData(59894, fontFamily: _family, fontPackage: _package);
+  static const token =
+      IconData(59941, fontFamily: _family, fontPackage: _package);
   static const toll =
       IconData(59616, fontFamily: _family, fontPackage: _package);
   static const tonality =
       IconData(58407, fontFamily: _family, fontPackage: _package);
   static const topic =
       IconData(61896, fontFamily: _family, fontPackage: _package);
+  static const tornado =
+      IconData(57753, fontFamily: _family, fontPackage: _package);
   static const touch_app =
       IconData(59667, fontFamily: _family, fontPackage: _package);
   static const tour =
@@ -2886,14 +4074,20 @@ class MaterialIcons {
       IconData(58736, fontFamily: _family, fontPackage: _package);
   static const tram =
       IconData(58737, fontFamily: _family, fontPackage: _package);
+  static const transcribe =
+      IconData(63724, fontFamily: _family, fontPackage: _package);
   static const transfer_within_a_station =
       IconData(58738, fontFamily: _family, fontPackage: _package);
   static const transform =
       IconData(58408, fontFamily: _family, fontPackage: _package);
+  static const transgender =
+      IconData(58765, fontFamily: _family, fontPackage: _package);
   static const transit_enterexit =
       IconData(58745, fontFamily: _family, fontPackage: _package);
   static const translate =
       IconData(59618, fontFamily: _family, fontPackage: _package);
+  static const travel_explore =
+      IconData(58075, fontFamily: _family, fontPackage: _package);
   static const trending_down =
       IconData(59619, fontFamily: _family, fontPackage: _package);
   static const trending_flat =
@@ -2904,10 +4098,32 @@ class MaterialIcons {
       IconData(59621, fontFamily: _family, fontPackage: _package);
   static const trip_origin =
       IconData(58747, fontFamily: _family, fontPackage: _package);
+  static const trolley =
+      IconData(63595, fontFamily: _family, fontPackage: _package);
+  static const troubleshoot =
+      IconData(57810, fontFamily: _family, fontPackage: _package);
+  static const try_icon =
+      IconData(61564, fontFamily: _family, fontPackage: _package);
+  static const tsunami =
+      IconData(60376, fontFamily: _family, fontPackage: _package);
   static const tty =
       IconData(61866, fontFamily: _family, fontPackage: _package);
   static const tune =
       IconData(58409, fontFamily: _family, fontPackage: _package);
+  static const tungsten =
+      IconData(61565, fontFamily: _family, fontPackage: _package);
+  static const turn_left =
+      IconData(60326, fontFamily: _family, fontPackage: _package);
+  static const turn_right =
+      IconData(60331, fontFamily: _family, fontPackage: _package);
+  static const turn_sharp_left =
+      IconData(60327, fontFamily: _family, fontPackage: _package);
+  static const turn_sharp_right =
+      IconData(60330, fontFamily: _family, fontPackage: _package);
+  static const turn_slight_left =
+      IconData(60324, fontFamily: _family, fontPackage: _package);
+  static const turn_slight_right =
+      IconData(60314, fontFamily: _family, fontPackage: _package);
   static const turned_in =
       IconData(59622, fontFamily: _family, fontPackage: _package);
   static const turned_in_not =
@@ -2917,6 +4133,12 @@ class MaterialIcons {
       IconData(58951, fontFamily: _family, fontPackage: _package);
   static const two_wheeler =
       IconData(59897, fontFamily: _family, fontPackage: _package);
+  static const type_specimen =
+      IconData(63728, fontFamily: _family, fontPackage: _package);
+  static const u_turn_left =
+      IconData(60321, fontFamily: _family, fontPackage: _package);
+  static const u_turn_right =
+      IconData(60322, fontFamily: _family, fontPackage: _package);
   static const umbrella =
       IconData(61869, fontFamily: _family, fontPackage: _package);
   static const unarchive =
@@ -2925,22 +4147,38 @@ class MaterialIcons {
       IconData(57702, fontFamily: _family, fontPackage: _package);
   static const unfold_less =
       IconData(58838, fontFamily: _family, fontPackage: _package);
+  static const unfold_less_double =
+      IconData(63695, fontFamily: _family, fontPackage: _package);
   static const unfold_more =
       IconData(58839, fontFamily: _family, fontPackage: _package);
+  static const unfold_more_double =
+      IconData(63696, fontFamily: _family, fontPackage: _package);
   static const unpublished =
       IconData(62006, fontFamily: _family, fontPackage: _package);
   static const unsubscribe =
       IconData(57579, fontFamily: _family, fontPackage: _package);
+  static const upcoming =
+      IconData(61566, fontFamily: _family, fontPackage: _package);
   static const update =
       IconData(59683, fontFamily: _family, fontPackage: _package);
   static const update_disabled =
       IconData(57461, fontFamily: _family, fontPackage: _package);
   static const upgrade =
       IconData(61691, fontFamily: _family, fontPackage: _package);
+  static const upload =
+      IconData(61595, fontFamily: _family, fontPackage: _package);
   static const upload_file =
       IconData(59900, fontFamily: _family, fontPackage: _package);
   static const usb =
       IconData(57824, fontFamily: _family, fontPackage: _package);
+  static const usb_off =
+      IconData(58618, fontFamily: _family, fontPackage: _package);
+  static const vaccines =
+      IconData(57656, fontFamily: _family, fontPackage: _package);
+  static const vape_free =
+      IconData(60358, fontFamily: _family, fontPackage: _package);
+  static const vaping_rooms =
+      IconData(60367, fontFamily: _family, fontPackage: _package);
   static const verified =
       IconData(61302, fontFamily: _family, fontPackage: _package);
   static const verified_user =
@@ -2953,26 +4191,42 @@ class MaterialIcons {
       IconData(57946, fontFamily: _family, fontPackage: _package);
   static const vertical_distribute =
       IconData(57462, fontFamily: _family, fontPackage: _package);
+  static const vertical_shades =
+      IconData(60430, fontFamily: _family, fontPackage: _package);
+  static const vertical_shades_closed =
+      IconData(60429, fontFamily: _family, fontPackage: _package);
   static const vertical_split =
       IconData(59721, fontFamily: _family, fontPackage: _package);
   static const vibration =
       IconData(58925, fontFamily: _family, fontPackage: _package);
   static const video_call =
       IconData(57456, fontFamily: _family, fontPackage: _package);
+  static const video_camera_back =
+      IconData(61567, fontFamily: _family, fontPackage: _package);
+  static const video_camera_front =
+      IconData(61568, fontFamily: _family, fontPackage: _package);
+  static const video_chat =
+      IconData(63648, fontFamily: _family, fontPackage: _package);
   static const video_collection =
       IconData(57418, fontFamily: _family, fontPackage: _package);
+  static const video_file =
+      IconData(60295, fontFamily: _family, fontPackage: _package);
   static const video_label =
       IconData(57457, fontFamily: _family, fontPackage: _package);
   static const video_library =
       IconData(57418, fontFamily: _family, fontPackage: _package);
   static const video_settings =
       IconData(60021, fontFamily: _family, fontPackage: _package);
+  static const video_stable =
+      IconData(61569, fontFamily: _family, fontPackage: _package);
   static const videocam =
       IconData(57419, fontFamily: _family, fontPackage: _package);
   static const videocam_off =
       IconData(57420, fontFamily: _family, fontPackage: _package);
   static const videogame_asset =
       IconData(58168, fontFamily: _family, fontPackage: _package);
+  static const videogame_asset_off =
+      IconData(58624, fontFamily: _family, fontPackage: _package);
   static const view_agenda =
       IconData(59625, fontFamily: _family, fontPackage: _package);
   static const view_array =
@@ -2985,14 +4239,22 @@ class MaterialIcons {
       IconData(58410, fontFamily: _family, fontPackage: _package);
   static const view_comfy =
       IconData(58410, fontFamily: _family, fontPackage: _package);
+  static const view_comfy_alt =
+      IconData(60275, fontFamily: _family, fontPackage: _package);
   static const view_compact =
       IconData(58411, fontFamily: _family, fontPackage: _package);
+  static const view_compact_alt =
+      IconData(60276, fontFamily: _family, fontPackage: _package);
+  static const view_cozy =
+      IconData(60277, fontFamily: _family, fontPackage: _package);
   static const view_day =
       IconData(59629, fontFamily: _family, fontPackage: _package);
   static const view_headline =
       IconData(59630, fontFamily: _family, fontPackage: _package);
   static const view_in_ar =
       IconData(59902, fontFamily: _family, fontPackage: _package);
+  static const view_kanban =
+      IconData(60287, fontFamily: _family, fontPackage: _package);
   static const view_list =
       IconData(59631, fontFamily: _family, fontPackage: _package);
   static const view_module =
@@ -3003,10 +4265,14 @@ class MaterialIcons {
       IconData(61716, fontFamily: _family, fontPackage: _package);
   static const view_stream =
       IconData(59634, fontFamily: _family, fontPackage: _package);
+  static const view_timeline =
+      IconData(60293, fontFamily: _family, fontPackage: _package);
   static const view_week =
       IconData(59635, fontFamily: _family, fontPackage: _package);
   static const vignette =
       IconData(58421, fontFamily: _family, fontPackage: _package);
+  static const villa =
+      IconData(58758, fontFamily: _family, fontPackage: _package);
   static const visibility =
       IconData(59636, fontFamily: _family, fontPackage: _package);
   static const visibility_off =
@@ -3017,8 +4283,12 @@ class MaterialIcons {
       IconData(59722, fontFamily: _family, fontPackage: _package);
   static const voicemail =
       IconData(57561, fontFamily: _family, fontPackage: _package);
+  static const volcano =
+      IconData(60378, fontFamily: _family, fontPackage: _package);
   static const volume_down =
       IconData(57421, fontFamily: _family, fontPackage: _package);
+  static const volume_down_alt =
+      IconData(59292, fontFamily: _family, fontPackage: _package);
   static const volume_mute =
       IconData(57422, fontFamily: _family, fontPackage: _package);
   static const volume_off =
@@ -3029,8 +4299,14 @@ class MaterialIcons {
       IconData(60016, fontFamily: _family, fontPackage: _package);
   static const vpn_key =
       IconData(57562, fontFamily: _family, fontPackage: _package);
+  static const vpn_key_off =
+      IconData(60282, fontFamily: _family, fontPackage: _package);
   static const vpn_lock =
       IconData(58927, fontFamily: _family, fontPackage: _package);
+  static const vrpano =
+      IconData(61570, fontFamily: _family, fontPackage: _package);
+  static const wallet =
+      IconData(63743, fontFamily: _family, fontPackage: _package);
   static const wallet_giftcard =
       IconData(59638, fontFamily: _family, fontPackage: _package);
   static const wallet_membership =
@@ -3039,20 +4315,32 @@ class MaterialIcons {
       IconData(59640, fontFamily: _family, fontPackage: _package);
   static const wallpaper =
       IconData(57788, fontFamily: _family, fontPackage: _package);
+  static const warehouse =
+      IconData(60344, fontFamily: _family, fontPackage: _package);
   static const warning =
       IconData(57346, fontFamily: _family, fontPackage: _package);
+  static const warning_amber =
+      IconData(61571, fontFamily: _family, fontPackage: _package);
   static const wash =
       IconData(61873, fontFamily: _family, fontPackage: _package);
   static const watch =
       IconData(58164, fontFamily: _family, fontPackage: _package);
   static const watch_later =
       IconData(59684, fontFamily: _family, fontPackage: _package);
+  static const watch_off =
+      IconData(60131, fontFamily: _family, fontPackage: _package);
+  static const water =
+      IconData(61572, fontFamily: _family, fontPackage: _package);
   static const water_damage =
       IconData(61955, fontFamily: _family, fontPackage: _package);
+  static const water_drop =
+      IconData(59288, fontFamily: _family, fontPackage: _package);
   static const waterfall_chart =
       IconData(59904, fontFamily: _family, fontPackage: _package);
   static const waves =
       IconData(57718, fontFamily: _family, fontPackage: _package);
+  static const waving_hand =
+      IconData(59238, fontFamily: _family, fontPackage: _package);
   static const wb_auto =
       IconData(58412, fontFamily: _family, fontPackage: _package);
   static const wb_cloudy =
@@ -3067,11 +4355,21 @@ class MaterialIcons {
       IconData(58416, fontFamily: _family, fontPackage: _package);
   static const wb_twighlight =
       IconData(59906, fontFamily: _family, fontPackage: _package);
+  static const wb_twilight =
+      IconData(57798, fontFamily: _family, fontPackage: _package);
   static const wc = IconData(58941, fontFamily: _family, fontPackage: _package);
   static const web =
       IconData(57425, fontFamily: _family, fontPackage: _package);
   static const web_asset =
       IconData(57449, fontFamily: _family, fontPackage: _package);
+  static const web_asset_off =
+      IconData(58615, fontFamily: _family, fontPackage: _package);
+  static const web_stories =
+      IconData(58773, fontFamily: _family, fontPackage: _package);
+  static const webhook =
+      IconData(60306, fontFamily: _family, fontPackage: _package);
+  static const wechat =
+      IconData(60033, fontFamily: _family, fontPackage: _package);
   static const weekend =
       IconData(57707, fontFamily: _family, fontPackage: _package);
   static const west =
@@ -3084,26 +4382,68 @@ class MaterialIcons {
       IconData(57719, fontFamily: _family, fontPackage: _package);
   static const widgets =
       IconData(57789, fontFamily: _family, fontPackage: _package);
+  static const width_full =
+      IconData(63733, fontFamily: _family, fontPackage: _package);
+  static const width_normal =
+      IconData(63734, fontFamily: _family, fontPackage: _package);
+  static const width_wide =
+      IconData(63735, fontFamily: _family, fontPackage: _package);
   static const wifi =
       IconData(58942, fontFamily: _family, fontPackage: _package);
+  static const wifi_1_bar =
+      IconData(58570, fontFamily: _family, fontPackage: _package);
+  static const wifi_2_bar =
+      IconData(58585, fontFamily: _family, fontPackage: _package);
   static const wifi_calling =
       IconData(61303, fontFamily: _family, fontPackage: _package);
+  static const wifi_calling_3 =
+      IconData(61573, fontFamily: _family, fontPackage: _package);
+  static const wifi_channel =
+      IconData(60266, fontFamily: _family, fontPackage: _package);
+  static const wifi_find =
+      IconData(60209, fontFamily: _family, fontPackage: _package);
   static const wifi_lock =
       IconData(57825, fontFamily: _family, fontPackage: _package);
   static const wifi_off =
       IconData(58952, fontFamily: _family, fontPackage: _package);
+  static const wifi_password =
+      IconData(60267, fontFamily: _family, fontPackage: _package);
   static const wifi_protected_setup =
       IconData(61692, fontFamily: _family, fontPackage: _package);
   static const wifi_tethering =
       IconData(57826, fontFamily: _family, fontPackage: _package);
+  static const wifi_tethering_error =
+      IconData(60121, fontFamily: _family, fontPackage: _package);
+  static const wifi_tethering_error_rounded =
+      IconData(61574, fontFamily: _family, fontPackage: _package);
+  static const wifi_tethering_off =
+      IconData(61575, fontFamily: _family, fontPackage: _package);
+  static const wind_power =
+      IconData(60428, fontFamily: _family, fontPackage: _package);
+  static const window =
+      IconData(61576, fontFamily: _family, fontPackage: _package);
   static const wine_bar =
       IconData(61928, fontFamily: _family, fontPackage: _package);
+  static const woman =
+      IconData(57662, fontFamily: _family, fontPackage: _package);
+  static const woman_2 =
+      IconData(63719, fontFamily: _family, fontPackage: _package);
+  static const woo_commerce =
+      IconData(60013, fontFamily: _family, fontPackage: _package);
+  static const wordpress =
+      IconData(60063, fontFamily: _family, fontPackage: _package);
   static const work =
       IconData(59641, fontFamily: _family, fontPackage: _package);
+  static const work_history =
+      IconData(60425, fontFamily: _family, fontPackage: _package);
   static const work_off =
       IconData(59714, fontFamily: _family, fontPackage: _package);
   static const work_outline =
       IconData(59715, fontFamily: _family, fontPackage: _package);
+  static const workspace_premium =
+      IconData(59311, fontFamily: _family, fontPackage: _package);
+  static const workspaces =
+      IconData(57760, fontFamily: _family, fontPackage: _package);
   static const workspaces_filled =
       IconData(59917, fontFamily: _family, fontPackage: _package);
   static const workspaces_outline =
@@ -3114,10 +4454,14 @@ class MaterialIcons {
       IconData(61304, fontFamily: _family, fontPackage: _package);
   static const wysiwyg =
       IconData(61891, fontFamily: _family, fontPackage: _package);
+  static const yard =
+      IconData(61577, fontFamily: _family, fontPackage: _package);
   static const youtube_searched_for =
       IconData(59642, fontFamily: _family, fontPackage: _package);
   static const zoom_in =
       IconData(59647, fontFamily: _family, fontPackage: _package);
+  static const zoom_in_map =
+      IconData(60205, fontFamily: _family, fontPackage: _package);
   static const zoom_out =
       IconData(59648, fontFamily: _family, fontPackage: _package);
   static const zoom_out_map =

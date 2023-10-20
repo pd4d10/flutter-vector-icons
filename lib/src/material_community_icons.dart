@@ -13193,6 +13193,4 @@ class MaterialCommunityIcons {
       IconData(985735, fontFamily: _family, fontPackage: _package);
   static const zodiac_virgo =
       IconData(985736, fontFamily: _family, fontPackage: _package);
-  static const blank =
-      IconData(63116, fontFamily: _family, fontPackage: _package);
 }
