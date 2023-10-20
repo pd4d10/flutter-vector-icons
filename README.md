@@ -38,6 +38,9 @@ class MyWidget extends StatelessWidget {
       // FontAwesome5Brands
       // FontAwesome5Regular
       // FontAwesome5Solid
+      // FontAwesome6Brands
+      // FontAwesome6Regular
+      // FontAwesome6Solid
 
       icon: Icon(MaterialCommunityIcons.star),
       onPressed: () {
@@ -52,6 +55,7 @@ class MyWidget extends StatelessWidget {
 
 | flutter-vector-icons | react-native-vector-icons |
 | -------------------- | ------------------------- |
+| 3.x                  | 10.x                      |
 | 2.x                  | 9.x                       |
 | 1.x                  | 8.x                       |
 

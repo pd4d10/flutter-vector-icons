@@ -1,3 +1,13 @@
+# 3.0.0 (2023-10-20)
+
+### Bug Fixes
+
+- fix tree shaking build error by removing unavailable icon code points ([0a2c568](https://github.com/victoreronmosele/flutter-vector-icons/commit/0a2c568dde91e2b60f715b55bda0a364eaa7cfe8))
+
+### Features
+
+- add `FontAwesome6_Brands`, `FontAwesome6_Solid`, and `FontAwesome6_Regular` ([07ec0cf](https://github.com/victoreronmosele/flutter-vector-icons/commit/07ec0cfa795d7fb0f92ae2ce2937e0dddb7b45ca))
+
 # [2.0.0](https://github.com/pd4d10/flutter-vector-icons/compare/v1.0.0...v2.0.0) (2022-09-17)
 
 ### Features
