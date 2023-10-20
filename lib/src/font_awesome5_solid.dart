@@ -727,8 +727,6 @@ class FontAwesome5Solid {
       IconData(63070, fontFamily: _family, fontPackage: _package);
   static const folder =
       IconData(61563, fontFamily: _family, fontPackage: _package);
-  static const font_awesome_logo_full =
-      IconData(62694, fontFamily: _family, fontPackage: _package);
   static const font =
       IconData(61489, fontFamily: _family, fontPackage: _package);
   static const football_ball =

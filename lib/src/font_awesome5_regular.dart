@@ -121,8 +121,6 @@ class FontAwesome5Regular {
       IconData(61564, fontFamily: _family, fontPackage: _package);
   static const folder =
       IconData(61563, fontFamily: _family, fontPackage: _package);
-  static const font_awesome_logo_full =
-      IconData(62694, fontFamily: _family, fontPackage: _package);
   static const frown_open =
       IconData(62842, fontFamily: _family, fontPackage: _package);
   static const frown =

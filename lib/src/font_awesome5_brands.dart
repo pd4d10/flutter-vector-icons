@@ -303,8 +303,6 @@ class FontAwesome5Brands {
       IconData(62300, fontFamily: _family, fontPackage: _package);
   static const font_awesome_flag =
       IconData(62501, fontFamily: _family, fontPackage: _package);
-  static const font_awesome_logo_full =
-      IconData(62694, fontFamily: _family, fontPackage: _package);
   static const font_awesome =
       IconData(62132, fontFamily: _family, fontPackage: _package);
   static const fonticons_fi =

@@ -10699,8 +10699,7 @@ const data = {
     "zodiac_sagittarius": 985733,
     "zodiac_scorpio": 985734,
     "zodiac_taurus": 985735,
-    "zodiac_virgo": 985736,
-    "blank": 63116
+    "zodiac_virgo": 985736
   },
   "MaterialIcons": {
     "icon_123": 60301,
