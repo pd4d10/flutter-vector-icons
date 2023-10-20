@@ -62,8 +62,10 @@ const fonts = await fetch(`${metaApi}/flat`).then(async (res) => {
       };
     });
 });
-const fontsNoFa5 = fonts.filter((v) => !v.name.includes("FontAwesome5"));
+const fontsNoFa5AndFa6 = fonts.filter((v) => !v.name.includes("FontAwesome5") && !v.name.includes("FontAwesome6"));
 const fontsFa5 = fonts.filter((v) => v.name.includes("FontAwesome5"));
+const fontsFa6 = fonts.filter((v) => v.name.includes("FontAwesome6"));
+
 
 for (const { name, fileName, fontUrl } of fonts) {
   console.log("download font:", name);
@@ -96,7 +98,7 @@ fonts.forEach(({ name }) => {
 Deno.writeTextFileSync(resolve("lib/flutter_vector_icons.dart"), entryCode);
 
 const webData: Record<string, Record<string, number>> = {};
-for (const { name, glyphmapsUrl } of fontsNoFa5) {
+for (const { name, glyphmapsUrl } of fontsNoFa5AndFa6) {
   console.log(`write ${name}.dart`);
 
   const iconMap: Record<string, number> = await fetch(glyphmapsUrl).then(
@@ -156,6 +158,36 @@ static const _package = 'flutter_vector_icons';`;
   code += "}";
 
   Deno.writeTextFileSync(resolve(`lib/src/${snakeCase(name)}.dart`), code);
+});
+
+
+console.log("fetch fa6 meta");
+const fa6Meta = await fetch(`${blobApi}/glyphmaps/FontAwesome6Free_meta.json`).then((res) => res.json());
+
+const fa6GlyphMap = await fetch(`${blobApi}/glyphmaps/FontAwesome6Free.json`).then((res) => res.json());
+
+fontsFa6.forEach(({ name }) => {
+    console.log("write dart file", name);
+
+    let code = `import 'package:flutter/widgets.dart'; class ${upperFirstCase(camelCase(name))} {
+static const _family = '${name}';
+static const _package = 'flutter_vector_icons';`;
+
+    // FontAwesome6_Brands -> brands
+    const groupKey = name.split("_")[1].toLowerCase();
+    webData[name] = {};
+    for (const key of fa6Meta[groupKey]) {
+        webData[name][normalizeKey(key)] = fa6GlyphMap[key];
+
+        const codePoint = fa6GlyphMap[key];
+        if (codePoint == null) {
+            throw new Error(`codePoint null: ${name}, ${key}`);
+        }
+        code += `static const ${normalizeKey(key)} = IconData(${codePoint}, fontFamily: _family, fontPackage: _package);`;
+    }
+    code += "}";
+
+    Deno.writeTextFileSync(resolve(`lib/src/${snakeCase(name)}.dart`), code);
 });
 
 console.log(`write web data`);
