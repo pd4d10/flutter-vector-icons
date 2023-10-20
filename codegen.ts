@@ -98,6 +98,15 @@ fonts.forEach(({ name }) => {
 Deno.writeTextFileSync(resolve("lib/flutter_vector_icons.dart"), entryCode);
 
 const webData: Record<string, Record<string, number>> = {};
+
+// Excluding the following code points as Flutter web builds with treeshaking
+// fail with the following error: 
+//
+//  `Codepoint [codePoint] not found in font, aborting.`
+//
+const excludedMaterialCommunityPoint = 63116;
+const excludedFontAwesome5Point = 62694;
+
 for (const { name, glyphmapsUrl } of fontsNoFa5AndFa6) {
   console.log(`write ${name}.dart`);
 
@@ -111,6 +120,10 @@ static const _family = '${name}';
 static const _package = 'flutter_vector_icons';`;
 
   for (const [key, value] of Object.entries(iconMap)) {
+    if (value == excludedMaterialCommunityPoint) {
+      continue;
+    }
+
     webData[name][normalizeKey(key)] = value;
 
     code += `static const ${normalizeKey(
@@ -151,6 +164,11 @@ static const _package = 'flutter_vector_icons';`;
     if (codePoint == null) {
       throw new Error(`codePoint null: ${name}, ${key}`);
     }
+
+    if (codePoint == excludedFontAwesome5Point) {
+      continue;
+    }
+
     code += `static const ${normalizeKey(
       key
     )} = IconData(${codePoint}, fontFamily: _family, fontPackage: _package);`;
